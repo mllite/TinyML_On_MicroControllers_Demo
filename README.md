@@ -18,7 +18,7 @@ Approximate figures ;)
 Usual firmware flashing software/methods.
 
 1. STM32F4 (With FPU),  BlackPill. ARM CPU. 128KB RAM, 512 KB Flash
-2. ESP32, Espressif Systems (Cadence). Tensilica L6 CPU. 320KB of RAM, 4MB of Flash
+2. ESP32, Espressif Systems. Tensilica (Cadence) L6 CPU. 320KB of RAM, 4MB of Flash
 3. ESP32s2, Espressif. Tensilica L7 CPU. 2MB of RAM, 4MB of Flash.
 4. ESP32c3, Espressif + Wemos LOLIN IoT. RiscV CPU. 384KB RAM, 4MB Flash.
 5. Sipeed Maix M1 Dock. Kendryte K210 CPU. 8MB Ram. 16MB Flash.
