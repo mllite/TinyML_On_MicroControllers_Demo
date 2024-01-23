@@ -1,0 +1,963 @@
+MCU_DEPLOY_ON_TARGET_X86_64_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Ho_RandomForest.DIABETES_SMALL' [ 'Tue Jan 23 09:44:27 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE step 1
+MCU_DEPLOY_REGRESSION_CODE step 2
+MCU_DEPLOY_REGRESSION_CODE step 3
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{ "n_estimators" : 12, "max_samples" : 12, "random_state" : 1789,  "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_REGRESSION_CODE step 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 0 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 1 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 2 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 3 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 4 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 5 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 6 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 7 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 8 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 9 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 10 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 11 12
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_REGRESSOR_FIT' 12 12
+MCU_DEPLOY_REGRESSION_CODE step 5
+TREE_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Ho_RandomForest", "version" : "2024-W03"},
+	"options" : { "n_estimators" : 12, "max_samples" : 12, "random_state" : 1789,  "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" },
+	"forest" : {
+		"Trees" : 12,
+		"RF_Tree_00" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1962315470, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 51,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : 0.021580199, "impurity" : 5347.2266, "n_samples" : 64, "w_samples" : 64, "value" : [128.84375]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : -0.021860979, "impurity" : 2032.9258, "n_samples" : 47, "w_samples" : 47, "value" : [98.425529]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.012116851, "impurity" : 4879.8203, "n_samples" : 17, "w_samples" : 17, "value" : [212.94118]},
+				"node_03" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 0.10025156, "impurity" : 1734.1875, "n_samples" : 8, "w_samples" : 8, "value" : [151.25]},
+				"node_04" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 0.11774243, "impurity" : 1285.9531, "n_samples" : 9, "w_samples" : 9, "value" : [267.77777]},
+				"node_05" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : -0.071413584, "impurity" : 669.64648, "n_samples" : 21, "w_samples" : 21, "value" : [70.85714]},
+				"node_06" : {"left" : 7, "right" : 8, "feature" : 9, "threshold" : 0.032059155, "impurity" : 2024.3672, "n_samples" : 26, "w_samples" : 26, "value" : [120.69231]},
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 5, "threshold" : -0.035447061, "impurity" : 1075.3594, "n_samples" : 24, "w_samples" : 24, "value" : [113.875]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 5, "threshold" : -0.023860566, "impurity" : 6162.25, "n_samples" : 2, "w_samples" : 2, "value" : [202.5]},
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [281]},
+				"node_11" : {"left" : 31, "right" : 32, "feature" : 4, "threshold" : 0.069292612, "impurity" : 272.2207, "n_samples" : 6, "w_samples" : 6, "value" : [128.66667]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [219]},
+				"node_13" : {"left" : 19, "right" : 20, "feature" : 5, "threshold" : -0.071302563, "impurity" : 1884.2246, "n_samples" : 3, "w_samples" : 3, "value" : [171.33333]},
+				"node_14" : {"left" : 21, "right" : 22, "feature" : 5, "threshold" : -0.0056979563, "impurity" : 420.79395, "n_samples" : 21, "w_samples" : 21, "value" : [105.66666]},
+				"node_15" : {"left" : 39, "right" : 40, "feature" : 5, "threshold" : -0.030280109, "impurity" : 144, "n_samples" : 5, "w_samples" : 5, "value" : [110]},
+				"node_16" : {"left" : 25, "right" : 26, "feature" : 9, "threshold" : 0.01549073, "impurity" : 205.48438, "n_samples" : 16, "w_samples" : 16, "value" : [58.625]},
+				"node_17" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 0.049301371, "impurity" : 586.25, "n_samples" : 8, "w_samples" : 8, "value" : [258]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [114]},
+				"node_20" : {"left" : 37, "right" : 38, "feature" : 9, "threshold" : -0.021788232, "impurity" : 361, "n_samples" : 2, "w_samples" : 2, "value" : [200]},
+				"node_21" : {"left" : 27, "right" : 28, "feature" : 6, "threshold" : -0.0010620109, "impurity" : 279.58057, "n_samples" : 9, "w_samples" : 9, "value" : [89.444443]},
+				"node_22" : {"left" : 29, "right" : 30, "feature" : 9, "threshold" : -0.038356662, "impurity" : 181.30469, "n_samples" : 12, "w_samples" : 12, "value" : [117.83334]},
+				"node_23" : {"left" : 49, "right" : 50, "feature" : 5, "threshold" : 0.017631603, "impurity" : 1, "n_samples" : 2, "w_samples" : 2, "value" : [221]},
+				"node_24" : {"left" : 35, "right" : 36, "feature" : 9, "threshold" : 0.00099335611, "impurity" : 172.88281, "n_samples" : 6, "w_samples" : 6, "value" : [270.33334]},
+				"node_25" : {"left" : 33, "right" : 34, "feature" : 8, "threshold" : 0.0055823168, "impurity" : 102.80566, "n_samples" : 12, "w_samples" : 12, "value" : [65.166664]},
+				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [39]},
+				"node_27" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [47]},
+				"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 61.1875, "n_samples" : 8, "w_samples" : 8, "value" : [94.75]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 64.220703, "n_samples" : 6, "w_samples" : 6, "value" : [129.66667]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 18.333008, "n_samples" : 6, "w_samples" : 6, "value" : [106]},
+				"node_31" : {"left" : 43, "right" : 44, "feature" : 9, "threshold" : 0.029988106, "impurity" : 54.642578, "n_samples" : 5, "w_samples" : 5, "value" : [135.39999]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [95]},
+				"node_33" : {"left" : 45, "right" : 46, "feature" : 8, "threshold" : -0.058664452, "impurity" : 28.959717, "n_samples" : 10, "w_samples" : 10, "value" : [61.200001]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [85]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [259]},
+				"node_36" : {"left" : 41, "right" : 42, "feature" : 9, "threshold" : 0.052769694, "impurity" : 88.898438, "n_samples" : 3, "w_samples" : 3, "value" : [281.66666]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [181]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [134]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [104]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [275]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [295]},
+				"node_43" : {"left" : 47, "right" : 48, "feature" : 8, "threshold" : 0.036415841, "impurity" : 1.6875, "n_samples" : 4, "w_samples" : 4, "value" : [131.75]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 4, "n_samples" : 2, "w_samples" : 2, "value" : [70]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 11, "n_samples" : 8, "w_samples" : 8, "value" : [59]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [131]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [134]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [220]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [222]}
+				}
+			}
+		},
+		"RF_Tree_01" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 3261513707, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 45,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 3, "threshold" : 0.027036663, "impurity" : 5450.8711, "n_samples" : 64, "w_samples" : 64, "value" : [122.3125]},
+				"node_01" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.11612572, "impurity" : 2807.3848, "n_samples" : 53, "w_samples" : 53, "value" : [100.1132]},
+				"node_02" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 0.045340985, "impurity" : 4372.7461, "n_samples" : 11, "w_samples" : 11, "value" : [229.27272]},
+				"node_03" : {"left" : 7, "right" : 8, "feature" : 8, "threshold" : 0.012396229, "impurity" : 1676.3135, "n_samples" : 52, "w_samples" : 52, "value" : [95.384613]},
+				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_05" : {"left" : 11, "right" : 12, "feature" : 6, "threshold" : -0.013947743, "impurity" : 1595.6875, "n_samples" : 8, "w_samples" : 8, "value" : [261.75]},
+				"node_06" : {"left" : 19, "right" : 20, "feature" : 9, "threshold" : -0.011432964, "impurity" : 1464.8867, "n_samples" : 3, "w_samples" : 3, "value" : [142.66667]},
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 6, "threshold" : 0.035754368, "impurity" : 1007.5063, "n_samples" : 39, "w_samples" : 39, "value" : [81.92308]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 5, "threshold" : -0.015718706, "impurity" : 1508.1777, "n_samples" : 13, "w_samples" : 13, "value" : [135.76923]},
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [220]},
+				"node_10" : {"left" : 25, "right" : 26, "feature" : 3, "threshold" : -0.041820358, "impurity" : 257.88477, "n_samples" : 11, "w_samples" : 11, "value" : [120.45454]},
+				"node_11" : {"left" : 31, "right" : 32, "feature" : 5, "threshold" : -0.024956588, "impurity" : 254.25, "n_samples" : 4, "w_samples" : 4, "value" : [295.5]},
+				"node_12" : {"left" : 27, "right" : 28, "feature" : 0, "threshold" : -0.0036982866, "impurity" : 659, "n_samples" : 4, "w_samples" : 4, "value" : [228]},
+				"node_13" : {"left" : 15, "right" : 16, "feature" : 5, "threshold" : -0.025113162, "impurity" : 1046.9727, "n_samples" : 24, "w_samples" : 24, "value" : [93.166664]},
+				"node_14" : {"left" : 23, "right" : 24, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 418.46191, "n_samples" : 15, "w_samples" : 15, "value" : [63.933334]},
+				"node_15" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : -0.056370094, "impurity" : 1512.1094, "n_samples" : 8, "w_samples" : 8, "value" : [114.875]},
+				"node_16" : {"left" : 21, "right" : 22, "feature" : 4, "threshold" : 0.01769438, "impurity" : 460.96484, "n_samples" : 16, "w_samples" : 16, "value" : [82.3125]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 200.25, "n_samples" : 4, "w_samples" : 4, "value" : [79.5]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 321.1875, "n_samples" : 4, "w_samples" : 4, "value" : [150.25]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [196]},
+				"node_20" : {"left" : 43, "right" : 44, "feature" : 5, "threshold" : -0.02511316, "impurity" : 64, "n_samples" : 2, "w_samples" : 2, "value" : [116]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 291.68652, "n_samples" : 11, "w_samples" : 11, "value" : [71.63636]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 30.958984, "n_samples" : 5, "w_samples" : 5, "value" : [105.8]},
+				"node_23" : {"left" : 29, "right" : 30, "feature" : 7, "threshold" : -0.072888896, "impurity" : 295.6875, "n_samples" : 8, "w_samples" : 8, "value" : [78.25]},
+				"node_24" : {"left" : 35, "right" : 36, "feature" : 8, "threshold" : -0.023159178, "impurity" : 56.816162, "n_samples" : 7, "w_samples" : 7, "value" : [47.57143]},
+				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [95]},
+				"node_26" : {"left" : 37, "right" : 38, "feature" : 0, "threshold" : 0.014464407, "impurity" : 20.5, "n_samples" : 8, "w_samples" : 8, "value" : [130]},
+				"node_27" : {"left" : 41, "right" : 42, "feature" : 0, "threshold" : -0.034574863, "impurity" : 64, "n_samples" : 2, "w_samples" : 2, "value" : [251]},
+				"node_28" : {"left" : 33, "right" : 34, "feature" : 6, "threshold" : 0.033913549, "impurity" : 196, "n_samples" : 2, "w_samples" : 2, "value" : [205]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3, "n_samples" : 4, "w_samples" : 4, "value" : [64]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 182.25, "n_samples" : 4, "w_samples" : 4, "value" : [92.5]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [321]},
+				"node_32" : {"left" : 39, "right" : 40, "feature" : 3, "threshold" : 0.044250917, "impurity" : 50, "n_samples" : 3, "w_samples" : 3, "value" : [287]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [191]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 20, "n_samples" : 6, "w_samples" : 6, "value" : [45]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [63]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25, "n_samples" : 2, "w_samples" : 2, "value" : [122.5]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.25, "n_samples" : 6, "w_samples" : 6, "value" : [132.5]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [292]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [277]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [243]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [108]}
+				}
+			}
+		},
+		"RF_Tree_02" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1270981430, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 63,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : -0.00071656483, "impurity" : 6715.5117, "n_samples" : 64, "w_samples" : 64, "value" : [145.35938]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 3, "threshold" : 0.030479513, "impurity" : 2413.9434, "n_samples" : 40, "w_samples" : 40, "value" : [98.425003]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.05738496, "impurity" : 4094.4141, "n_samples" : 24, "w_samples" : 24, "value" : [223.58333]},
+				"node_03" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : -0.0067448602, "impurity" : 2372.3945, "n_samples" : 14, "w_samples" : 14, "value" : [183.5]},
+				"node_04" : {"left" : 19, "right" : 20, "feature" : 8, "threshold" : 0.03022635, "impurity" : 1106.8047, "n_samples" : 10, "w_samples" : 10, "value" : [279.70001]},
+				"node_05" : {"left" : 11, "right" : 12, "feature" : 8, "threshold" : -0.057812143, "impurity" : 1440.5459, "n_samples" : 36, "w_samples" : 36, "value" : [89.194443]},
+				"node_06" : {"left" : 9, "right" : 10, "feature" : 9, "threshold" : 0.017561784, "impurity" : 3506.25, "n_samples" : 4, "w_samples" : 4, "value" : [181.5]},
+				"node_07" : {"left" : 17, "right" : 18, "feature" : 9, "threshold" : 0.063124962, "impurity" : 2191.5, "n_samples" : 4, "w_samples" : 4, "value" : [130]},
+				"node_08" : {"left" : 21, "right" : 22, "feature" : 8, "threshold" : 0.046611644, "impurity" : 841.89062, "n_samples" : 10, "w_samples" : 10, "value" : [204.89999]},
+				"node_09" : {"left" : 39, "right" : 40, "feature" : 3, "threshold" : 0.056300897, "impurity" : 400, "n_samples" : 2, "w_samples" : 2, "value" : [239]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [124]},
+				"node_11" : {"left" : 13, "right" : 14, "feature" : 3, "threshold" : -0.024606103, "impurity" : 1879.7637, "n_samples" : 13, "w_samples" : 13, "value" : [114.07692]},
+				"node_12" : {"left" : 15, "right" : 16, "feature" : 5, "threshold" : -0.0011573031, "impurity" : 644.54834, "n_samples" : 23, "w_samples" : 23, "value" : [75.130432]},
+				"node_13" : {"left" : 23, "right" : 24, "feature" : 9, "threshold" : -0.04456982, "impurity" : 491.6875, "n_samples" : 8, "w_samples" : 8, "value" : [145.25]},
+				"node_14" : {"left" : 47, "right" : 48, "feature" : 6, "threshold" : -0.024992656, "impurity" : 58.160156, "n_samples" : 5, "w_samples" : 5, "value" : [64.199997]},
+				"node_15" : {"left" : 27, "right" : 28, "feature" : 8, "threshold" : -0.026358755, "impurity" : 270.65234, "n_samples" : 16, "w_samples" : 16, "value" : [62.1875]},
+				"node_16" : {"left" : 33, "right" : 34, "feature" : 2, "threshold" : 0.043373402, "impurity" : 241.06055, "n_samples" : 7, "w_samples" : 7, "value" : [104.71429]},
+				"node_17" : {"left" : 37, "right" : 38, "feature" : 3, "threshold" : -0.041820358, "impurity" : 354.88965, "n_samples" : 3, "w_samples" : 3, "value" : [104.66666]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [206]},
+				"node_19" : {"left" : 45, "right" : 46, "feature" : 8, "threshold" : 0.015864717, "impurity" : 156.25, "n_samples" : 2, "w_samples" : 2, "value" : [333.5]},
+				"node_20" : {"left" : 25, "right" : 26, "feature" : 2, "threshold" : 0.068701982, "impurity" : 439.9375, "n_samples" : 8, "w_samples" : 8, "value" : [266.25]},
+				"node_21" : {"left" : 29, "right" : 30, "feature" : 2, "threshold" : 0.01373357, "impurity" : 487.6875, "n_samples" : 4, "w_samples" : 4, "value" : [231.75]},
+				"node_22" : {"left" : 31, "right" : 32, "feature" : 8, "threshold" : 0.072641246, "impurity" : 277, "n_samples" : 6, "w_samples" : 6, "value" : [187]},
+				"node_23" : {"left" : 41, "right" : 42, "feature" : 5, "threshold" : -0.058150321, "impurity" : 87.556641, "n_samples" : 6, "w_samples" : 6, "value" : [133.33333]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [181]},
+				"node_25" : {"left" : 49, "right" : 50, "feature" : 7, "threshold" : 0.034308858, "impurity" : 48, "n_samples" : 4, "w_samples" : 4, "value" : [247]},
+				"node_26" : {"left" : 43, "right" : 44, "feature" : 3, "threshold" : 0.033922363, "impurity" : 90.75, "n_samples" : 4, "w_samples" : 4, "value" : [285.5]},
+				"node_27" : {"left" : 35, "right" : 36, "feature" : 0, "threshold" : 0.048973523, "impurity" : 117.81665, "n_samples" : 14, "w_samples" : 14, "value" : [57.42857]},
+				"node_28" : {"left" : 51, "right" : 52, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 72.25, "n_samples" : 2, "w_samples" : 2, "value" : [95.5]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [219]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [270]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_32" : {"left" : 57, "right" : 58, "feature" : 6, "threshold" : -0.012106924, "impurity" : 3.8398438, "n_samples" : 5, "w_samples" : 5, "value" : [194.39999]},
+				"node_33" : {"left" : 53, "right" : 54, "feature" : 6, "threshold" : 0.0099829026, "impurity" : 25.222656, "n_samples" : 6, "w_samples" : 6, "value" : [98.666664]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [141]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 44.307617, "n_samples" : 13, "w_samples" : 13, "value" : [55]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [89]},
+				"node_37" : {"left" : 55, "right" : 56, "feature" : 0, "threshold" : 0.032627098, "impurity" : 12.25, "n_samples" : 2, "w_samples" : 2, "value" : [91.5]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [131]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [114]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 15.359375, "n_samples" : 5, "w_samples" : 5, "value" : [137.2]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [295]},
+				"node_44" : {"left" : 61, "right" : 62, "feature" : 5, "threshold" : -0.012743797, "impurity" : 1, "n_samples" : 2, "w_samples" : 2, "value" : [276]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [321]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [55]},
+				"node_48" : {"left" : 59, "right" : 60, "feature" : 3, "threshold" : -0.015998976, "impurity" : 2.8881836, "n_samples" : 3, "w_samples" : 3, "value" : [70.333336]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [243]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [87]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [104]},
+				"node_53" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.25, "n_samples" : 2, "w_samples" : 2, "value" : [105.5]},
+				"node_54" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.6875, "n_samples" : 4, "w_samples" : 4, "value" : [95.25]},
+				"node_55" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [95]},
+				"node_56" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [88]},
+				"node_57" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [192]},
+				"node_58" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [196]},
+				"node_59" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25, "n_samples" : 2, "w_samples" : 2, "value" : [71.5]},
+				"node_60" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [68]},
+				"node_61" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [277]},
+				"node_62" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [275]}
+				}
+			}
+		},
+		"RF_Tree_03" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1989411589, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 57,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 3, "threshold" : -0.0022275713, "impurity" : 6441.9102, "n_samples" : 64, "w_samples" : 64, "value" : [141.89062]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 7, "threshold" : 0.015858298, "impurity" : 2207.1074, "n_samples" : 36, "w_samples" : 36, "value" : [94.055557]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.012116851, "impurity" : 5162.168, "n_samples" : 28, "w_samples" : 28, "value" : [203.39285]},
+				"node_03" : {"left" : 11, "right" : 12, "feature" : 8, "threshold" : 0.0091146128, "impurity" : 3284.416, "n_samples" : 12, "w_samples" : 12, "value" : [145.5]},
+				"node_04" : {"left" : 7, "right" : 8, "feature" : 9, "threshold" : -0.06113825, "impurity" : 2171.5273, "n_samples" : 16, "w_samples" : 16, "value" : [246.8125]},
+				"node_05" : {"left" : 15, "right" : 16, "feature" : 8, "threshold" : -0.032880969, "impurity" : 442.43213, "n_samples" : 30, "w_samples" : 30, "value" : [76.966667]},
+				"node_06" : {"left" : 9, "right" : 10, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 2269.582, "n_samples" : 6, "w_samples" : 6, "value" : [179.5]},
+				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [141]},
+				"node_08" : {"left" : 21, "right" : 22, "feature" : 4, "threshold" : -0.034591831, "impurity" : 653.78906, "n_samples" : 14, "w_samples" : 14, "value" : [261.92856]},
+				"node_09" : {"left" : 37, "right" : 38, "feature" : 9, "threshold" : 0.02170389, "impurity" : 136.6875, "n_samples" : 4, "w_samples" : 4, "value" : [212.25]},
+				"node_10" : {"left" : 39, "right" : 40, "feature" : 9, "threshold" : -0.011432964, "impurity" : 100, "n_samples" : 2, "w_samples" : 2, "value" : [114]},
+				"node_11" : {"left" : 19, "right" : 20, "feature" : 9, "threshold" : -0.017646126, "impurity" : 1005.6875, "n_samples" : 4, "w_samples" : 4, "value" : [100.75]},
+				"node_12" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : -0.0094393902, "impurity" : 2921.8594, "n_samples" : 8, "w_samples" : 8, "value" : [167.875]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [292]},
+				"node_14" : {"left" : 17, "right" : 18, "feature" : 3, "threshold" : 0.025315236, "impurity" : 823.83789, "n_samples" : 7, "w_samples" : 7, "value" : [150.14285]},
+				"node_15" : {"left" : 23, "right" : 24, "feature" : 0, "threshold" : -6.5747416e-05, "impurity" : 466.83008, "n_samples" : 18, "w_samples" : 18, "value" : [66.944443]},
+				"node_16" : {"left" : 45, "right" : 46, "feature" : 6, "threshold" : -0.013947742, "impurity" : 29.166992, "n_samples" : 12, "w_samples" : 12, "value" : [92]},
+				"node_17" : {"left" : 49, "right" : 50, "feature" : 9, "threshold" : 0.02170389, "impurity" : 30.25, "n_samples" : 4, "w_samples" : 4, "value" : [128.5]},
+				"node_18" : {"left" : 31, "right" : 32, "feature" : 6, "threshold" : -0.012106924, "impurity" : 424.66602, "n_samples" : 3, "w_samples" : 3, "value" : [179]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [47]},
+				"node_20" : {"left" : 41, "right" : 42, "feature" : 9, "threshold" : 0.02791705, "impurity" : 56.889648, "n_samples" : 3, "w_samples" : 3, "value" : [118.66666]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [321]},
+				"node_22" : {"left" : 27, "right" : 28, "feature" : 4, "threshold" : 0.031453907, "impurity" : 415.00781, "n_samples" : 13, "w_samples" : 13, "value" : [257.38461]},
+				"node_23" : {"left" : 33, "right" : 34, "feature" : 8, "threshold" : -0.058664452, "impurity" : 103.91675, "n_samples" : 12, "w_samples" : 12, "value" : [57.5]},
+				"node_24" : {"left" : 25, "right" : 26, "feature" : 9, "threshold" : -0.028001392, "impurity" : 657.47217, "n_samples" : 6, "w_samples" : 6, "value" : [85.833336]},
+				"node_25" : {"left" : 35, "right" : 36, "feature" : 3, "threshold" : -0.024606103, "impurity" : 184.95947, "n_samples" : 5, "w_samples" : 5, "value" : [75.800003]},
+				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [136]},
+				"node_27" : {"left" : 29, "right" : 30, "feature" : 2, "threshold" : 0.017505912, "impurity" : 321.85547, "n_samples" : 12, "w_samples" : 12, "value" : [254.25]},
+				"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [295]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [220]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 234.77344, "n_samples" : 11, "w_samples" : 11, "value" : [257.36365]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 6.25, "n_samples" : 2, "w_samples" : 2, "value" : [193.5]},
+				"node_33" : {"left" : 53, "right" : 54, "feature" : 9, "threshold" : -0.034214552, "impurity" : 2.25, "n_samples" : 4, "w_samples" : 4, "value" : [70.5]},
+				"node_34" : {"left" : 43, "right" : 44, "feature" : 9, "threshold" : 0.01549073, "impurity" : 28, "n_samples" : 8, "w_samples" : 8, "value" : [51]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 14.22168, "n_samples" : 3, "w_samples" : 3, "value" : [86.333336]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 25, "n_samples" : 2, "w_samples" : 2, "value" : [60]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [219]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [192]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [104]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [108]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [124]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 8.489502, "n_samples" : 7, "w_samples" : 7, "value" : [52.714287]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [39]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [104]},
+				"node_46" : {"left" : 47, "right" : 48, "feature" : 5, "threshold" : 0.0051056654, "impurity" : 17.538086, "n_samples" : 11, "w_samples" : 11, "value" : [90.909088]},
+				"node_47" : {"left" : 51, "right" : 52, "feature" : 9, "threshold" : -0.052854031, "impurity" : 5.5834961, "n_samples" : 6, "w_samples" : 6, "value" : [87.5]},
+				"node_48" : {"left" : 55, "right" : 56, "feature" : 5, "threshold" : 0.031096987, "impurity" : 1.2001953, "n_samples" : 5, "w_samples" : 5, "value" : [95]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [134]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [123]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [92]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.840332, "n_samples" : 5, "w_samples" : 5, "value" : [86.599998]},
+				"node_53" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22167969, "n_samples" : 3, "w_samples" : 3, "value" : [71.333336]},
+				"node_54" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [68]},
+				"node_55" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [97]},
+				"node_56" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25, "n_samples" : 4, "w_samples" : 4, "value" : [94.5]}
+				}
+			}
+		},
+		"RF_Tree_04" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 2542483397, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 51,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : 0.0085129831, "impurity" : 4754.2812, "n_samples" : 64, "w_samples" : 64, "value" : [122.48438]},
+				"node_01" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 0.043524712, "impurity" : 787.00977, "n_samples" : 43, "w_samples" : 43, "value" : [83.325584]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.012116851, "impurity" : 3308.6953, "n_samples" : 21, "w_samples" : 21, "value" : [202.66667]},
+				"node_03" : {"left" : 7, "right" : 8, "feature" : 6, "threshold" : -0.0029028291, "impurity" : 1462.4434, "n_samples" : 9, "w_samples" : 9, "value" : [157.66667]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 3, "threshold" : -0.0022275713, "impurity" : 2035.5742, "n_samples" : 12, "w_samples" : 12, "value" : [236.41667]},
+				"node_05" : {"left" : 21, "right" : 22, "feature" : 9, "threshold" : 0.025845997, "impurity" : 1225, "n_samples" : 2, "w_samples" : 2, "value" : [157]},
+				"node_06" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 0.032056376, "impurity" : 684.00781, "n_samples" : 10, "w_samples" : 10, "value" : [252.3]},
+				"node_07" : {"left" : 35, "right" : 36, "feature" : 5, "threshold" : -0.011178054, "impurity" : 78.552734, "n_samples" : 6, "w_samples" : 6, "value" : [131.66667]},
+				"node_08" : {"left" : 33, "right" : 34, "feature" : 2, "threshold" : -0.00081689376, "impurity" : 174.21875, "n_samples" : 3, "w_samples" : 3, "value" : [209.66667]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : -0.066024527, "impurity" : 636.18115, "n_samples" : 39, "w_samples" : 39, "value" : [79.153847]},
+				"node_10" : {"left" : 23, "right" : 24, "feature" : 6, "threshold" : 0.03207273, "impurity" : 433.5, "n_samples" : 4, "w_samples" : 4, "value" : [124]},
+				"node_11" : {"left" : 29, "right" : 30, "feature" : 9, "threshold" : -0.069422461, "impurity" : 200, "n_samples" : 3, "w_samples" : 3, "value" : [124]},
+				"node_12" : {"left" : 13, "right" : 14, "feature" : 8, "threshold" : -0.035278372, "impurity" : 490.96533, "n_samples" : 36, "w_samples" : 36, "value" : [75.416664]},
+				"node_13" : {"left" : 15, "right" : 16, "feature" : 5, "threshold" : -0.081323311, "impurity" : 495.61914, "n_samples" : 21, "w_samples" : 21, "value" : [65]},
+				"node_14" : {"left" : 25, "right" : 26, "feature" : 3, "threshold" : 6.1924569e-05, "impurity" : 119.86621, "n_samples" : 15, "w_samples" : 15, "value" : [90]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [114]},
+				"node_16" : {"left" : 27, "right" : 28, "feature" : 5, "threshold" : -0.037169375, "impurity" : 111.36133, "n_samples" : 18, "w_samples" : 18, "value" : [56.833332]},
+				"node_17" : {"left" : 19, "right" : 20, "feature" : 6, "threshold" : -0.0194702, "impurity" : 576.80078, "n_samples" : 5, "w_samples" : 5, "value" : [233]},
+				"node_18" : {"left" : 39, "right" : 40, "feature" : 9, "threshold" : 0.00099335611, "impurity" : 46.234375, "n_samples" : 5, "w_samples" : 5, "value" : [271.60001]},
+				"node_19" : {"left" : 47, "right" : 48, "feature" : 2, "threshold" : 0.022356067, "impurity" : 1, "n_samples" : 4, "w_samples" : 4, "value" : [221]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [281]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [122]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [192]},
+				"node_23" : {"left" : 41, "right" : 42, "feature" : 9, "threshold" : -0.011432964, "impurity" : 64.224609, "n_samples" : 3, "w_samples" : 3, "value" : [135.33333]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [90]},
+				"node_25" : {"left" : 31, "right" : 32, "feature" : 6, "threshold" : 0.0026196269, "impurity" : 61.520508, "n_samples" : 12, "w_samples" : 12, "value" : [93.75]},
+				"node_26" : {"left" : 37, "right" : 38, "feature" : 9, "threshold" : 0.027917052, "impurity" : 72, "n_samples" : 3, "w_samples" : 3, "value" : [75]},
+				"node_27" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 10.240234, "n_samples" : 5, "w_samples" : 5, "value" : [67.599998]},
+				"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 88.520752, "n_samples" : 13, "w_samples" : 13, "value" : [52.692307]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [134]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [104]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 4, "n_samples" : 2, "w_samples" : 2, "value" : [109]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 17.210938, "n_samples" : 10, "w_samples" : 10, "value" : [90.699997]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [219]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [191]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_36" : {"left" : 43, "right" : 44, "feature" : 0, "threshold" : 0.018096946, "impurity" : 13.599609, "n_samples" : 5, "w_samples" : 5, "value" : [128]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [63]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [81]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_40" : {"left" : 45, "right" : 46, "feature" : 8, "threshold" : 0.030185327, "impurity" : 8.1875, "n_samples" : 4, "w_samples" : 4, "value" : [274.75]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [141]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_43" : {"left" : 49, "right" : 50, "feature" : 2, "threshold" : -0.018600792, "impurity" : 0.25, "n_samples" : 2, "w_samples" : 2, "value" : [123.5]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [131]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [270]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.8828125, "n_samples" : 3, "w_samples" : 3, "value" : [276.33334]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [220]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [222]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [123]}
+				}
+			}
+		},
+		"RF_Tree_05" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 640771154, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 51,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : 0.019839119, "impurity" : 5613.9004, "n_samples" : 64, "w_samples" : 64, "value" : [150.42188]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 3, "threshold" : 0.030479513, "impurity" : 2258.7559, "n_samples" : 36, "w_samples" : 36, "value" : [107.27778]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 6, "threshold" : -0.045241665, "impurity" : 4457.3828, "n_samples" : 28, "w_samples" : 28, "value" : [205.89285]},
+				"node_03" : {"left" : 25, "right" : 26, "feature" : 0, "threshold" : -0.020044707, "impurity" : 634.76562, "n_samples" : 7, "w_samples" : 7, "value" : [290.71429]},
+				"node_04" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 0.012116851, "impurity" : 2533.9492, "n_samples" : 21, "w_samples" : 21, "value" : [177.61905]},
+				"node_05" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : -0.049857341, "impurity" : 1255.7197, "n_samples" : 31, "w_samples" : 31, "value" : [95.3871]},
+				"node_06" : {"left" : 11, "right" : 12, "feature" : 5, "threshold" : -0.047816426, "impurity" : 2166, "n_samples" : 5, "w_samples" : 5, "value" : [181]},
+				"node_07" : {"left" : 17, "right" : 18, "feature" : 3, "threshold" : 0.025315236, "impurity" : 941.58398, "n_samples" : 12, "w_samples" : 12, "value" : [147.5]},
+				"node_08" : {"left" : 13, "right" : 14, "feature" : 5, "threshold" : 0.07431148, "impurity" : 1834.8438, "n_samples" : 9, "w_samples" : 9, "value" : [217.77777]},
+				"node_09" : {"left" : 15, "right" : 16, "feature" : 3, "threshold" : -0.059034612, "impurity" : 1525.7344, "n_samples" : 8, "w_samples" : 8, "value" : [128.375]},
+				"node_10" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : 0.043524712, "impurity" : 651.64502, "n_samples" : 23, "w_samples" : 23, "value" : [83.91304]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [219]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [124]},
+				"node_13" : {"left" : 21, "right" : 22, "feature" : 0, "threshold" : 0.02899456, "impurity" : 774.1875, "n_samples" : 8, "w_samples" : 8, "value" : [229.75]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [122]},
+				"node_15" : {"left" : 35, "right" : 36, "feature" : 4, "threshold" : -0.058671001, "impurity" : 533.55615, "n_samples" : 3, "w_samples" : 3, "value" : [87.666664]},
+				"node_16" : {"left" : 29, "right" : 30, "feature" : 8, "threshold" : -0.063901365, "impurity" : 530.1582, "n_samples" : 5, "w_samples" : 5, "value" : [152.8]},
+				"node_17" : {"left" : 39, "right" : 40, "feature" : 5, "threshold" : 0.036420509, "impurity" : 172.13867, "n_samples" : 6, "w_samples" : 6, "value" : [122.83334]},
+				"node_18" : {"left" : 27, "right" : 28, "feature" : 3, "threshold" : 0.047693767, "impurity" : 494.13672, "n_samples" : 6, "w_samples" : 6, "value" : [172.16667]},
+				"node_19" : {"left" : 23, "right" : 24, "feature" : 8, "threshold" : -0.035962041, "impurity" : 385.48975, "n_samples" : 20, "w_samples" : 20, "value" : [77.900002]},
+				"node_20" : {"left" : 33, "right" : 34, "feature" : 2, "threshold" : 0.05415152, "impurity" : 578, "n_samples" : 3, "w_samples" : 3, "value" : [124]},
+				"node_21" : {"left" : 37, "right" : 38, "feature" : 4, "threshold" : 0.05622106, "impurity" : 189.67188, "n_samples" : 7, "w_samples" : 7, "value" : [220.42857]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [295]},
+				"node_23" : {"left" : 31, "right" : 32, "feature" : 4, "threshold" : -0.072430536, "impurity" : 347.10742, "n_samples" : 11, "w_samples" : 11, "value" : [65.727272]},
+				"node_24" : {"left" : 45, "right" : 46, "feature" : 8, "threshold" : -0.015005272, "impurity" : 29.951172, "n_samples" : 9, "w_samples" : 9, "value" : [92.777779]},
+				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_26" : {"left" : 41, "right" : 42, "feature" : 8, "threshold" : 0.027901869, "impurity" : 146.25, "n_samples" : 6, "w_samples" : 6, "value" : [281.5]},
+				"node_27" : {"left" : 49, "right" : 50, "feature" : 6, "threshold" : 0.041276824, "impurity" : 5.5585938, "n_samples" : 3, "w_samples" : 3, "value" : [194.33333]},
+				"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [150]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [181]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [134]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [114]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 125.48975, "n_samples" : 10, "w_samples" : 10, "value" : [60.900002]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [90]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [141]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [55]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [104]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 64.136719, "n_samples" : 6, "w_samples" : 6, "value" : [225.16667]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [192]},
+				"node_39" : {"left" : 47, "right" : 48, "feature" : 5, "threshold" : -0.0044453619, "impurity" : 20.640625, "n_samples" : 5, "w_samples" : 5, "value" : [128.39999]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [95]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [292]},
+				"node_42" : {"left" : 43, "right" : 44, "feature" : 0, "threshold" : 0.027178291, "impurity" : 72, "n_samples" : 3, "w_samples" : 3, "value" : [271]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [277]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 13.333008, "n_samples" : 6, "w_samples" : 6, "value" : [96]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.88867188, "n_samples" : 3, "w_samples" : 3, "value" : [86.333336]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [123]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2, "n_samples" : 3, "w_samples" : 3, "value" : [132]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [196]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [191]}
+				}
+			}
+		},
+		"RF_Tree_06" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 2769939576, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 63,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : -0.0028769628, "impurity" : 5339.875, "n_samples" : 64, "w_samples" : 64, "value" : [128.03125]},
+				"node_01" : {"left" : 11, "right" : 12, "feature" : 9, "threshold" : -0.056996141, "impurity" : 809.33984, "n_samples" : 40, "w_samples" : 40, "value" : [85.900002]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 4, "threshold" : -0.013264559, "impurity" : 5001.6875, "n_samples" : 24, "w_samples" : 24, "value" : [198.25]},
+				"node_03" : {"left" : 15, "right" : 16, "feature" : 7, "threshold" : -0.021042822, "impurity" : 2112.8828, "n_samples" : 6, "w_samples" : 6, "value" : [282.33334]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 2, "threshold" : 0.012116851, "impurity" : 2822.3926, "n_samples" : 18, "w_samples" : 18, "value" : [170.22223]},
+				"node_05" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : 0.094059765, "impurity" : 1297.0391, "n_samples" : 10, "w_samples" : 10, "value" : [142.60001]},
+				"node_06" : {"left" : 7, "right" : 8, "feature" : 4, "threshold" : 0.061036896, "impurity" : 2583.1875, "n_samples" : 8, "w_samples" : 8, "value" : [204.75]},
+				"node_07" : {"left" : 23, "right" : 24, "feature" : 3, "threshold" : 0.059743747, "impurity" : 400.89062, "n_samples" : 6, "w_samples" : 6, "value" : [232.33333]},
+				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [122]},
+				"node_09" : {"left" : 25, "right" : 26, "feature" : 3, "threshold" : -0.053870335, "impurity" : 271.98438, "n_samples" : 8, "w_samples" : 8, "value" : [126.375]},
+				"node_10" : {"left" : 35, "right" : 36, "feature" : 2, "threshold" : -0.002433612, "impurity" : 132.25, "n_samples" : 2, "w_samples" : 2, "value" : [207.5]},
+				"node_11" : {"left" : 17, "right" : 18, "feature" : 4, "threshold" : -0.035967782, "impurity" : 629.4209, "n_samples" : 11, "w_samples" : 11, "value" : [111.81818]},
+				"node_12" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : -0.0015689599, "impurity" : 526.13379, "n_samples" : 29, "w_samples" : 29, "value" : [76.068962]},
+				"node_13" : {"left" : 27, "right" : 28, "feature" : 0, "threshold" : -0.056370094, "impurity" : 70.104004, "n_samples" : 17, "w_samples" : 17, "value" : [58.117645]},
+				"node_14" : {"left" : 29, "right" : 30, "feature" : 2, "threshold" : -0.012133921, "impurity" : 68.916992, "n_samples" : 12, "w_samples" : 12, "value" : [101.5]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [191]},
+				"node_16" : {"left" : 21, "right" : 22, "feature" : 5, "threshold" : -0.016501578, "impurity" : 533.42969, "n_samples" : 5, "w_samples" : 5, "value" : [300.60001]},
+				"node_17" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : -0.099960551, "impurity" : 550.81641, "n_samples" : 7, "w_samples" : 7, "value" : [124.42857]},
+				"node_18" : {"left" : 61, "right" : 62, "feature" : 3, "threshold" : -0.026327528, "impurity" : 1.6875, "n_samples" : 4, "w_samples" : 4, "value" : [89.75]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [71]},
+				"node_20" : {"left" : 31, "right" : 32, "feature" : 5, "threshold" : -0.058150321, "impurity" : 87.556641, "n_samples" : 6, "w_samples" : 6, "value" : [133.33333]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_22" : {"left" : 49, "right" : 50, "feature" : 2, "threshold" : 0.004033261, "impurity" : 22.6875, "n_samples" : 4, "w_samples" : 4, "value" : [289.25]},
+				"node_23" : {"left" : 39, "right" : 40, "feature" : 0, "threshold" : 0.045340981, "impurity" : 44.160156, "n_samples" : 5, "w_samples" : 5, "value" : [223.8]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [275]},
+				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [88]},
+				"node_26" : {"left" : 33, "right" : 34, "feature" : 3, "threshold" : 0.03220094, "impurity" : 70.408203, "n_samples" : 7, "w_samples" : 7, "value" : [131.85715]},
+				"node_27" : {"left" : 37, "right" : 38, "feature" : 5, "threshold" : -0.065196164, "impurity" : 37.234375, "n_samples" : 8, "w_samples" : 8, "value" : [64.375]},
+				"node_28" : {"left" : 41, "right" : 42, "feature" : 4, "threshold" : -0.040095642, "impurity" : 33.580078, "n_samples" : 9, "w_samples" : 9, "value" : [52.555557]},
+				"node_29" : {"left" : 47, "right" : 48, "feature" : 3, "threshold" : -0.031491805, "impurity" : 18.109375, "n_samples" : 8, "w_samples" : 8, "value" : [106.125]},
+				"node_30" : {"left" : 43, "right" : 44, "feature" : 2, "threshold" : 0.0034943549, "impurity" : 42.1875, "n_samples" : 4, "w_samples" : 4, "value" : [92.25]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [114]},
+				"node_32" : {"left" : 51, "right" : 52, "feature" : 4, "threshold" : -0.050415285, "impurity" : 15.359375, "n_samples" : 5, "w_samples" : 5, "value" : [137.2]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 18.138672, "n_samples" : 6, "w_samples" : 6, "value" : [128.83333]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [196]},
+				"node_37" : {"left" : 55, "right" : 56, "feature" : 3, "threshold" : -0.074527442, "impurity" : 8, "n_samples" : 3, "w_samples" : 3, "value" : [57]},
+				"node_38" : {"left" : 59, "right" : 60, "feature" : 8, "threshold" : -0.062046342, "impurity" : 2.5595703, "n_samples" : 5, "w_samples" : 5, "value" : [68.800003]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.75, "n_samples" : 4, "w_samples" : 4, "value" : [220.5]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [237]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [65]},
+				"node_42" : {"left" : 45, "right" : 46, "feature" : 5, "threshold" : -0.0082031442, "impurity" : 16, "n_samples" : 8, "w_samples" : 8, "value" : [51]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [81]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [96]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [47]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [55]},
+				"node_47" : {"left" : 53, "right" : 54, "feature" : 3, "threshold" : -0.060756039, "impurity" : 10.889648, "n_samples" : 3, "w_samples" : 3, "value" : [101.66666]},
+				"node_48" : {"left" : 57, "right" : 58, "feature" : 8, "threshold" : -0.0090254368, "impurity" : 3.359375, "n_samples" : 5, "w_samples" : 5, "value" : [108.8]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [292]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [281]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [142]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [134]},
+				"node_53" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [104]},
+				"node_54" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [97]},
+				"node_55" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [55]},
+				"node_56" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [61]},
+				"node_57" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22167969, "n_samples" : 3, "w_samples" : 3, "value" : [107.33334]},
+				"node_58" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [111]},
+				"node_59" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [72]},
+				"node_60" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [68]},
+				"node_61" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [89]},
+				"node_62" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [92]}
+				}
+			}
+		},
+		"RF_Tree_07" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 2215876622, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 63,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : -0.0028769628, "impurity" : 6267.5195, "n_samples" : 64, "w_samples" : 64, "value" : [133.60938]},
+				"node_01" : {"left" : 7, "right" : 8, "feature" : 4, "threshold" : -0.040783614, "impurity" : 1416.2695, "n_samples" : 44, "w_samples" : 44, "value" : [91.340912]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 4, "threshold" : -0.015328489, "impurity" : 4362.4375, "n_samples" : 20, "w_samples" : 20, "value" : [226.60001]},
+				"node_03" : {"left" : 29, "right" : 30, "feature" : 5, "threshold" : -0.012430647, "impurity" : 365.5, "n_samples" : 4, "w_samples" : 4, "value" : [320]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 3, "threshold" : -0.033213228, "impurity" : 2635.5625, "n_samples" : 16, "w_samples" : 16, "value" : [203.25]},
+				"node_05" : {"left" : 15, "right" : 16, "feature" : 9, "threshold" : 0.032059159, "impurity" : 2252.666, "n_samples" : 3, "w_samples" : 3, "value" : [125]},
+				"node_06" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 0.032056376, "impurity" : 984.82812, "n_samples" : 13, "w_samples" : 13, "value" : [221.30769]},
+				"node_07" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : -0.056370094, "impurity" : 2130.4883, "n_samples" : 15, "w_samples" : 15, "value" : [118.33334]},
+				"node_08" : {"left" : 17, "right" : 18, "feature" : 4, "threshold" : 0.028014027, "impurity" : 475.06299, "n_samples" : 29, "w_samples" : 29, "value" : [77.379311]},
+				"node_09" : {"left" : 47, "right" : 48, "feature" : 8, "threshold" : -0.057160378, "impurity" : 16.960449, "n_samples" : 5, "w_samples" : 5, "value" : [69.199997]},
+				"node_10" : {"left" : 13, "right" : 14, "feature" : 6, "threshold" : 0.061525833, "impurity" : 1376.6914, "n_samples" : 10, "w_samples" : 10, "value" : [142.89999]},
+				"node_11" : {"left" : 23, "right" : 24, "feature" : 6, "threshold" : -0.041560028, "impurity" : 486.69141, "n_samples" : 9, "w_samples" : 9, "value" : [205.55556]},
+				"node_12" : {"left" : 27, "right" : 28, "feature" : 6, "threshold" : -0.0065844678, "impurity" : 291.1875, "n_samples" : 4, "w_samples" : 4, "value" : [256.75]},
+				"node_13" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : -0.016984075, "impurity" : 780.4668, "n_samples" : 9, "w_samples" : 9, "value" : [151.55556]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [65]},
+				"node_15" : {"left" : 55, "right" : 56, "feature" : 4, "threshold" : 0.031453911, "impurity" : 12.25, "n_samples" : 2, "w_samples" : 2, "value" : [91.5]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [192]},
+				"node_17" : {"left" : 21, "right" : 22, "feature" : 0, "threshold" : -0.0018820167, "impurity" : 336.12207, "n_samples" : 21, "w_samples" : 21, "value" : [68.14286]},
+				"node_18" : {"left" : 41, "right" : 42, "feature" : 6, "threshold" : 0.0099829026, "impurity" : 27.984375, "n_samples" : 8, "w_samples" : 8, "value" : [101.625]},
+				"node_19" : {"left" : 33, "right" : 34, "feature" : 9, "threshold" : -0.021788232, "impurity" : 361, "n_samples" : 2, "w_samples" : 2, "value" : [200]},
+				"node_20" : {"left" : 39, "right" : 40, "feature" : 3, "threshold" : 0.016140038, "impurity" : 38.205078, "n_samples" : 7, "w_samples" : 7, "value" : [137.71428]},
+				"node_21" : {"left" : 35, "right" : 36, "feature" : 9, "threshold" : 0.01549073, "impurity" : 73.76001, "n_samples" : 10, "w_samples" : 10, "value" : [53.799999]},
+				"node_22" : {"left" : 25, "right" : 26, "feature" : 8, "threshold" : -0.065122858, "impurity" : 217.60352, "n_samples" : 11, "w_samples" : 11, "value" : [81.181816]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_24" : {"left" : 31, "right" : 32, "feature" : 8, "threshold" : 0.079728626, "impurity" : 113.5, "n_samples" : 8, "w_samples" : 8, "value" : [212.5]},
+				"node_25" : {"left" : 49, "right" : 50, "feature" : 6, "threshold" : 0.013664542, "impurity" : 16, "n_samples" : 2, "w_samples" : 2, "value" : [51]},
+				"node_26" : {"left" : 45, "right" : 46, "feature" : 9, "threshold" : -0.04456982, "impurity" : 14.988281, "n_samples" : 9, "w_samples" : 9, "value" : [87.888885]},
+				"node_27" : {"left" : 53, "right" : 54, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 12.25, "n_samples" : 2, "w_samples" : 2, "value" : [273.5]},
+				"node_28" : {"left" : 57, "right" : 58, "feature" : 5, "threshold" : 0.0036964985, "impurity" : 9, "n_samples" : 2, "w_samples" : 2, "value" : [240]},
+				"node_29" : {"left" : 37, "right" : 38, "feature" : 4, "threshold" : -0.032527901, "impurity" : 138.88281, "n_samples" : 3, "w_samples" : 3, "value" : [329.33334]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [292]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 30.332031, "n_samples" : 6, "w_samples" : 6, "value" : [218]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [196]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [181]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_35" : {"left" : 43, "right" : 44, "feature" : 5, "threshold" : -0.020102784, "impurity" : 23.75, "n_samples" : 8, "w_samples" : 8, "value" : [57.5]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [39]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [321]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 8, "n_samples" : 6, "w_samples" : 6, "value" : [140]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_41" : {"left" : 51, "right" : 52, "feature" : 9, "threshold" : 0.0072065163, "impurity" : 8.25, "n_samples" : 4, "w_samples" : 4, "value" : [106.5]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.1875, "n_samples" : 4, "w_samples" : 4, "value" : [96.75]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3, "n_samples" : 4, "w_samples" : 4, "value" : [62]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 4, "n_samples" : 4, "w_samples" : 4, "value" : [53]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.8374023, "n_samples" : 7, "w_samples" : 7, "value" : [89.85714]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [81]},
+				"node_47" : {"left" : 61, "right" : 62, "feature" : 5, "threshold" : -0.062690973, "impurity" : 0.1875, "n_samples" : 4, "w_samples" : 4, "value" : [71.25]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [61]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [55]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [47]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [111]},
+				"node_52" : {"left" : 59, "right" : 60, "feature" : 0, "threshold" : 0.0053830603, "impurity" : 2, "n_samples" : 3, "w_samples" : 3, "value" : [105]},
+				"node_53" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [270]},
+				"node_54" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [277]},
+				"node_55" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [88]},
+				"node_56" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [95]},
+				"node_57" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [243]},
+				"node_58" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [237]},
+				"node_59" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [104]},
+				"node_60" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [107]},
+				"node_61" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [71]},
+				"node_62" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [72]}
+				}
+			}
+		},
+		"RF_Tree_08" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 3978449530, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 55,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : -0.00071656483, "impurity" : 7147.3711, "n_samples" : 64, "w_samples" : 64, "value" : [142.8125]},
+				"node_01" : {"left" : 9, "right" : 10, "feature" : 8, "threshold" : -0.039134271, "impurity" : 1168.8652, "n_samples" : 35, "w_samples" : 35, "value" : [84.85714]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 6, "threshold" : 0.00077880791, "impurity" : 5416.5977, "n_samples" : 29, "w_samples" : 29, "value" : [212.75862]},
+				"node_03" : {"left" : 7, "right" : 8, "feature" : 4, "threshold" : -0.0070727714, "impurity" : 2483.5352, "n_samples" : 19, "w_samples" : 19, "value" : [250.78947]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 3, "threshold" : -0.028048953, "impurity" : 3020.0508, "n_samples" : 10, "w_samples" : 10, "value" : [140.5]},
+				"node_05" : {"left" : 49, "right" : 50, "feature" : 9, "threshold" : 0.0092775701, "impurity" : 16.560547, "n_samples" : 5, "w_samples" : 5, "value" : [90.199997]},
+				"node_06" : {"left" : 23, "right" : 24, "feature" : 9, "threshold" : -0.021788232, "impurity" : 963.35938, "n_samples" : 5, "w_samples" : 5, "value" : [190.8]},
+				"node_07" : {"left" : 21, "right" : 22, "feature" : 5, "threshold" : -0.016501578, "impurity" : 687.25, "n_samples" : 8, "w_samples" : 8, "value" : [292]},
+				"node_08" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 0.045340985, "impurity" : 1656.5156, "n_samples" : 11, "w_samples" : 11, "value" : [220.81818]},
+				"node_09" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 0.038075909, "impurity" : 690.6665, "n_samples" : 18, "w_samples" : 18, "value" : [66.333336]},
+				"node_10" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : -0.05316719, "impurity" : 927.19043, "n_samples" : 17, "w_samples" : 17, "value" : [104.47059]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_12" : {"left" : 25, "right" : 26, "feature" : 8, "threshold" : -0.0056116432, "impurity" : 114.08984, "n_samples" : 16, "w_samples" : 16, "value" : [97.3125]},
+				"node_13" : {"left" : 19, "right" : 20, "feature" : 3, "threshold" : 0.080400854, "impurity" : 662.46875, "n_samples" : 9, "w_samples" : 9, "value" : [236.55556]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [150]},
+				"node_15" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : -0.071952492, "impurity" : 384.05518, "n_samples" : 17, "w_samples" : 17, "value" : [61.941177]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [141]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [134]},
+				"node_18" : {"left" : 29, "right" : 30, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 63.246094, "n_samples" : 16, "w_samples" : 16, "value" : [57.4375]},
+				"node_19" : {"left" : 41, "right" : 42, "feature" : 9, "threshold" : 0.069338121, "impurity" : 56.960938, "n_samples" : 5, "w_samples" : 5, "value" : [215.2]},
+				"node_20" : {"left" : 31, "right" : 32, "feature" : 9, "threshold" : 0.098332867, "impurity" : 136.6875, "n_samples" : 4, "w_samples" : 4, "value" : [263.25]},
+				"node_21" : {"left" : 37, "right" : 38, "feature" : 9, "threshold" : 0.025845997, "impurity" : 156.25, "n_samples" : 2, "w_samples" : 2, "value" : [333.5]},
+				"node_22" : {"left" : 33, "right" : 34, "feature" : 9, "threshold" : -0.011432964, "impurity" : 98.8125, "n_samples" : 6, "w_samples" : 6, "value" : [278.16666]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [134]},
+				"node_24" : {"left" : 27, "right" : 28, "feature" : 9, "threshold" : 0.02791705, "impurity" : 196, "n_samples" : 4, "w_samples" : 4, "value" : [205]},
+				"node_25" : {"left" : 35, "right" : 36, "feature" : 2, "threshold" : -0.010517202, "impurity" : 37.973633, "n_samples" : 15, "w_samples" : 15, "value" : [99.599998]},
+				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [63]},
+				"node_27" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [219]},
+				"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [191]},
+				"node_29" : {"left" : 39, "right" : 40, "feature" : 3, "threshold" : -0.034934655, "impurity" : 27.909668, "n_samples" : 12, "w_samples" : 12, "value" : [60.916668]},
+				"node_30" : {"left" : 47, "right" : 48, "feature" : 9, "threshold" : -0.0072908578, "impurity" : 24, "n_samples" : 4, "w_samples" : 4, "value" : [47]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [270]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [243]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_34" : {"left" : 43, "right" : 44, "feature" : 9, "threshold" : 0.0072065163, "impurity" : 30.398438, "n_samples" : 5, "w_samples" : 5, "value" : [282]},
+				"node_35" : {"left" : 45, "right" : 46, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 14.617188, "n_samples" : 9, "w_samples" : 9, "value" : [103.77778]},
+				"node_36" : {"left" : 51, "right" : 52, "feature" : 9, "threshold" : -0.019717177, "impurity" : 7.5556641, "n_samples" : 6, "w_samples" : 6, "value" : [93.333336]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [346]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [321]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3.9182129, "n_samples" : 7, "w_samples" : 7, "value" : [56.714287]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.159668, "n_samples" : 5, "w_samples" : 5, "value" : [66.800003]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.890625, "n_samples" : 3, "w_samples" : 3, "value" : [221.33333]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [206]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [292]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 6.75, "n_samples" : 4, "w_samples" : 4, "value" : [279.5]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [94]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3, "n_samples" : 8, "w_samples" : 8, "value" : [105]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3.5554199, "n_samples" : 3, "w_samples" : 3, "value" : [49.666668]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [39]},
+				"node_49" : {"left" : 53, "right" : 54, "feature" : 9, "threshold" : -0.013504018, "impurity" : 2, "n_samples" : 3, "w_samples" : 3, "value" : [87]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [95]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.88867188, "n_samples" : 3, "w_samples" : 3, "value" : [90.666664]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [96]},
+				"node_53" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [88]},
+				"node_54" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [85]}
+				}
+			}
+		},
+		"RF_Tree_09" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 2603125635, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 63,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : -0.0028769628, "impurity" : 5334.3887, "n_samples" : 64, "w_samples" : 64, "value" : [137.95312]},
+				"node_01" : {"left" : 7, "right" : 8, "feature" : 4, "threshold" : -0.038719688, "impurity" : 1661.4727, "n_samples" : 35, "w_samples" : 35, "value" : [95.114288]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.05738496, "impurity" : 4879.2617, "n_samples" : 29, "w_samples" : 29, "value" : [189.65517]},
+				"node_03" : {"left" : 5, "right" : 6, "feature" : 9, "threshold" : 0.01549073, "impurity" : 2492.7246, "n_samples" : 22, "w_samples" : 22, "value" : [161.77272]},
+				"node_04" : {"left" : 11, "right" : 12, "feature" : 3, "threshold" : 0.018429535, "impurity" : 2257.3516, "n_samples" : 7, "w_samples" : 7, "value" : [277.28571]},
+				"node_05" : {"left" : 25, "right" : 26, "feature" : 8, "threshold" : 0.017036071, "impurity" : 336.69336, "n_samples" : 7, "w_samples" : 7, "value" : [107.14286]},
+				"node_06" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 0.012116851, "impurity" : 1456.1953, "n_samples" : 15, "w_samples" : 15, "value" : [187.26666]},
+				"node_07" : {"left" : 17, "right" : 18, "feature" : 9, "threshold" : -0.042498767, "impurity" : 2068.1738, "n_samples" : 9, "w_samples" : 9, "value" : [130.77777]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 8, "threshold" : -0.042579971, "impurity" : 928.02295, "n_samples" : 26, "w_samples" : 26, "value" : [82.769234]},
+				"node_09" : {"left" : 27, "right" : 28, "feature" : 0, "threshold" : 0.032627098, "impurity" : 269.17383, "n_samples" : 11, "w_samples" : 11, "value" : [55.090908]},
+				"node_10" : {"left" : 23, "right" : 24, "feature" : 3, "threshold" : -0.010834699, "impurity" : 437.39648, "n_samples" : 15, "w_samples" : 15, "value" : [103.06667]},
+				"node_11" : {"left" : 29, "right" : 30, "feature" : 9, "threshold" : 0.048627585, "impurity" : 578, "n_samples" : 3, "w_samples" : 3, "value" : [329]},
+				"node_12" : {"left" : 55, "right" : 56, "feature" : 8, "threshold" : 0.034797821, "impurity" : 6.75, "n_samples" : 4, "w_samples" : 4, "value" : [238.5]},
+				"node_13" : {"left" : 15, "right" : 16, "feature" : 7, "threshold" : 0.015858298, "impurity" : 1262.3594, "n_samples" : 8, "w_samples" : 8, "value" : [161.875]},
+				"node_14" : {"left" : 39, "right" : 40, "feature" : 2, "threshold" : 0.04229559, "impurity" : 98.773438, "n_samples" : 7, "w_samples" : 7, "value" : [216.28572]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [206]},
+				"node_16" : {"left" : 37, "right" : 38, "feature" : 3, "threshold" : 0.03220094, "impurity" : 150.64258, "n_samples" : 5, "w_samples" : 5, "value" : [135.39999]},
+				"node_17" : {"left" : 21, "right" : 22, "feature" : 3, "threshold" : -0.024606103, "impurity" : 989.1875, "n_samples" : 4, "w_samples" : 4, "value" : [98.25]},
+				"node_18" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : -0.016984075, "impurity" : 1407.7598, "n_samples" : 5, "w_samples" : 5, "value" : [156.8]},
+				"node_19" : {"left" : 35, "right" : 36, "feature" : 2, "threshold" : -0.035845786, "impurity" : 361, "n_samples" : 2, "w_samples" : 2, "value" : [200]},
+				"node_20" : {"left" : 47, "right" : 48, "feature" : 7, "threshold" : -0.031744149, "impurity" : 32, "n_samples" : 3, "w_samples" : 3, "value" : [128]},
+				"node_21" : {"left" : 43, "right" : 44, "feature" : 5, "threshold" : -0.057680599, "impurity" : 196, "n_samples" : 2, "w_samples" : 2, "value" : [128]},
+				"node_22" : {"left" : 57, "right" : 58, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 12.25, "n_samples" : 2, "w_samples" : 2, "value" : [68.5]},
+				"node_23" : {"left" : 33, "right" : 34, "feature" : 3, "threshold" : -0.067641743, "impurity" : 229.55518, "n_samples" : 6, "w_samples" : 6, "value" : [84.333336]},
+				"node_24" : {"left" : 31, "right" : 32, "feature" : 9, "threshold" : -0.040427715, "impurity" : 186.02441, "n_samples" : 9, "w_samples" : 9, "value" : [115.55556]},
+				"node_25" : {"left" : 61, "right" : 62, "feature" : 7, "threshold" : -0.021042822, "impurity" : 2, "n_samples" : 3, "w_samples" : 3, "value" : [86]},
+				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1, "n_samples" : 4, "w_samples" : 4, "value" : [123]},
+				"node_27" : {"left" : 41, "right" : 42, "feature" : 0, "threshold" : -0.043656208, "impurity" : 82.469238, "n_samples" : 9, "w_samples" : 9, "value" : [48.444443]},
+				"node_28" : {"left" : 51, "right" : 52, "feature" : 2, "threshold" : -0.034767974, "impurity" : 16, "n_samples" : 2, "w_samples" : 2, "value" : [85]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [346]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [295]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [141]},
+				"node_32" : {"left" : 59, "right" : 60, "feature" : 7, "threshold" : 0.015858298, "impurity" : 1.3466797, "n_samples" : 7, "w_samples" : 7, "value" : [108.28571]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [51]},
+				"node_34" : {"left" : 53, "right" : 54, "feature" : 8, "threshold" : -0.028350513, "impurity" : 8.7998047, "n_samples" : 5, "w_samples" : 5, "value" : [91]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [181]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 14.222656, "n_samples" : 3, "w_samples" : 3, "value" : [125.66666]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [150]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.5546875, "n_samples" : 6, "w_samples" : 6, "value" : [220.33333]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [192]},
+				"node_41" : {"left" : 45, "right" : 46, "feature" : 8, "threshold" : -0.054029167, "impurity" : 37.555664, "n_samples" : 3, "w_samples" : 3, "value" : [59.333332]},
+				"node_42" : {"left" : 49, "right" : 50, "feature" : 9, "threshold" : 0.0051354636, "impurity" : 16, "n_samples" : 6, "w_samples" : 6, "value" : [43]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [114]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [142]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [68]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [55]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [136]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [124]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [47]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [39]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [89]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [81]},
+				"node_53" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [96]},
+				"node_54" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3.1875, "n_samples" : 4, "w_samples" : 4, "value" : [89.75]},
+				"node_55" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [237]},
+				"node_56" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [243]},
+				"node_57" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [65]},
+				"node_58" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [72]},
+				"node_59" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.13867188, "n_samples" : 6, "w_samples" : 6, "value" : [107.83334]},
+				"node_60" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [111]},
+				"node_61" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [85]},
+				"node_62" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [88]}
+				}
+			}
+		},
+		"RF_Tree_10" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 3933019651, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 53,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 3, "threshold" : 0.027036663, "impurity" : 5179.6523, "n_samples" : 64, "w_samples" : 64, "value" : [130.4375]},
+				"node_01" : {"left" : 3, "right" : 4, "feature" : 8, "threshold" : 0.031183487, "impurity" : 2967.2559, "n_samples" : 49, "w_samples" : 49, "value" : [102.7347]},
+				"node_02" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 0.020200443, "impurity" : 1710.3281, "n_samples" : 15, "w_samples" : 15, "value" : [220.93333]},
+				"node_03" : {"left" : 9, "right" : 10, "feature" : 6, "threshold" : 0.021027816, "impurity" : 874.15088, "n_samples" : 39, "w_samples" : 39, "value" : [81.717949]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : -6.5747648e-05, "impurity" : 2689.4102, "n_samples" : 10, "w_samples" : 10, "value" : [184.7]},
+				"node_05" : {"left" : 51, "right" : 52, "feature" : 3, "threshold" : 0.0046581309, "impurity" : 0.1875, "n_samples" : 4, "w_samples" : 4, "value" : [122.75]},
+				"node_06" : {"left" : 25, "right" : 26, "feature" : 4, "threshold" : -0.0077607483, "impurity" : 218, "n_samples" : 6, "w_samples" : 6, "value" : [226]},
+				"node_07" : {"left" : 15, "right" : 16, "feature" : 6, "threshold" : -0.0194702, "impurity" : 1170.8008, "n_samples" : 5, "w_samples" : 5, "value" : [176]},
+				"node_08" : {"left" : 17, "right" : 18, "feature" : 5, "threshold" : 0.00087816175, "impurity" : 465.83984, "n_samples" : 10, "w_samples" : 10, "value" : [243.39999]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 8, "threshold" : -0.065624215, "impurity" : 1079.1553, "n_samples" : 15, "w_samples" : 15, "value" : [99.333336]},
+				"node_10" : {"left" : 13, "right" : 14, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 430.87256, "n_samples" : 24, "w_samples" : 24, "value" : [70.708336]},
+				"node_11" : {"left" : 27, "right" : 28, "feature" : 6, "threshold" : 0.0026196274, "impurity" : 380.25, "n_samples" : 2, "w_samples" : 2, "value" : [161.5]},
+				"node_12" : {"left" : 19, "right" : 20, "feature" : 8, "threshold" : -0.038815226, "impurity" : 500.63916, "n_samples" : 13, "w_samples" : 13, "value" : [89.769234]},
+				"node_13" : {"left" : 21, "right" : 22, "feature" : 9, "threshold" : -0.036285605, "impurity" : 234.05859, "n_samples" : 16, "w_samples" : 16, "value" : [82.0625]},
+				"node_14" : {"left" : 41, "right" : 42, "feature" : 8, "threshold" : -0.023159178, "impurity" : 51, "n_samples" : 8, "w_samples" : 8, "value" : [48]},
+				"node_15" : {"left" : 33, "right" : 34, "feature" : 9, "threshold" : 0.040343374, "impurity" : 169, "n_samples" : 2, "w_samples" : 2, "value" : [137]},
+				"node_16" : {"left" : 31, "right" : 32, "feature" : 3, "threshold" : 0.047693767, "impurity" : 148.66797, "n_samples" : 3, "w_samples" : 3, "value" : [202]},
+				"node_17" : {"left" : 35, "right" : 36, "feature" : 2, "threshold" : 0.098880723, "impurity" : 81, "n_samples" : 4, "w_samples" : 4, "value" : [268]},
+				"node_18" : {"left" : 37, "right" : 38, "feature" : 4, "threshold" : 0.032141887, "impurity" : 50, "n_samples" : 6, "w_samples" : 6, "value" : [227]},
+				"node_19" : {"left" : 39, "right" : 40, "feature" : 8, "threshold" : -0.056394666, "impurity" : 72.25, "n_samples" : 4, "w_samples" : 4, "value" : [63.5]},
+				"node_20" : {"left" : 23, "right" : 24, "feature" : 8, "threshold" : 0.017036071, "impurity" : 248.02539, "n_samples" : 9, "w_samples" : 9, "value" : [101.44444]},
+				"node_21" : {"left" : 29, "right" : 30, "feature" : 4, "threshold" : -0.060046956, "impurity" : 114.59424, "n_samples" : 11, "w_samples" : 11, "value" : [90.36364]},
+				"node_22" : {"left" : 45, "right" : 46, "feature" : 3, "threshold" : -0.024606103, "impurity" : 11.76001, "n_samples" : 5, "w_samples" : 5, "value" : [63.799999]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 66, "n_samples" : 7, "w_samples" : 7, "value" : [94]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 12.25, "n_samples" : 2, "w_samples" : 2, "value" : [127.5]},
+				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_26" : {"left" : 49, "right" : 50, "feature" : 4, "threshold" : 0.063100822, "impurity" : 0.24609375, "n_samples" : 5, "w_samples" : 5, "value" : [219.39999]},
+				"node_27" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [142]},
+				"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [181]},
+				"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [114]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 64.600098, "n_samples" : 10, "w_samples" : 10, "value" : [88]},
+				"node_31" : {"left" : 47, "right" : 48, "feature" : 2, "threshold" : 0.0029554483, "impurity" : 6.25, "n_samples" : 2, "w_samples" : 2, "value" : [193.5]},
+				"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [150]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [277]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [259]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [237]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [222]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [72]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [55]},
+				"node_41" : {"left" : 43, "right" : 44, "feature" : 0, "threshold" : -0.020044709, "impurity" : 21.550781, "n_samples" : 7, "w_samples" : 7, "value" : [45.857143]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [63]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [39]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3.8400879, "n_samples" : 5, "w_samples" : 5, "value" : [48.599998]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [61]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [68]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [196]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [191]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [220]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [219]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [122]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [123]}
+				}
+			}
+		},
+		"RF_Tree_11" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 10, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1810914472, "splitter" : "best" },
+			"tree" : {
+			"features" : 10,
+			"outputs" : 1,
+			"max_depth" : 5,
+			"node_count" : 53,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 8, "threshold" : -0.0028769628, "impurity" : 8222.8047, "n_samples" : 64, "w_samples" : 64, "value" : [161.09375]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 3, "threshold" : 0.037365213, "impurity" : 2067.2178, "n_samples" : 32, "w_samples" : 32, "value" : [95.03125]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.05738496, "impurity" : 5649.8828, "n_samples" : 32, "w_samples" : 32, "value" : [227.15625]},
+				"node_03" : {"left" : 7, "right" : 8, "feature" : 3, "threshold" : 0.018429535, "impurity" : 3597.7305, "n_samples" : 19, "w_samples" : 19, "value" : [181.94737]},
+				"node_04" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : -0.02289623, "impurity" : 1296.1719, "n_samples" : 13, "w_samples" : 13, "value" : [293.23077]},
+				"node_05" : {"left" : 15, "right" : 16, "feature" : 9, "threshold" : -0.069422461, "impurity" : 675.6792, "n_samples" : 29, "w_samples" : 29, "value" : [84.103447]},
+				"node_06" : {"left" : 17, "right" : 18, "feature" : 8, "threshold" : -0.010570531, "impurity" : 3205.5547, "n_samples" : 3, "w_samples" : 3, "value" : [200.66667]},
+				"node_07" : {"left" : 11, "right" : 12, "feature" : 5, "threshold" : 0.10860123, "impurity" : 2272.2246, "n_samples" : 13, "w_samples" : 13, "value" : [153.92308]},
+				"node_08" : {"left" : 23, "right" : 24, "feature" : 5, "threshold" : -0.033881318, "impurity" : 1081.2188, "n_samples" : 6, "w_samples" : 6, "value" : [242.66667]},
+				"node_09" : {"left" : 41, "right" : 42, "feature" : 7, "threshold" : 0.015858298, "impurity" : 117.1875, "n_samples" : 4, "w_samples" : 4, "value" : [339.75]},
+				"node_10" : {"left" : 27, "right" : 28, "feature" : 7, "threshold" : 0.015858298, "impurity" : 430.92188, "n_samples" : 9, "w_samples" : 9, "value" : [272.55554]},
+				"node_11" : {"left" : 13, "right" : 14, "feature" : 9, "threshold" : 0.034130212, "impurity" : 1775.3535, "n_samples" : 11, "w_samples" : 11, "value" : [142.09091]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [219]},
+				"node_13" : {"left" : 33, "right" : 34, "feature" : 3, "threshold" : -0.036656082, "impurity" : 323.10156, "n_samples" : 7, "w_samples" : 7, "value" : [117.42857]},
+				"node_14" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : -0.0091470936, "impurity" : 1389.6875, "n_samples" : 4, "w_samples" : 4, "value" : [185.25]},
+				"node_15" : {"left" : 49, "right" : 50, "feature" : 8, "threshold" : -0.050323673, "impurity" : 10.888672, "n_samples" : 3, "w_samples" : 3, "value" : [138.66667]},
+				"node_16" : {"left" : 21, "right" : 22, "feature" : 8, "threshold" : -0.032880969, "impurity" : 369.23193, "n_samples" : 26, "w_samples" : 26, "value" : [77.807693]},
+				"node_17" : {"left" : 37, "right" : 38, "feature" : 9, "threshold" : -0.0321435, "impurity" : 400, "n_samples" : 2, "w_samples" : 2, "value" : [239]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [124]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [123]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 130.66797, "n_samples" : 3, "w_samples" : 3, "value" : [206]},
+				"node_21" : {"left" : 31, "right" : 32, "feature" : 9, "threshold" : -0.056996141, "impurity" : 173.05322, "n_samples" : 13, "w_samples" : 13, "value" : [64.153847]},
+				"node_22" : {"left" : 29, "right" : 30, "feature" : 3, "threshold" : 0.0081009809, "impurity" : 192.55664, "n_samples" : 13, "w_samples" : 13, "value" : [91.46154]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [191]},
+				"node_24" : {"left" : 25, "right" : 26, "feature" : 4, "threshold" : 0.032141887, "impurity" : 656.80078, "n_samples" : 5, "w_samples" : 5, "value" : [253]},
+				"node_25" : {"left" : 47, "right" : 48, "feature" : 3, "threshold" : 0.073515147, "impurity" : 26.898438, "n_samples" : 3, "w_samples" : 3, "value" : [273.66666]},
+				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [222]},
+				"node_27" : {"left" : 51, "right" : 52, "feature" : 1, "threshold" : 0.0030192416, "impurity" : 9, "n_samples" : 2, "w_samples" : 2, "value" : [240]},
+				"node_28" : {"left" : 35, "right" : 36, "feature" : 9, "threshold" : 0.079693392, "impurity" : 162.11719, "n_samples" : 7, "w_samples" : 7, "value" : [281.85715]},
+				"node_29" : {"left" : 39, "right" : 40, "feature" : 6, "threshold" : 0.0044604461, "impurity" : 53.504883, "n_samples" : 11, "w_samples" : 11, "value" : [96.63636]},
+				"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [63]},
+				"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [89]},
+				"node_32" : {"left" : 43, "right" : 44, "feature" : 9, "threshold" : -0.048711926, "impurity" : 71.867676, "n_samples" : 11, "w_samples" : 11, "value" : [59.636364]},
+				"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 273.55469, "n_samples" : 3, "w_samples" : 3, "value" : [101.33334]},
+				"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 20.25, "n_samples" : 4, "w_samples" : 4, "value" : [129.5]},
+				"node_35" : {"left" : 45, "right" : 46, "feature" : 7, "threshold" : 0.05275942, "impurity" : 57, "n_samples" : 4, "w_samples" : 4, "value" : [272]},
+				"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [295]},
+				"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [219]},
+				"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.25, "n_samples" : 4, "w_samples" : 4, "value" : [105.5]},
+				"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 12.245117, "n_samples" : 7, "w_samples" : 7, "value" : [91.571426]},
+				"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [321]},
+				"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 3, "w_samples" : 3, "value" : [346]},
+				"node_43" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 10.889648, "n_samples" : 3, "w_samples" : 3, "value" : [69.666664]},
+				"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 42.859375, "n_samples" : 8, "w_samples" : 8, "value" : [55.875]},
+				"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.8828125, "n_samples" : 3, "w_samples" : 3, "value" : [276.33334]},
+				"node_46" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [259]},
+				"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [281]},
+				"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [270]},
+				"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [134]},
+				"node_50" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 2, "w_samples" : 2, "value" : [141]},
+				"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [237]},
+				"node_52" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [243]}
+				}
+			}
+		}
+
+	}
+}
+TREE_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE step 6
+MCU_DEPLOY_REGRESSION_CODE step 7
+MLLITE_AUTO_DEPLOY_DIABETES_SMALL_APPLY_OUTPUT_REG  [ 110.63636, 188.20833, 82.87922, 156.66919, 67.564195,  ... , 260.1553, 255.32197, 182.77778, 160.31944, 91.279563 ]
+MLLITE_AUTO_DEPLOY_DIABETES_SMALL_REG_PERFS { "count" : 64, "rmse" : 27.294355, "mape" : 0.14198412, "R2" : 0.88597631 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE step 8
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Ho_RandomForest.DIABETES_SMALL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Ho_RandomForest.DIABETES_SMALL' [ 'Tue Jan 23 09:44:27 2024' ]
+MCU_DEPLOY_ON_TARGET_X86_64_END

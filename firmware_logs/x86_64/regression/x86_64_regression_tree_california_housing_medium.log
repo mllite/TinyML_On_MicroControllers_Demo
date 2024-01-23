@@ -1,0 +1,154 @@
+MCU_DEPLOY_ON_TARGET_X86_64_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.CALIFORNIA_HOUSING_MEDIUM' [ 'Tue Jan 23 09:44:26 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE step 1
+MCU_DEPLOY_REGRESSION_CODE step 2
+MCU_DEPLOY_REGRESSION_CODE step 3
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_REGRESSION_CODE step 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+MCU_DEPLOY_REGRESSION_CODE step 5
+TREE_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_MSE", "version" : "2024-W03"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" },
+	"tree" : {
+	"features" : 9,
+	"outputs" : 1,
+	"max_depth" : 6,
+	"node_count" : 109,
+	"nodes" : {
+		"node_000" : {"left" : 1, "right" : 60, "feature" : 7, "threshold" : 4.80125, "impurity" : 1.0091377e+10, "n_samples" : 512, "w_samples" : 512, "value" : [191203.23]},
+		"node_001" : {"left" : 2, "right" : 29, "feature" : 1, "threshold" : 37.794998, "impurity" : 4.9734369e+09, "n_samples" : 418, "w_samples" : 418, "value" : [157480.14]},
+		"node_002" : {"left" : 3, "right" : 16, "feature" : 7, "threshold" : 2.6301999, "impurity" : 9.9344794e+08, "n_samples" : 175, "w_samples" : 175, "value" : [115809.14]},
+		"node_003" : {"left" : 4, "right" : 11, "feature" : 1, "threshold" : 37.775002, "impurity" : 3.2486912e+08, "n_samples" : 103, "w_samples" : 103, "value" : [100173.79]},
+		"node_004" : {"left" : 5, "right" : 8, "feature" : 0, "threshold" : -122.165, "impurity" : 1.3711514e+08, "n_samples" : 70, "w_samples" : 70, "value" : [91371.43]},
+		"node_005" : {"left" : 6, "right" : 7, "feature" : 4, "threshold" : 317, "impurity" : 70099968, "n_samples" : 62, "w_samples" : 62, "value" : [89319.352]},
+		"node_006" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 55112704, "n_samples" : 36, "w_samples" : 36, "value" : [85861.109]},
+		"node_007" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 51361792, "n_samples" : 26, "w_samples" : 26, "value" : [94107.695]},
+		"node_008" : {"left" : 9, "right" : 10, "feature" : 3, "threshold" : 2619, "impurity" : 3.7092864e+08, "n_samples" : 8, "w_samples" : 8, "value" : [107275]},
+		"node_009" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 44230656, "n_samples" : 7, "w_samples" : 7, "value" : [100385.71]},
+		"node_010" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2048, "n_samples" : 1, "w_samples" : 1, "value" : [155500]},
+		"node_011" : {"left" : 12, "right" : 13, "feature" : 4, "threshold" : 86, "impurity" : 2.1015142e+08, "n_samples" : 33, "w_samples" : 33, "value" : [118845.45]},
+		"node_012" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [75000]},
+		"node_013" : {"left" : 14, "right" : 15, "feature" : 0, "threshold" : -122.22501, "impurity" : 1.5476531e+08, "n_samples" : 32, "w_samples" : 32, "value" : [120215.62]},
+		"node_014" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.3678592e+08, "n_samples" : 16, "w_samples" : 16, "value" : [115756.25]},
+		"node_015" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.3297766e+08, "n_samples" : 16, "w_samples" : 16, "value" : [124675]},
+		"node_016" : {"left" : 17, "right" : 22, "feature" : 3, "threshold" : 931.5, "impurity" : 1.0998702e+09, "n_samples" : 72, "w_samples" : 72, "value" : [138176.39]},
+		"node_017" : {"left" : 18, "right" : 19, "feature" : 4, "threshold" : 53.5, "impurity" : 1.416062e+09, "n_samples" : 21, "w_samples" : 21, "value" : [119752.38]},
+		"node_018" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [225000]},
+		"node_019" : {"left" : 20, "right" : 21, "feature" : 0, "threshold" : -122.145, "impurity" : 9.0532147e+08, "n_samples" : 20, "w_samples" : 20, "value" : [114490]},
+		"node_020" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.893888e+08, "n_samples" : 19, "w_samples" : 19, "value" : [110226.31]},
+		"node_021" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -16384, "n_samples" : 1, "w_samples" : 1, "value" : [195500]},
+		"node_022" : {"left" : 23, "right" : 26, "feature" : 7, "threshold" : 3.5276999, "impurity" : 7.7232947e+08, "n_samples" : 51, "w_samples" : 51, "value" : [145762.75]},
+		"node_023" : {"left" : 24, "right" : 25, "feature" : 5, "threshold" : 733.5, "impurity" : 5.5738982e+08, "n_samples" : 36, "w_samples" : 36, "value" : [137638.89]},
+		"node_024" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 8.3728384e+08, "n_samples" : 9, "w_samples" : 9, "value" : [159088.89]},
+		"node_025" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.5960448e+08, "n_samples" : 27, "w_samples" : 27, "value" : [130488.89]},
+		"node_026" : {"left" : 27, "right" : 28, "feature" : 1, "threshold" : 37.754997, "impurity" : 7.4966835e+08, "n_samples" : 15, "w_samples" : 15, "value" : [165260]},
+		"node_027" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 71402496, "n_samples" : 2, "w_samples" : 2, "value" : [117850]},
+		"node_028" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 4.550144e+08, "n_samples" : 13, "w_samples" : 13, "value" : [172553.84]},
+		"node_029" : {"left" : 30, "right" : 45, "feature" : 7, "threshold" : 2.8375502, "impurity" : 5.688533e+09, "n_samples" : 243, "w_samples" : 243, "value" : [187490.12]},
+		"node_030" : {"left" : 31, "right" : 38, "feature" : 1, "threshold" : 37.855, "impurity" : 5.0286326e+09, "n_samples" : 154, "w_samples" : 154, "value" : [159150.02]},
+		"node_031" : {"left" : 32, "right" : 35, "feature" : 0, "threshold" : -122.27499, "impurity" : 3.1375974e+09, "n_samples" : 116, "w_samples" : 116, "value" : [139846.56]},
+		"node_032" : {"left" : 33, "right" : 34, "feature" : 0, "threshold" : -122.285, "impurity" : 7.7669478e+08, "n_samples" : 45, "w_samples" : 45, "value" : [108857.78]},
+		"node_033" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.4934733e+08, "n_samples" : 17, "w_samples" : 17, "value" : [92747.062]},
+		"node_034" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 6.6146202e+08, "n_samples" : 28, "w_samples" : 28, "value" : [118639.29]},
+		"node_035" : {"left" : 36, "right" : 37, "feature" : 7, "threshold" : 2.40815, "impurity" : 3.6395356e+09, "n_samples" : 71, "w_samples" : 71, "value" : [159487.34]},
+		"node_036" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3.4047222e+09, "n_samples" : 54, "w_samples" : 54, "value" : [148453.72]},
+		"node_037" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.7703296e+09, "n_samples" : 17, "w_samples" : 17, "value" : [194535.3]},
+		"node_038" : {"left" : 39, "right" : 42, "feature" : 0, "threshold" : -122.255, "impurity" : 6.1914808e+09, "n_samples" : 38, "w_samples" : 38, "value" : [218076.34]},
+		"node_039" : {"left" : 40, "right" : 41, "feature" : 4, "threshold" : 796, "impurity" : 2.5573868e+09, "n_samples" : 34, "w_samples" : 34, "value" : [197902.94]},
+		"node_040" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.3679862e+09, "n_samples" : 28, "w_samples" : 28, "value" : [182421.42]},
+		"node_041" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.7697997e+09, "n_samples" : 6, "w_samples" : 6, "value" : [270150]},
+		"node_042" : {"left" : 43, "right" : 44, "feature" : 6, "threshold" : 336, "impurity" : 4.2189455e+09, "n_samples" : 4, "w_samples" : 4, "value" : [389550.25]},
+		"node_043" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [500001]},
+		"node_044" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.032681e+08, "n_samples" : 3, "w_samples" : 3, "value" : [352733.34]},
+		"node_045" : {"left" : 46, "right" : 53, "feature" : 3, "threshold" : 2021, "impurity" : 3.0359634e+09, "n_samples" : 89, "w_samples" : 89, "value" : [236528.09]},
+		"node_046" : {"left" : 47, "right" : 50, "feature" : 7, "threshold" : 3.1003499, "impurity" : 2.7968717e+09, "n_samples" : 44, "w_samples" : 44, "value" : [218200]},
+		"node_047" : {"left" : 48, "right" : 49, "feature" : 1, "threshold" : 37.860001, "impurity" : 1.3173555e+09, "n_samples" : 11, "w_samples" : 11, "value" : [175318.19]},
+		"node_048" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.7044787e+08, "n_samples" : 5, "w_samples" : 5, "value" : [146820]},
+		"node_049" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 6.9900288e+08, "n_samples" : 6, "w_samples" : 6, "value" : [199066.67]},
+		"node_050" : {"left" : 51, "right" : 52, "feature" : 0, "threshold" : -122.27499, "impurity" : 2.4727757e+09, "n_samples" : 33, "w_samples" : 33, "value" : [232493.94]},
+		"node_051" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.0514488e+09, "n_samples" : 16, "w_samples" : 16, "value" : [209575]},
+		"node_052" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.9096289e+09, "n_samples" : 17, "w_samples" : 17, "value" : [254064.7]},
+		"node_053" : {"left" : 54, "right" : 57, "feature" : 1, "threshold" : 37.805, "impurity" : 2.6200351e+09, "n_samples" : 45, "w_samples" : 45, "value" : [254448.89]},
+		"node_054" : {"left" : 55, "right" : 56, "feature" : 3, "threshold" : 2037, "impurity" : 4.8482714e+08, "n_samples" : 10, "w_samples" : 10, "value" : [222020]},
+		"node_055" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [269500]},
+		"node_056" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.6038682e+08, "n_samples" : 9, "w_samples" : 9, "value" : [216744.44]},
+		"node_057" : {"left" : 58, "right" : 59, "feature" : 7, "threshold" : 3.0583501, "impurity" : 2.84382e+09, "n_samples" : 35, "w_samples" : 35, "value" : [263714.28]},
+		"node_058" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.8085786e+09, "n_samples" : 7, "w_samples" : 7, "value" : [319857.16]},
+		"node_059" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.1176018e+09, "n_samples" : 28, "w_samples" : 28, "value" : [249678.58]},
+		"node_060" : {"left" : 61, "right" : 84, "feature" : 7, "threshold" : 7.5464497, "impurity" : 5.3047132e+09, "n_samples" : 94, "w_samples" : 94, "value" : [341163.88]},
+		"node_061" : {"left" : 62, "right" : 73, "feature" : 1, "threshold" : 37.805, "impurity" : 4.1086566e+09, "n_samples" : 74, "w_samples" : 74, "value" : [322178.38]},
+		"node_062" : {"left" : 63, "right" : 68, "feature" : 2, "threshold" : 37.5, "impurity" : 2.0354908e+09, "n_samples" : 18, "w_samples" : 18, "value" : [269366.66]},
+		"node_063" : {"left" : 64, "right" : 67, "feature" : 6, "threshold" : 1250, "impurity" : 1.2556206e+09, "n_samples" : 11, "w_samples" : 11, "value" : [292936.38]},
+		"node_064" : {"left" : 65, "right" : 66, "feature" : 5, "threshold" : 493.5, "impurity" : 7.1084442e+08, "n_samples" : 10, "w_samples" : 10, "value" : [285130]},
+		"node_065" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 60768256, "n_samples" : 3, "w_samples" : 3, "value" : [319766.66]},
+		"node_066" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.5494323e+08, "n_samples" : 7, "w_samples" : 7, "value" : [270285.72]},
+		"node_067" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [371000]},
+		"node_068" : {"left" : 69, "right" : 72, "feature" : 2, "threshold" : 46, "impurity" : 1.0161766e+09, "n_samples" : 7, "w_samples" : 7, "value" : [232328.58]},
+		"node_069" : {"left" : 70, "right" : 71, "feature" : 7, "threshold" : 5.6663504, "impurity" : 5.2850688e+08, "n_samples" : 6, "w_samples" : 6, "value" : [242016.67]},
+		"node_070" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.4870118e+08, "n_samples" : 4, "w_samples" : 4, "value" : [253625]},
+		"node_071" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 4.7960883e+08, "n_samples" : 2, "w_samples" : 2, "value" : [218800]},
+		"node_072" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 18432, "n_samples" : 1, "w_samples" : 1, "value" : [174200]},
+		"node_073" : {"left" : 74, "right" : 79, "feature" : 0, "threshold" : -122.285, "impurity" : 3.5903816e+09, "n_samples" : 56, "w_samples" : 56, "value" : [339153.56]},
+		"node_074" : {"left" : 75, "right" : 76, "feature" : 3, "threshold" : 557, "impurity" : 5.603713e+09, "n_samples" : 5, "w_samples" : 5, "value" : [222020]},
+		"node_075" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [75000]},
+		"node_076" : {"left" : 77, "right" : 78, "feature" : 4, "threshold" : 400.5, "impurity" : 2.4999117e+08, "n_samples" : 4, "w_samples" : 4, "value" : [258775]},
+		"node_077" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 19439616, "n_samples" : 3, "w_samples" : 3, "value" : [267633.34]},
+		"node_078" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -12288, "n_samples" : 1, "w_samples" : 1, "value" : [232200]},
+		"node_079" : {"left" : 80, "right" : 81, "feature" : 3, "threshold" : 313, "impurity" : 1.9160023e+09, "n_samples" : 51, "w_samples" : 51, "value" : [350637.25]},
+		"node_080" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [483300]},
+		"node_081" : {"left" : 82, "right" : 83, "feature" : 1, "threshold" : 37.845001, "impurity" : 1.5952691e+09, "n_samples" : 50, "w_samples" : 50, "value" : [347984]},
+		"node_082" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.024254e+09, "n_samples" : 24, "w_samples" : 24, "value" : [326450]},
+		"node_083" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.299202e+09, "n_samples" : 26, "w_samples" : 26, "value" : [367861.53]},
+		"node_084" : {"left" : 85, "right" : 96, "feature" : 2, "threshold" : 38, "impurity" : 3.4595144e+09, "n_samples" : 20, "w_samples" : 20, "value" : [411410.25]},
+		"node_085" : {"left" : 86, "right" : 91, "feature" : 3, "threshold" : 1603, "impurity" : 3.9967949e+08, "n_samples" : 7, "w_samples" : 7, "value" : [357785.72]},
+		"node_086" : {"left" : 87, "right" : 88, "feature" : 2, "threshold" : 27, "impurity" : 82558976, "n_samples" : 3, "w_samples" : 3, "value" : [338733.34]},
+		"node_087" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [351200]},
+		"node_088" : {"left" : 89, "right" : 90, "feature" : 1, "threshold" : 37.790001, "impurity" : 7290880, "n_samples" : 2, "w_samples" : 2, "value" : [332500]},
+		"node_089" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [329800]},
+		"node_090" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [335200]},
+		"node_091" : {"left" : 92, "right" : 93, "feature" : 5, "threshold" : 584, "impurity" : 1.610711e+08, "n_samples" : 4, "w_samples" : 4, "value" : [372075]},
+		"node_092" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [392600]},
+		"node_093" : {"left" : 94, "right" : 95, "feature" : 2, "threshold" : 26.5, "impurity" : 27508736, "n_samples" : 3, "w_samples" : 3, "value" : [365233.34]},
+		"node_094" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [358500]},
+		"node_095" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 7290880, "n_samples" : 2, "w_samples" : 2, "value" : [368600]},
+		"node_096" : {"left" : 97, "right" : 104, "feature" : 1, "threshold" : 37.895, "impurity" : 2.7249541e+09, "n_samples" : 13, "w_samples" : 13, "value" : [440285]},
+		"node_097" : {"left" : 98, "right" : 101, "feature" : 1, "threshold" : 37.815002, "impurity" : 1.8631229e+09, "n_samples" : 10, "w_samples" : 10, "value" : [459500.5]},
+		"node_098" : {"left" : 99, "right" : 100, "feature" : 0, "threshold" : -122.22501, "impurity" : 1.0200678e+08, "n_samples" : 2, "w_samples" : 2, "value" : [400200]},
+		"node_099" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [410300]},
+		"node_100" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -16384, "n_samples" : 1, "w_samples" : 1, "value" : [390100]},
+		"node_101" : {"left" : 102, "right" : 103, "feature" : 3, "threshold" : 4358.5, "impurity" : 1.2044861e+09, "n_samples" : 8, "w_samples" : 8, "value" : [474325.62]},
+		"node_102" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 7.3215181e+08, "n_samples" : 7, "w_samples" : 7, "value" : [483300.72]},
+		"node_103" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -65536, "n_samples" : 1, "w_samples" : 1, "value" : [411500]},
+		"node_104" : {"left" : 105, "right" : 106, "feature" : 4, "threshold" : 261.5, "impurity" : 2.6438861e+08, "n_samples" : 3, "w_samples" : 3, "value" : [376233.34]},
+		"node_105" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [397000]},
+		"node_106" : {"left" : 107, "right" : 108, "feature" : 5, "threshold" : 694.5, "impurity" : 73105408, "n_samples" : 2, "w_samples" : 2, "value" : [365850]},
+		"node_107" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [374400]},
+		"node_108" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [357300]}
+		}
+	}
+}
+
+TREE_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE step 6
+MCU_DEPLOY_REGRESSION_CODE step 7
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_MEDIUM_APPLY_OUTPUT_REG  [ 483300.72, 358500, 367861.53, 367861.53, 254064.7,  ... , 118639.29, 249678.58, 483300.72, 483300.72, 483300.72 ]
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_MEDIUM_REG_PERFS { "count" : 512, "rmse" : 33124.996, "mape" : 0.12416556, "R2" : 0.89126629 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE step 8
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.CALIFORNIA_HOUSING_MEDIUM' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.CALIFORNIA_HOUSING_MEDIUM' [ 'Tue Jan 23 09:44:26 2024' ]
+MCU_DEPLOY_ON_TARGET_X86_64_END
