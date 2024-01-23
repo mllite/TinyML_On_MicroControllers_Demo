@@ -1,0 +1,83 @@
+MCU_DEPLOY_ON_TARGET_X86_64_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.CENSUS_MEDIUM' [ 'Tue Jan 23 09:44:23 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE step 1
+MCU_DEPLOY_CLASSIFICATION_CODE step 2
+MCU_DEPLOY_CLASSIFICATION_CODE step 3
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_CLASSIFICATION_CODE step 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 4 4
+MCU_DEPLOY_CLASSIFICATION_CODE step 5
+TREE_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_GINI", "version" : "2024-W03"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"classes" : [ "<=50K", ">50K" ],
+	"tree" : {
+	"features" : 14,
+	"outputs" : 2,
+	"max_depth" : 6,
+	"node_count" : 25,
+	"nodes" : {
+		"node_00" : {"left" : 1, "right" : 24, "feature" : 10, "threshold" : 1.5, "impurity" : 0.34398651, "n_samples" : 512, "w_samples" : 512, "value" : [0.77929688, 0.22070312]},
+		"node_01" : {"left" : 2, "right" : 19, "feature" : 4, "threshold" : 12.5, "impurity" : 0.30741632, "n_samples" : 485, "w_samples" : 485, "value" : [0.81030929, 0.18969072]},
+		"node_02" : {"left" : 3, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.22718579, "n_samples" : 375, "w_samples" : 375, "value" : [0.86933333, 0.13066667]},
+		"node_03" : {"left" : 4, "right" : 5, "feature" : 0, "threshold" : 0.5, "impurity" : 0.091161132, "n_samples" : 188, "w_samples" : 188, "value" : [0.95212764, 0.047872342]},
+		"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 93, "w_samples" : 93, "value" : [1, 0]},
+		"node_05" : {"left" : 6, "right" : 7, "feature" : 2, "threshold" : 124050, "impurity" : 0.17152357, "n_samples" : 95, "w_samples" : 95, "value" : [0.90526319, 0.094736844]},
+		"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.26367188, "n_samples" : 32, "w_samples" : 32, "value" : [0.84375, 0.15625]},
+		"node_07" : {"left" : 8, "right" : 9, "feature" : 2, "threshold" : 193038.5, "impurity" : 0.11892164, "n_samples" : 63, "w_samples" : 63, "value" : [0.93650794, 0.063492067]},
+		"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 26, "w_samples" : 26, "value" : [1, 0]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.19284147, "n_samples" : 37, "w_samples" : 37, "value" : [0.8918919, 0.10810811]},
+		"node_10" : {"left" : 11, "right" : 12, "feature" : 12, "threshold" : 1.5, "impurity" : 0.33629787, "n_samples" : 187, "w_samples" : 187, "value" : [0.78609627, 0.21390374]},
+		"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.051246524, "n_samples" : 38, "w_samples" : 38, "value" : [0.97368419, 0.02631579]},
+		"node_12" : {"left" : 13, "right" : 16, "feature" : 2, "threshold" : 179849.5, "impurity" : 0.38646907, "n_samples" : 149, "w_samples" : 149, "value" : [0.73825502, 0.26174498]},
+		"node_13" : {"left" : 14, "right" : 15, "feature" : 2, "threshold" : 96552, "impurity" : 0.28358728, "n_samples" : 76, "w_samples" : 76, "value" : [0.82894737, 0.17105263]},
+		"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46079999, "n_samples" : 25, "w_samples" : 25, "value" : [0.63999999, 0.36000001]},
+		"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.1445598, "n_samples" : 51, "w_samples" : 51, "value" : [0.92156863, 0.078431375]},
+		"node_16" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 240199.5, "impurity" : 0.45862263, "n_samples" : 73, "w_samples" : 73, "value" : [0.6438356, 0.3561644]},
+		"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49861497, "n_samples" : 38, "w_samples" : 38, "value" : [0.52631581, 0.47368422]},
+		"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35265309, "n_samples" : 35, "w_samples" : 35, "value" : [0.77142859, 0.22857143]},
+		"node_19" : {"left" : 20, "right" : 23, "feature" : 4, "threshold" : 13.5, "impurity" : 0.47619838, "n_samples" : 110, "w_samples" : 110, "value" : [0.60909092, 0.39090911]},
+		"node_20" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 204861.5, "impurity" : 0.43519998, "n_samples" : 75, "w_samples" : 75, "value" : [0.68000001, 0.31999999]},
+		"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3866213, "n_samples" : 42, "w_samples" : 42, "value" : [0.73809522, 0.26190478]},
+		"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47750229, "n_samples" : 33, "w_samples" : 33, "value" : [0.60606062, 0.39393941]},
+		"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49632651, "n_samples" : 35, "w_samples" : 35, "value" : [0.45714286, 0.54285717]},
+		"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.34567899, "n_samples" : 27, "w_samples" : 27, "value" : [0.22222222, 0.77777779]}
+		}
+	}
+}
+
+TREE_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE step 6
+MCU_DEPLOY_CLASSIFICATION_CODE step 7
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_CLASS  [ "<=50K", "<=50K", "<=50K", "<=50K", "<=50K",  ... , "<=50K", "<=50K", "<=50K", "<=50K", "<=50K" ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 0 [ 0.73809522, 0.26190478 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 1 [ 0.73809522, 0.26190478 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 2 [ 0.52631581, 0.47368422 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 3 [ 0.52631581, 0.47368422 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 4 [ 0.60606062, 0.39393941 ]
+...
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 507 [ 0.92156863, 0.078431375 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 508 [ 0.77142859, 0.22857143 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 509 [ 0.63999999, 0.36000001 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 510 [ 0.92156863, 0.078431375 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_APPLY_OUTPUT_PROBA 511 [ 0.97368419, 0.02631579 ]
+MLLITE_AUTO_DEPLOY_CENSUS_MEDIUM_CLASS_PERFS { "count" : 512, "precision" : 0.81445312,  "AUC" : [ 0.8735112, 0.8735112 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE step 8
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.CENSUS_MEDIUM' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.CENSUS_MEDIUM' [ 'Tue Jan 23 09:44:23 2024' ]
+MCU_DEPLOY_ON_TARGET_X86_64_END

@@ -1,0 +1,69 @@
+MCU_DEPLOY_ON_TARGET_X86_64_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.BREASTCANCER_ORIGINAL' [ 'Tue Jan 23 09:44:24 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE step 1
+MCU_DEPLOY_CLASSIFICATION_CODE step 2
+MCU_DEPLOY_CLASSIFICATION_CODE step 3
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_CLASSIFICATION_CODE step 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 4 4
+MCU_DEPLOY_CLASSIFICATION_CODE step 5
+TREE_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_GINI", "version" : "2024-W03"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"classes" : [ 0, 1 ],
+	"tree" : {
+	"features" : 30,
+	"outputs" : 2,
+	"max_depth" : 4,
+	"node_count" : 13,
+	"nodes" : {
+		"node_00" : {"left" : 1, "right" : 8, "feature" : 20, "threshold" : 16.795, "impurity" : 0.46753007, "n_samples" : 569, "w_samples" : 569, "value" : [0.37258348, 0.62741649]},
+		"node_01" : {"left" : 2, "right" : 7, "feature" : 27, "threshold" : 0.1358, "impurity" : 0.15897965, "n_samples" : 379, "w_samples" : 379, "value" : [0.08707124, 0.91292876]},
+		"node_02" : {"left" : 3, "right" : 6, "feature" : 12, "threshold" : 3.187, "impurity" : 0.029579103, "n_samples" : 333, "w_samples" : 333, "value" : [0.015015015, 0.98498499]},
+		"node_03" : {"left" : 4, "right" : 5, "feature" : 21, "threshold" : 30.145, "impurity" : 0.013028741, "n_samples" : 305, "w_samples" : 305, "value" : [0.0065573771, 0.9934426]},
+		"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 263, "w_samples" : 263, "value" : [0, 1]},
+		"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.090702951, "n_samples" : 42, "w_samples" : 42, "value" : [0.047619049, 0.95238096]},
+		"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.19132656, "n_samples" : 28, "w_samples" : 28, "value" : [0.10714286, 0.89285713]},
+		"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47637051, "n_samples" : 46, "w_samples" : 46, "value" : [0.60869563, 0.39130434]},
+		"node_08" : {"left" : 9, "right" : 10, "feature" : 6, "threshold" : 0.082955003, "impurity" : 0.10908586, "n_samples" : 190, "w_samples" : 190, "value" : [0.94210523, 0.057894737]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45918369, "n_samples" : 28, "w_samples" : 28, "value" : [0.64285713, 0.35714287]},
+		"node_10" : {"left" : 11, "right" : 12, "feature" : 22, "threshold" : 125.05, "impurity" : 0.012269497, "n_samples" : 162, "w_samples" : 162, "value" : [0.99382716, 0.0061728396]},
+		"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.068877578, "n_samples" : 28, "w_samples" : 28, "value" : [0.96428573, 0.035714287]},
+		"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 134, "w_samples" : 134, "value" : [1, 0]}
+		}
+	}
+}
+
+TREE_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE step 6
+MCU_DEPLOY_CLASSIFICATION_CODE step 7
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_CLASS  [ 0, 0, 0, 0, 0,  ... , 0, 0, 0, 0, 1 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 0 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 1 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 2 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 3 [ 0.60869563, 0.39130434 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 4 [ 1, 0 ]
+...
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 564 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 565 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 566 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 567 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_APPLY_OUTPUT_PROBA 568 [ 0.047619049, 0.95238096 ]
+MLLITE_AUTO_DEPLOY_BREASTCANCER_ORIGINAL_CLASS_PERFS { "count" : 569, "precision" : 0.94024605,  "AUC" : [ 0.99311614, 0.99311614 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE step 8
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.BREASTCANCER_ORIGINAL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.BREASTCANCER_ORIGINAL' [ 'Tue Jan 23 09:44:24 2024' ]
+MCU_DEPLOY_ON_TARGET_X86_64_END
