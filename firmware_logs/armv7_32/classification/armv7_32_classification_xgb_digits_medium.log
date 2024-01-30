@@ -1,0 +1,125 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.DIGITS_MEDIUM' [ 'Tue Jan 30 11:36:36 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" }
+MCU_DEPLOY_CLASSIFICATION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_CLASSIFIER_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_CLASSIFIER_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 1 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 2 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 3 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 4 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 5 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 6 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 7 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 8 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_CLASSIFIER_FIT' 3 3
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Friedman_XGB", "version" : "2024-W04"},
+	"options" : { "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" },
+	"classes" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+	"booster" : {
+		"BaseScore" : [ 0.099609375, 0.1015625, 0.1015625, 0.10351562, 0.099609375, 0.1015625, 0.099609375, 0.099609375, 0.095703125, 0.09765625 ],
+		"Trees" : 6,
+		"Tree_0" : {
+			"Node_00" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 4, "sindex" : 36 },
+			"Node_01" : { "leaf_value" : [ 0.6797173, -0.15758839, -0.075639091, -0.14127472, -0.12470574, 0.022700122, -0.14112249, -0.15753919, -0.091558009, 0.18782888 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_02" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 8, "sindex" : 60 },
+			"Node_03" : { "leaf_value" : [ -0.15675943, -0.085643619, -0.12122671, -0.05028506, -0.085477211, 0.11006259, -0.15675943, 0.68080771, -0.08514373, -0.049611215 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_04" : { "leaf_value" : [ ], "parent" : 2, "left" : 5, "right" : 6, "svalue" : 16, "sindex" : 20 },
+			"Node_05" : { "leaf_value" : [ ], "parent" : 4, "left" : 7, "right" : 8, "svalue" : 8, "sindex" : 54 },
+			"Node_06" : { "leaf_value" : [ -0.15735596, 0.59495622, 0.12682015, 0.07622993, 0.060349464, -0.15740547, -0.15735598, -0.15735598, -0.073249415, -0.15730704 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_07" : { "leaf_value" : [ ], "parent" : 5, "left" : 9, "right" : 10, "svalue" : 2, "sindex" : 2 },
+			"Node_08" : { "leaf_value" : [ -0.15516189, -0.15521416, -0.031236378, -0.010859329, -0.15516189, -0.093225196, 0.73478258, -0.1551619, -0.0097136358, 0.031459127 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_09" : { "leaf_value" : [ -0.15161315, -0.12462811, 0.11874675, -0.15172648, 0.68800366, -0.15166986, -0.016191026, -0.097444281, -0.015649326, -0.097302176 ], "parent" : 7, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_10" : { "leaf_value" : [ -0.15812743, -0.12750997, 0.02581941, 0.22446834, -0.1427692, 0.19448166, -0.12741099, -0.12741101, 0.21178287, 0.026523272 ], "parent" : 7, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_1" : {
+			"Node_00" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 1, "sindex" : 45 },
+			"Node_01" : { "leaf_value" : [ -0.16002806, -0.063480869, 0.57479274, -0.14070584, -0.14280808, 0.040664643, -0.15585124, 0.10232159, 0.015475176, -0.08747448 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_02" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 1, "sindex" : 28 },
+			"Node_03" : { "leaf_value" : [ 0.4834204, -0.15159741, -0.15405101, -0.15331239, -0.029815895, -0.11608423, 0.26833194, -0.090652935, -0.15386978, -0.15842101 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_04" : { "leaf_value" : [ ], "parent" : 2, "left" : 5, "right" : 6, "svalue" : 8, "sindex" : 26 },
+			"Node_05" : { "leaf_value" : [ ], "parent" : 4, "left" : 7, "right" : 8, "svalue" : 2, "sindex" : 42 },
+			"Node_06" : { "leaf_value" : [ ], "parent" : 4, "left" : 9, "right" : 10, "svalue" : 14, "sindex" : 10 },
+			"Node_07" : { "leaf_value" : [ -0.1566796, -0.13490038, -0.014260185, 0.76025945, -0.15093666, -0.1331137, -0.15509686, -0.13130549, -0.15501495, 0.21898443 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_08" : { "leaf_value" : [ -0.15200287, 0.025862258, -0.1059323, 0.052952666, -0.13155265, -0.13113141, -0.044626392, 0.20759657, 0.2962313, -0.055872273 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_09" : { "leaf_value" : [ ], "parent" : 6, "left" : 11, "right" : 12, "svalue" : 10, "sindex" : 43 },
+			"Node_10" : { "leaf_value" : [ -0.1328593, -0.15155409, -0.13068399, -0.13583516, -0.15115711, 0.55144107, -0.15995136, -0.13514887, 0.11909983, 0.26301363 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_11" : { "leaf_value" : [ -0.10390951, 0.39837453, -0.15453063, -0.15345408, 0.010993819, -0.10275068, -0.01028156, 0.070034713, -0.054539509, 0.02236205 ], "parent" : 9, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_12" : { "leaf_value" : [ -0.096303321, 0.037892506, -0.15459497, -0.15223141, 0.53741241, -0.15005603, 0.18202451, -0.15113325, -0.07534615, -0.15039776 ], "parent" : 9, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_2" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3, "sindex" : 62 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 16, "sindex" : 10 },
+			"Node_2" : { "leaf_value" : [ -0.12961936, -0.0028336416, 0.39307117, -0.1322298, -0.15787606, -0.15704226, 0.20675123, -0.15703982, -0.081069, 0.070507124 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : 7, "sindex" : 13 },
+			"Node_4" : { "leaf_value" : [ -0.037509963, -0.13606542, -0.067957722, 0.0037804486, -0.15170297, 0.37418079, -0.15404657, -0.085687749, 0.0019315627, 0.05170849 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ -0.059718497, -0.066630654, -0.13992275, -0.052992214, 0.38471255, -0.13494569, 0.060059976, -0.018602584, -0.10241058, -0.06136819 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ ], "parent" : 3, "left" : 7, "right" : 8, "svalue" : 8, "sindex" : 53 },
+			"Node_7" : { "leaf_value" : [ -0.12219629, 0.026000855, -0.15886983, -0.10266127, -0.075044796, -0.13069735, -0.12373787, 0.42077145, 0.076152824, -0.027906917 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ 0.17017549, 0.1249692, -0.12899292, 0.18425809, -0.15865213, -0.10467596, -0.13075396, -0.15758348, 0.10588978, -0.034630459 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_3" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 15, "sindex" : 29 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 4, "sindex" : 43 },
+			"Node_2" : { "leaf_value" : [ -0.056550194, 0.079932272, -0.10930888, -0.10497297, 0.0046846275, -0.13333514, -0.1585211, 0.090736926, -0.069935672, 0.40253273 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ 0.11810786, -0.087732233, -0.15629354, 0.25681987, -0.15351136, 0.13884708, -0.14524572, -0.082070798, -0.023874918, -0.077177338 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : 8, "sindex" : 26 },
+			"Node_5" : { "leaf_value" : [ -0.15230735, -0.032311171, 0.33989656, -0.14109232, -0.11634585, -0.11908882, -0.067806937, 0.1181289, 0.065219633, -0.15469402 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ ], "parent" : 4, "left" : 7, "right" : 8, "svalue" : 4, "sindex" : 20 },
+			"Node_7" : { "leaf_value" : [ -0.043785729, -0.1495972, -0.15619048, -0.1494441, 0.016846998, 0.14793196, 0.36121362, -0.13410361, -0.017920142, -0.13243388 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -0.016523009, 0.17522135, -0.07065472, -0.14999042, 0.20743181, -0.13562068, -0.085418358, -0.10658617, 0.11008746, -0.10134537 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_4" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3, "sindex" : 10 },
+			"Node_1" : { "leaf_value" : [ -0.15201223, 0.31717682, -0.059540384, -0.15155186, 0.19179414, -0.1451351, -0.0047173346, -0.11817655, -0.15447162, -0.15315592 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 4, "sindex" : 36 },
+			"Node_3" : { "leaf_value" : [ 0.25028038, -0.15101495, -0.055408821, -0.13785136, -0.14933991, 0.027209295, -0.15175481, -0.14917243, -0.069877386, 0.15477616 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ ], "parent" : 2, "left" : 5, "right" : 6, "svalue" : 11, "sindex" : 42 },
+			"Node_5" : { "leaf_value" : [ ], "parent" : 4, "left" : 7, "right" : 8, "svalue" : 8, "sindex" : 26 },
+			"Node_6" : { "leaf_value" : [ -0.15254058, -0.12185465, 0.001080394, -0.13739449, -0.097486258, -0.15894023, 0.23493777, 0.027951838, 0.33473629, -0.15407169 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -0.1496655, -0.14100024, 0.13879752, 0.30210954, -0.14911078, -0.12149934, -0.15300952, 0.075706393, -0.11135131, -0.047909938 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -0.15094081, -0.074467078, -0.099626549, -0.1395209, 0.023382012, 0.21324986, -0.15737286, 0.061106514, -0.038834989, 0.1352714 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_5" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 8, "sindex" : 60 },
+			"Node_1" : { "leaf_value" : [ -0.1508828, -0.069328554, -0.12432823, -0.040703528, -0.061996039, 0.12436517, -0.14777675, 0.21947697, -0.051188469, -0.05379533 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 8, "sindex" : 45 },
+			"Node_3" : { "leaf_value" : [ -0.073007599, 0.065084323, 0.23134686, -0.14646393, -0.07670588, -0.046881001, -0.036775213, -0.14124848, 0.06203774, -0.024181778 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ ], "parent" : 2, "left" : 5, "right" : 6, "svalue" : 12, "sindex" : 53 },
+			"Node_5" : { "leaf_value" : [ -0.073128253, -0.092348501, -0.1508501, -0.087654352, 0.25168622, 0.1087059, 0.022896029, -0.082811654, -0.062755495, -0.017080316 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ ], "parent" : 4, "left" : 7, "right" : 8, "svalue" : 11, "sindex" : 29 },
+			"Node_7" : { "leaf_value" : [ 0.062877581, -0.053227697, -0.1315864, 0.19727403, -0.15595408, -0.065656789, 0.16430938, -0.14697899, 0.043277875, -0.15423566 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ 0.1163862, 0.12317542, -0.14977713, -0.010477825, -0.1336682, -0.14357726, -0.13150619, -0.14704219, 0.0052490537, 0.22243896 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		}
+	}
+}
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_CLASS  [ 0, 1, 2, 3, 0,  ... , 4, 5, 5, 4, 0 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_PROBA_STEP
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 0 [ 0.46214259, 0.049257223, 0.039302014, 0.097623102, 0.036573183, 0.071922347, 0.069065735, 0.036136255, 0.06519454, 0.072782964 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 1 [ 0.048035599, 0.30115524, 0.081924736, 0.047778606, 0.20738515, 0.041491896, 0.071048334, 0.069103941, 0.083985604, 0.04809089 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 2 [ 0.034751367, 0.059695944, 0.41497678, 0.033839483, 0.086844265, 0.043655559, 0.092981406, 0.068033807, 0.11491344, 0.050308038 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 3 [ 0.061900247, 0.046017043, 0.062378183, 0.37326241, 0.059489626, 0.057865638, 0.14425232, 0.055000972, 0.060507689, 0.079325803 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 4 [ 0.2118082, 0.085486948, 0.080766007, 0.049686749, 0.17893726, 0.069952399, 0.1176073, 0.07224448, 0.061927099, 0.071583621 ]
+...
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 507 [ 0.035773586, 0.079451345, 0.039316539, 0.029496392, 0.59439796, 0.033775646, 0.07261432, 0.034874432, 0.045698088, 0.034601796 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 508 [ 0.072462313, 0.066595338, 0.050873064, 0.10654756, 0.048402205, 0.1907337, 0.059280239, 0.17093082, 0.14597537, 0.08819937 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 509 [ 0.053446248, 0.060171977, 0.063948072, 0.071567819, 0.086952977, 0.24118558, 0.072267286, 0.056807667, 0.19254717, 0.10110503 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 510 [ 0.04457587, 0.20447689, 0.049672145, 0.046430189, 0.39766926, 0.042086627, 0.079021737, 0.041164152, 0.054064732, 0.040838543 ]
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_APPLY_OUTPUT_PROBA 511 [ 0.24686018, 0.094453216, 0.048313439, 0.077273883, 0.04504139, 0.056823991, 0.042204663, 0.065878488, 0.10700855, 0.21614222 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_DIGITS_MEDIUM_CLASS_PERFS { "count" : 512, "precision" : 0.80664062,  "AUC" : [ 0.99655479, 0.97859532, 0.99318564, 0.98195422, 0.99387521, 0.97968227, 0.99468333, 0.97758496, 0.94516683, 0.9505195 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.DIGITS_MEDIUM' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.DIGITS_MEDIUM' [ 'Tue Jan 30 11:36:36 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

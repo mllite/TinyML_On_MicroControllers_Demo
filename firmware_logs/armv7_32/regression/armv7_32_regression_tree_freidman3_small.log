@@ -1,0 +1,81 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_SMALL' [ 'Tue Jan 30 11:35:54 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_REGRESSION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
+MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_MSE", "version" : "2024-W04"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" },
+	"tree" : {
+	"features" : 4,
+	"outputs" : 1,
+	"max_depth" : 6,
+	"node_count" : 37,
+	"nodes" : {
+		"node_00" : {"left" : 1, "right" : 6, "feature" : 2, "threshold" : 0.046038222, "impurity" : 0.097769022, "n_samples" : 64, "w_samples" : 64, "value" : [1.3214358]},
+		"node_01" : {"left" : 2, "right" : 5, "feature" : 2, "threshold" : 0.037129454, "impurity" : 0.030772313, "n_samples" : 3, "w_samples" : 3, "value" : [0.22445007]},
+		"node_02" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 0.018614991, "impurity" : 0.0082167406, "n_samples" : 2, "w_samples" : 2, "value" : [0.11199012]},
+		"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [0.021343892]},
+		"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 3.7252903e-09, "n_samples" : 1, "w_samples" : 1, "value" : [0.20263635]},
+		"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.4901161e-08, "n_samples" : 1, "w_samples" : 1, "value" : [0.44937]},
+		"node_06" : {"left" : 7, "right" : 10, "feature" : 1, "threshold" : 187.38466, "impurity" : 0.03897047, "n_samples" : 61, "w_samples" : 61, "value" : [1.3753864]},
+		"node_07" : {"left" : 8, "right" : 9, "feature" : 0, "threshold" : 71.489639, "impurity" : 0.05122897, "n_samples" : 2, "w_samples" : 2, "value" : [0.68032467]},
+		"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.9604645e-08, "n_samples" : 1, "w_samples" : 1, "value" : [0.90666288]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -8.9406967e-08, "n_samples" : 1, "w_samples" : 1, "value" : [0.45398647]},
+		"node_10" : {"left" : 11, "right" : 24, "feature" : 2, "threshold" : 0.26093775, "impurity" : 0.021622062, "n_samples" : 59, "w_samples" : 59, "value" : [1.3989477]},
+		"node_11" : {"left" : 12, "right" : 17, "feature" : 0, "threshold" : 16.442682, "impurity" : 0.028229117, "n_samples" : 13, "w_samples" : 13, "value" : [1.2450068]},
+		"node_12" : {"left" : 13, "right" : 16, "feature" : 0, "threshold" : 14.603495, "impurity" : 0.004584074, "n_samples" : 4, "w_samples" : 4, "value" : [1.4363321]},
+		"node_13" : {"left" : 14, "right" : 15, "feature" : 1, "threshold" : 903.06665, "impurity" : 0.00055360794, "n_samples" : 3, "w_samples" : 3, "value" : [1.4736074]},
+		"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0001282692, "n_samples" : 2, "w_samples" : 2, "value" : [1.4583044]},
+		"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.1920929e-06, "n_samples" : 1, "w_samples" : 1, "value" : [1.5042138]},
+		"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.3841858e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.3245057]},
+		"node_17" : {"left" : 18, "right" : 21, "feature" : 0, "threshold" : 51.530243, "impurity" : 0.015237927, "n_samples" : 9, "w_samples" : 9, "value" : [1.1599735]},
+		"node_18" : {"left" : 19, "right" : 20, "feature" : 3, "threshold" : 10.289057, "impurity" : 0.0081710815, "n_samples" : 5, "w_samples" : 5, "value" : [1.2298704]},
+		"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0024430752, "n_samples" : 4, "w_samples" : 4, "value" : [1.2692931]},
+		"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 9.5367432e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.0721802]},
+		"node_21" : {"left" : 22, "right" : 23, "feature" : 0, "threshold" : 79.828445, "impurity" : 0.010331631, "n_samples" : 4, "w_samples" : 4, "value" : [1.0726025]},
+		"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.4359436e-05, "n_samples" : 3, "w_samples" : 3, "value" : [1.0140361]},
+		"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -3.5762787e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.2483021]},
+		"node_24" : {"left" : 25, "right" : 30, "feature" : 1, "threshold" : 340.41394, "impurity" : 0.011164665, "n_samples" : 46, "w_samples" : 46, "value" : [1.442452]},
+		"node_25" : {"left" : 26, "right" : 27, "feature" : 0, "threshold" : 44.843964, "impurity" : 0.0031321049, "n_samples" : 6, "w_samples" : 6, "value" : [1.2379953]},
+		"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.1920929e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.3431568]},
+		"node_27" : {"left" : 28, "right" : 29, "feature" : 2, "threshold" : 0.65856349, "impurity" : 0.0011039972, "n_samples" : 5, "w_samples" : 5, "value" : [1.2169631]},
+		"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [1.159392]},
+		"node_29" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00034463406, "n_samples" : 4, "w_samples" : 4, "value" : [1.2313558]},
+		"node_30" : {"left" : 31, "right" : 34, "feature" : 0, "threshold" : 36.854443, "impurity" : 0.0051620007, "n_samples" : 40, "w_samples" : 40, "value" : [1.4731208]},
+		"node_31" : {"left" : 32, "right" : 33, "feature" : 0, "threshold" : 23.623474, "impurity" : 0.00061655045, "n_samples" : 16, "w_samples" : 16, "value" : [1.5358604]},
+		"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00025677681, "n_samples" : 13, "w_samples" : 13, "value" : [1.5448742]},
+		"node_33" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00029754639, "n_samples" : 3, "w_samples" : 3, "value" : [1.4968009]},
+		"node_34" : {"left" : 35, "right" : 36, "feature" : 1, "threshold" : 730.32513, "impurity" : 0.0038161278, "n_samples" : 24, "w_samples" : 24, "value" : [1.4312948]},
+		"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0013115406, "n_samples" : 10, "w_samples" : 10, "value" : [1.3727422]},
+		"node_36" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0014064312, "n_samples" : 14, "w_samples" : 14, "value" : [1.4731181]}
+		}
+	}
+}
+
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_FREIDMAN3_SMALL_APPLY_OUTPUT_REG  [ 1.2692931, 0.90666288, 1.0140361, 1.4731181, 1.4731181,  ... , 1.4731181, 1.5448742, 1.3727422, 1.5448742, 1.5448742 ]
+MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_FREIDMAN3_SMALL_REG_PERFS { "count" : 64, "rmse" : 0.02755757, "mape" : 0.013692389, "R2" : 0.99223244 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_SMALL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_SMALL' [ 'Tue Jan 30 11:35:54 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

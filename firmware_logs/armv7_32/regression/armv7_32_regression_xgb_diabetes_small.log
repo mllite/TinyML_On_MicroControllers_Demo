@@ -1,0 +1,103 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Friedman_XGB.DIABETES_SMALL' [ 'Tue Jan 30 11:35:53 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{ "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" }
+MCU_DEPLOY_REGRESSION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 1 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 2 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 3 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 4 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 5 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 6 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 7 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 8 8
+MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Friedman_XGB", "version" : "2024-W04"},
+	"options" : { "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" },
+	"booster" : {
+		"BaseScore" : [ 143.64062 ],
+		"Trees" : 6,
+		"Tree_0" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 0.0037090604, "sindex" : 8 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : -0.0022275713, "sindex" : 3 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : -0.0022275713, "sindex" : 3 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 7, "right" : 8, "svalue" : -0.037343733, "sindex" : 4 },
+			"Node_4" : { "leaf_value" : [ -1.265625 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ 4.6798296 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ 25.601471 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -11.126172 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -18.848177 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_1" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 0.054151524, "sindex" : 2 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 0.0037090604, "sindex" : 8 },
+			"Node_2" : { "leaf_value" : [ 20.979204 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : -0.02595311, "sindex" : 8 },
+			"Node_4" : { "leaf_value" : [ 4.263401 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ -14.624967 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ -7.3915 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_2" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 0.028758088, "sindex" : 3 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 0.0037090604, "sindex" : 8 },
+			"Node_2" : { "leaf_value" : [ 16.081059 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : -0.037343733, "sindex" : 4 },
+			"Node_4" : { "leaf_value" : [ 5.0517421 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ -6.0056529 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ ], "parent" : 3, "left" : 7, "right" : 8, "svalue" : -0.0029449128, "sindex" : 4 },
+			"Node_7" : { "leaf_value" : [ -14.761526 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -7.1311145 ], "parent" : 6, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_3" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 0.054151524, "sindex" : 2 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 0.05068012, "sindex" : 1 },
+			"Node_2" : { "leaf_value" : [ 13.601848 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : 0.048640098, "sindex" : 6 },
+			"Node_4" : { "leaf_value" : [ ], "parent" : 1, "left" : 7, "right" : 8, "svalue" : -0.0029449128, "sindex" : 4 },
+			"Node_5" : { "leaf_value" : [ 6.2517791 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ -7.2218909 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -10.343613 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -2.4927146 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_4" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 0.028758088, "sindex" : 3 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 0.034308858, "sindex" : 7 },
+			"Node_2" : { "leaf_value" : [ 10.651067 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : 0.05068012, "sindex" : 1 },
+			"Node_4" : { "leaf_value" : [ 4.2934179 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ ], "parent" : 3, "left" : 7, "right" : 8, "svalue" : -0.015906263, "sindex" : 2 },
+			"Node_6" : { "leaf_value" : [ -8.8565454 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -1.4769337 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -6.755002 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_5" : {
+			"Node_00" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : -0.02595311, "sindex" : 8 },
+			"Node_01" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : -0.051403873, "sindex" : 8 },
+			"Node_02" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : 0.054151524, "sindex" : 2 },
+			"Node_03" : { "leaf_value" : [ -3.1549995 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_04" : { "leaf_value" : [ -9.3028021 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_05" : { "leaf_value" : [ ], "parent" : 2, "left" : 7, "right" : 8, "svalue" : -0.022884678, "sindex" : 3 },
+			"Node_06" : { "leaf_value" : [ 15.370166 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_07" : { "leaf_value" : [ -6.4354429 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_08" : { "leaf_value" : [ ], "parent" : 5, "left" : 9, "right" : 10, "svalue" : 0.034308858, "sindex" : 7 },
+			"Node_09" : { "leaf_value" : [ 4.7188354 ], "parent" : 8, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_10" : { "leaf_value" : [ -0.33427566 ], "parent" : 8, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		}
+	}
+}
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_DIABETES_SMALL_APPLY_OUTPUT_REG  [ 129.31882, 197.41061, 79.756668, 219.05833, 73.050797,  ... , 228.53847, 245.92543, 207.61682, 169.29918, 106.28984 ]
+MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_DIABETES_SMALL_REG_PERFS { "count" : 64, "rmse" : 41.336727, "mape" : 0.2754069, "R2" : 0.73847002 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Friedman_XGB.DIABETES_SMALL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Friedman_XGB.DIABETES_SMALL' [ 'Tue Jan 30 11:35:53 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

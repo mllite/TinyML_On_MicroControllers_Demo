@@ -1,0 +1,85 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' [ 'Tue Jan 30 11:36:37 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_CLASSIFICATION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 5 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 4 4
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_GINI", "version" : "2024-W04"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"classes" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+	"tree" : {
+	"features" : 64,
+	"outputs" : 10,
+	"max_depth" : 6,
+	"node_count" : 27,
+	"nodes" : {
+		"node_00" : {"left" : 1, "right" : 6, "feature" : 36, "threshold" : 0.5, "impurity" : 0.89997894, "n_samples" : 1797, "w_samples" : 1797, "value" : [0.099053979, 0.10127991, 0.098497495, 0.10183639, 0.10072343, 0.10127991, 0.10072343, 0.099610463, 0.096828043, 0.10016695]},
+		"node_01" : {"left" : 2, "right" : 5, "feature" : 28, "threshold" : 1.5, "impurity" : 0.54727936, "n_samples" : 275, "w_samples" : 275, "value" : [0.63272727, 0, 0.014545455, 0.0036363637, 0.021818181, 0.090909094, 0.018181818, 0, 0.010909091, 0.20727272]},
+		"node_02" : {"left" : 3, "right" : 4, "feature" : 46, "threshold" : 5.5, "impurity" : 0.16483027, "n_samples" : 183, "w_samples" : 183, "value" : [0.91256833, 0, 0.010928961, 0, 0.032786883, 0.032786883, 0.010928961, 0, 0, 0]},
+		"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.29895216, "n_samples" : 89, "w_samples" : 89, "value" : [0.83146065, 0, 0.02247191, 0, 0.067415729, 0.067415729, 0.011235955, 0, 0, 0]},
+		"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.021050274, "n_samples" : 94, "w_samples" : 94, "value" : [0.9893617, 0, 0, 0, 0, 0, 0.010638298, 0, 0, 0]},
+		"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.5649811, "n_samples" : 92, "w_samples" : 92, "value" : [0.076086953, 0, 0.021739131, 0.010869565, 0, 0.20652173, 0.032608695, 0, 0.032608695, 0.61956519]},
+		"node_06" : {"left" : 7, "right" : 14, "feature" : 21, "threshold" : 0.5, "impurity" : 0.88825566, "n_samples" : 1522, "w_samples" : 1522, "value" : [0.0026281208, 0.1195795, 0.11366623, 0.1195795, 0.11498029, 0.10315374, 0.11563732, 0.11760841, 0.11235217, 0.080814719]},
+		"node_07" : {"left" : 8, "right" : 11, "feature" : 42, "threshold" : 8.5, "impurity" : 0.74019957, "n_samples" : 464, "w_samples" : 464, "value" : [0, 0.092672415, 0.099137932, 0.032327585, 0.071120687, 0.3125, 0.37068966, 0.012931035, 0.0064655175, 0.0021551724]},
+		"node_08" : {"left" : 9, "right" : 10, "feature" : 5, "threshold" : 1.5, "impurity" : 0.62105888, "n_samples" : 246, "w_samples" : 246, "value" : [0, 0.14227642, 0.14227642, 0.060975611, 0.028455285, 0.57723576, 0.012195121, 0.020325202, 0.012195121, 0.0040650405]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.7348299, "n_samples" : 101, "w_samples" : 101, "value" : [0, 0.34653464, 0.34653464, 0.13861386, 0.049504951, 0.01980198, 0.029702971, 0.03960396, 0.01980198, 0.0099009899]},
+		"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.06744349, "n_samples" : 145, "w_samples" : 145, "value" : [0, 0, 0, 0.0068965517, 0.013793103, 0.96551722, 0, 0.0068965517, 0.0068965517, 0]},
+		"node_11" : {"left" : 12, "right" : 13, "feature" : 46, "threshold" : 7.5, "impurity" : 0.38069189, "n_samples" : 218, "w_samples" : 218, "value" : [0, 0.036697246, 0.050458714, 0, 0.11926606, 0.013761468, 0.77522933, 0.0045871558, 0, 0]},
+		"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.66274333, "n_samples" : 94, "w_samples" : 94, "value" : [0, 0.08510638, 0.11702128, 0, 0.25531915, 0.031914894, 0.5, 0.010638298, 0, 0]},
+		"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.031737745, "n_samples" : 124, "w_samples" : 124, "value" : [0, 0, 0, 0, 0.016129032, 0, 0.98387098, 0, 0, 0]},
+		"node_14" : {"left" : 15, "right" : 18, "feature" : 60, "threshold" : 7.5, "impurity" : 0.85999548, "n_samples" : 1058, "w_samples" : 1058, "value" : [0.0037807184, 0.13137996, 0.12003781, 0.15784499, 0.1342155, 0.011342155, 0.0037807184, 0.16351607, 0.15879017, 0.11531191]},
+		"node_15" : {"left" : 16, "right" : 17, "feature" : 4, "threshold" : 13.5, "impurity" : 0.55162352, "n_samples" : 247, "w_samples" : 247, "value" : [0, 0.044534411, 0.024291499, 0.040485829, 0.11336032, 0.016194332, 0, 0.65182185, 0.044534411, 0.06477733]},
+		"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.78046942, "n_samples" : 103, "w_samples" : 103, "value" : [0, 0.10679612, 0.058252428, 0.029126214, 0.27184466, 0.029126214, 0, 0.33980581, 0.087378643, 0.077669904]},
+		"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22868443, "n_samples" : 144, "w_samples" : 144, "value" : [0, 0, 0, 0.048611112, 0, 0.0069444445, 0, 0.875, 0.013888889, 0.055555556]},
+		"node_18" : {"left" : 19, "right" : 26, "feature" : 33, "threshold" : 3.5, "impurity" : 0.84066951, "n_samples" : 811, "w_samples" : 811, "value" : [0.0049321824, 0.15782984, 0.14919852, 0.19358817, 0.1405672, 0.0098643648, 0.0049321824, 0.014796548, 0.19358817, 0.13070284]},
+		"node_19" : {"left" : 20, "right" : 23, "feature" : 43, "threshold" : 1.5, "impurity" : 0.80815053, "n_samples" : 666, "w_samples" : 666, "value" : [0.0030030031, 0.16066065, 0.18018018, 0.23423423, 0.0060060062, 0.010510511, 0.0015015015, 0.015015015, 0.23123123, 0.15765765]},
+		"node_20" : {"left" : 21, "right" : 22, "feature" : 29, "threshold" : 12.5, "impurity" : 0.63563025, "n_samples" : 281, "w_samples" : 281, "value" : [0, 0.067615658, 0.021352313, 0.4911032, 0, 0.024911031, 0, 0, 0.056939501, 0.33807829]},
+		"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.34212804, "n_samples" : 163, "w_samples" : 163, "value" : [0, 0.018404908, 0.012269938, 0.80368096, 0, 0.018404908, 0, 0, 0.08588957, 0.061349694]},
+		"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45662165, "n_samples" : 118, "w_samples" : 118, "value" : [0, 0.13559322, 0.033898305, 0.059322033, 0, 0.033898305, 0, 0, 0.016949153, 0.720339]},
+		"node_23" : {"left" : 24, "right" : 25, "feature" : 27, "threshold" : 7.5, "impurity" : 0.72792041, "n_samples" : 385, "w_samples" : 385, "value" : [0.0051948051, 0.22857143, 0.29610389, 0.046753246, 0.01038961, 0, 0.0025974025, 0.025974026, 0.35844156, 0.025974026]},
+		"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39778703, "n_samples" : 121, "w_samples" : 121, "value" : [0.0082644625, 0.016528925, 0.76859504, 0.016528925, 0.016528925, 0, 0, 0.05785124, 0.074380167, 0.041322313]},
+		"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.64454198, "n_samples" : 264, "w_samples" : 264, "value" : [0.0037878789, 0.32575756, 0.079545453, 0.060606062, 0.0075757578, 0, 0.0037878789, 0.011363637, 0.48863637, 0.018939395]},
+		"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.40209275, "n_samples" : 145, "w_samples" : 145, "value" : [0.013793103, 0.14482759, 0.0068965517, 0.0068965517, 0.75862068, 0.0068965517, 0.020689655, 0.013793103, 0.020689655, 0.0068965517]}
+		}
+	}
+}
+
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_CLASS  [ 0, 8, 2, 1, 0,  ... , 9, 0, 8, 9, 8 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_PROBA_STEP
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 0 [ 0.9893617, 0, 0, 0, 0, 0, 0.010638298, 0, 0, 0 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 1 [ 0.0037878789, 0.32575756, 0.079545453, 0.060606062, 0.0075757578, 0, 0.0037878789, 0.011363637, 0.48863637, 0.018939395 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 2 [ 0.0082644625, 0.016528925, 0.76859504, 0.016528925, 0.016528925, 0, 0, 0.05785124, 0.074380167, 0.041322313 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 3 [ 0, 0.34653464, 0.34653464, 0.13861386, 0.049504951, 0.01980198, 0.029702971, 0.03960396, 0.01980198, 0.0099009899 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 4 [ 0.83146065, 0, 0.02247191, 0, 0.067415729, 0.067415729, 0.011235955, 0, 0, 0 ]
+...
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 1792 [ 0, 0.13559322, 0.033898305, 0.059322033, 0, 0.033898305, 0, 0, 0.016949153, 0.720339 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 1793 [ 0.83146065, 0, 0.02247191, 0, 0.067415729, 0.067415729, 0.011235955, 0, 0, 0 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 1794 [ 0.0037878789, 0.32575756, 0.079545453, 0.060606062, 0.0075757578, 0, 0.0037878789, 0.011363637, 0.48863637, 0.018939395 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 1795 [ 0, 0.13559322, 0.033898305, 0.059322033, 0, 0.033898305, 0, 0, 0.016949153, 0.720339 ]
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_APPLY_OUTPUT_PROBA 1796 [ 0.0037878789, 0.32575756, 0.079545453, 0.060606062, 0.0075757578, 0, 0.0037878789, 0.011363637, 0.48863637, 0.018939395 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_DIGITS_ORIGINAL_CLASS_PERFS { "count" : 1797, "precision" : 0.71062881,  "AUC" : [ 0.99654382, 0.89822745, 0.94558835, 0.95183539, 0.96452945, 0.97499406, 0.99054348, 0.98121345, 0.93958259, 0.95383424 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' [ 'Tue Jan 30 11:36:37 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

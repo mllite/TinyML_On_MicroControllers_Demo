@@ -1,0 +1,101 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.IRIS' [ 'Tue Jan 30 11:36:38 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" }
+MCU_DEPLOY_CLASSIFICATION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_CLASSIFIER_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_CLASSIFIER_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 1 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 2 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 3 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 4 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 5 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 6 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 7 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 8 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_CLASSIFIER_FIT' 3 3
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Friedman_XGB", "version" : "2024-W04"},
+	"options" : { "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" },
+	"classes" : [ 0, 1, 2 ],
+	"booster" : {
+		"BaseScore" : [ 0.33333334, 0.33333334, 0.33333334 ],
+		"Trees" : 6,
+		"Tree_0" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3.9000001, "sindex" : 2 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 3.4000001, "sindex" : 1 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : 1.9, "sindex" : 3 },
+			"Node_3" : { "leaf_value" : [ 0.23076926, -0.023076897, -0.20769231 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ 0.41954872, -0.20977436, -0.20977437 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ ], "parent" : 2, "left" : 7, "right" : 8, "svalue" : 4.5999999, "sindex" : 2 },
+			"Node_6" : { "leaf_value" : [ -0.21103443, -0.2110344, 0.42206877 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -0.20879994, 0.39599988, -0.18719995 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -0.20879997, 0.093600005, 0.11520001 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_1" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3.9000001, "sindex" : 2 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 3.4000001, "sindex" : 1 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : 5.3000002, "sindex" : 2 },
+			"Node_3" : { "leaf_value" : [ 0.16704863, -0.015347169, -0.18678707 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ 0.29108685, -0.18644062, -0.1864406 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ ], "parent" : 2, "left" : 7, "right" : 8, "svalue" : 1.5, "sindex" : 3 },
+			"Node_6" : { "leaf_value" : [ -0.18750899, -0.19629502, 0.31220144 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -0.18531165, 0.31265232, -0.19504364 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -0.18868403, 0.060786396, 0.10200093 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_2" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3.9000001, "sindex" : 2 },
+			"Node_1" : { "leaf_value" : [ 0.18902364, -0.086871691, -0.17973194 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 1.9, "sindex" : 3 },
+			"Node_3" : { "leaf_value" : [ -0.18058801, 0.15312424, -0.028210018 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ -0.17168577, -0.17707279, 0.24346577 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_3" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 1.2, "sindex" : 3 },
+			"Node_1" : { "leaf_value" : [ 0.15056111, -0.060414519, -0.1693463 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 3, "sindex" : 1 },
+			"Node_3" : { "leaf_value" : [ -0.17231177, 0.062007371, 0.058820959 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ -0.16589993, 0.019471217, 0.091916233 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_4" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 4.5999999, "sindex" : 2 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 3.0999999, "sindex" : 1 },
+			"Node_2" : { "leaf_value" : [ -0.16272876, -0.054273009, 0.13543917 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ -0.10821117, 0.19443515, -0.15077934 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ 0.19082685, -0.12739202, -0.16011374 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_5" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 1.5, "sindex" : 3 },
+			"Node_1" : { "leaf_value" : [ 0.056919891, 0.053255562, -0.15915808 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ -0.15715364, -0.042989478, 0.11570329 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		}
+	}
+}
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_CLASS  [ 0, 0, 0, 0, 0,  ... , 2, 2, 2, 2, 2 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_PROBA_STEP
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 0 [ 0.80551994, 0.11861502, 0.075865023 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 1 [ 0.58434546, 0.31304953, 0.10260493 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 2 [ 0.70574749, 0.20321435, 0.091038138 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 3 [ 0.70574749, 0.20321435, 0.091038138 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 4 [ 0.80551994, 0.11861502, 0.075865023 ]
+...
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 145 [ 0.085775159, 0.16464701, 0.74957788 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 146 [ 0.086771041, 0.17491417, 0.73831475 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 147 [ 0.085775159, 0.16464701, 0.74957788 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 148 [ 0.075454161, 0.11187065, 0.81267518 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 149 [ 0.10439964, 0.38061938, 0.51498103 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_IRIS_CLASS_PERFS { "count" : 150, "precision" : 0.88666666,  "AUC" : [ 1, 0.97860003, 0.99119997 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.IRIS' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.IRIS' [ 'Tue Jan 30 11:36:38 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

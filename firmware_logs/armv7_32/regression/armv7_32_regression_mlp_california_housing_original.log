@@ -1,0 +1,84 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_ORIGINAL' [ 'Tue Jan 30 11:35:50 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 }
+MCU_DEPLOY_REGRESSION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 3 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 6 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 9 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 12 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 15 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 18 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 21 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 24 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 27 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 30 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 32 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 3 3
+MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
+	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"layers" : {
+		"sizes" : [ 9, 4, 6, 1 ],
+		"Layer_0" : {
+			"name" : "Input_Layer",
+			"NbInputs" : 0,
+			"NbOutputs" : 9 
+		},
+		"Layer_1" : {
+			"name" : "Hidden_Layer_1",
+			"NbInputs" : 9,
+			"NbOutputs" : 4 ,
+			"coeffs_0" : [ -3.0867021, -2.4575551, -3.4326408, -1.4797745 ],
+			"coeffs_1" : [ 3.1457291, 2.4459481, 3.3469951, 1.4477136 ],
+			"coeffs_2" : [ 3.6057227, 2.5591867, 3.7117691, 1.4388212 ],
+			"coeffs_3" : [ 2.1049726, 0.11095661, 1.2685604, 0.15301456 ],
+			"coeffs_4" : [ 1.738557, 0.0667115, 1.1375579, -0.66297883 ],
+			"coeffs_5" : [ 1.5795648, -0.13061869, 1.2470593, -0.16867125 ],
+			"coeffs_6" : [ 1.3182925, 0.14336772, 1.2181046, 0.48032516 ],
+			"coeffs_7" : [ 2.9297931, 2.4914296, 2.4771781, 1.5138535 ],
+			"coeffs_8" : [ 6.6746412e-36, 8.5728929e-28, 3.0983173e-37, 2.2375014e-23 ],
+			"intercepts" : [ 2.5769732, 3.0509579, 2.6580555, 1.7920685 ]
+		},
+		"Layer_2" : {
+			"name" : "Hidden_Layer_2",
+			"NbInputs" : 4,
+			"NbOutputs" : 6 ,
+			"coeffs_0" : [ -0.55159616, -0.0088757593, 1.8121507, 2.0780654, -0.48189485, -0.028183257 ],
+			"coeffs_1" : [ 1.2219479e-26, -0.14621551, 0.71653861, 0.7373988, 2.3873974e-09, -0.026612084 ],
+			"coeffs_2" : [ 0.44800064, -0.026475873, 1.5439408, 2.2154319, 0.2167502, -0.026267858 ],
+			"coeffs_3" : [ 0.088555612, 0.33033872, 0.45965415, 0.80929685, 0.30347374, -0.029071515 ],
+			"intercepts" : [ -0.66661263, 0.16550781, 2.493995, 1.7767609, 0.75879651, 0.77131265 ]
+		},
+		"Layer_3" : {
+			"name" : "Output_Layer",
+			"NbInputs" : 6,
+			"NbOutputs" : 1 ,
+			"coeffs_0" : [ -0.11159999 ],
+			"coeffs_1" : [ -0.45799044 ],
+			"coeffs_2" : [ 1.7258826 ],
+			"coeffs_3" : [ 2.4017241 ],
+			"coeffs_4" : [ -0.65175468 ],
+			"coeffs_5" : [ -0.026262423 ],
+			"intercepts" : [ 2.4998412 ]
+		}
+	}
+}
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_ORIGINAL_APPLY_OUTPUT_REG  [ 50894.469, 312554.53, 74292.781, 72067.93, 83854.609,  ... , 92659.188, 44804.445, 116815.31, 96544.641, 144944.38 ]
+MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_ORIGINAL_REG_PERFS { "count" : 20640, "rmse" : 160419.08, "mape" : 0.55353475, "R2" : -0.93266976 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_ORIGINAL' 2
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_ORIGINAL' [ 'Tue Jan 30 11:35:52 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

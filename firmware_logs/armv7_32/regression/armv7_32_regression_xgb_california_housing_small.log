@@ -1,0 +1,101 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Friedman_XGB.CALIFORNIA_HOUSING_SMALL' [ 'Tue Jan 30 11:35:53 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{ "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" }
+MCU_DEPLOY_REGRESSION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 1 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 2 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 3 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 4 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 5 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 6 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 7 8
+PROGRESS_REPORT_ELAPSED_TOTAL 'XGB_MODEL_FIT' 8 8
+MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Friedman_XGB", "version" : "2024-W04"},
+	"options" : { "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" },
+	"booster" : {
+		"BaseScore" : [ 203459.41 ],
+		"Trees" : 6,
+		"Tree_0" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3.8992, "sindex" : 7 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 38, "sindex" : 1 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : 445, "sindex" : 6 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 7, "right" : 8, "svalue" : -118.2, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ -27108.838 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ 35430.91 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ 8910.1641 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -2246.3369 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -20475.008 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_1" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3.8992, "sindex" : 7 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 2.3382001, "sindex" : 7 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : 338, "sindex" : 6 },
+			"Node_3" : { "leaf_value" : [ -19228.771 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ ], "parent" : 1, "left" : 7, "right" : 8, "svalue" : 473, "sindex" : 4 },
+			"Node_5" : { "leaf_value" : [ 29860.213 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ 9075.9922 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -14155.323 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -2908.2925 ], "parent" : 4, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_2" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 3.8992, "sindex" : 7 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 38, "sindex" : 1 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 5, "right" : 6, "svalue" : 26, "sindex" : 2 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 7, "right" : 8, "svalue" : -118.2, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ -15970.538 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ 4088.8171 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ 20733.539 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ 1646.7638 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -11331.293 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_3" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 5.3813, "sindex" : 7 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 38, "sindex" : 2 },
+			"Node_2" : { "leaf_value" : [ 15179.084 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : -117.4, "sindex" : 0 },
+			"Node_4" : { "leaf_value" : [ 5491.8594 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ ], "parent" : 3, "left" : 7, "right" : 8, "svalue" : 26, "sindex" : 2 },
+			"Node_6" : { "leaf_value" : [ -16186.872 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ 3552.7864 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ -9865.4434 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_4" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 633, "sindex" : 5 },
+			"Node_1" : { "leaf_value" : [ 13371.467 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : 38, "sindex" : 1 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 2, "left" : 5, "right" : 6, "svalue" : 3.8992, "sindex" : 7 },
+			"Node_4" : { "leaf_value" : [ -13244.418 ], "parent" : 2, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ ], "parent" : 3, "left" : 7, "right" : 8, "svalue" : 2495, "sindex" : 3 },
+			"Node_6" : { "leaf_value" : [ 5269.5776 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_7" : { "leaf_value" : [ -9835.9238 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_8" : { "leaf_value" : [ 180.58125 ], "parent" : 5, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		},
+		"Tree_5" : {
+			"Node_0" : { "leaf_value" : [ ], "parent" : null, "left" : 1, "right" : 2, "svalue" : 38, "sindex" : 1 },
+			"Node_1" : { "leaf_value" : [ ], "parent" : 0, "left" : 3, "right" : 4, "svalue" : -117.4, "sindex" : 0 },
+			"Node_2" : { "leaf_value" : [ -10093.264 ], "parent" : 0, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_3" : { "leaf_value" : [ ], "parent" : 1, "left" : 5, "right" : 6, "svalue" : 3.8992, "sindex" : 7 },
+			"Node_4" : { "leaf_value" : [ -6506.1714 ], "parent" : 1, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_5" : { "leaf_value" : [ 447.72791 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 },
+			"Node_6" : { "leaf_value" : [ 11951.253 ], "parent" : 3, "left" : null, "right" : null, "svalue" : 0, "sindex" : 0 }
+		}
+	}
+}
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_SMALL_APPLY_OUTPUT_REG  [ 202942.12, 113021.58, 107948.14, 164302.72, 243896.53,  ... , 180697.91, 141574.11, 301099.75, 329985.88, 143187.22 ]
+MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_SMALL_REG_PERFS { "count" : 64, "rmse" : 62474.414, "mape" : 0.28373352, "R2" : 0.67468739 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Friedman_XGB.CALIFORNIA_HOUSING_SMALL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Friedman_XGB.CALIFORNIA_HOUSING_SMALL' [ 'Tue Jan 30 11:35:53 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

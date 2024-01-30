@@ -1,0 +1,85 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_SMALL' [ 'Tue Jan 30 11:35:58 2024' ]
+MLLite starting
+MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
+{  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 }
+MCU_DEPLOY_REGRESSION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 1 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 2 3
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 3 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 6 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 9 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 12 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 15 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 18 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 21 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 24 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 27 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 30 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT_BACK_PROP_ITERATION' 32 32
+PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 3 3
+MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
+	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"layers" : {
+		"sizes" : [ 10, 4, 6, 1 ],
+		"Layer_0" : {
+			"name" : "Input_Layer",
+			"NbInputs" : 0,
+			"NbOutputs" : 10 
+		},
+		"Layer_1" : {
+			"name" : "Hidden_Layer_1",
+			"NbInputs" : 10,
+			"NbOutputs" : 4 ,
+			"coeffs_0" : [ -0.041231208, 0.30872419, -0.28252026, -0.015263578 ],
+			"coeffs_1" : [ 0.099361695, -0.49192563, 0.19519541, 0.050837636 ],
+			"coeffs_2" : [ 0.52944285, 0.10832702, 0.57881647, -0.069981337 ],
+			"coeffs_3" : [ 0.62170923, -0.61046064, -0.2444489, 0.27565494 ],
+			"coeffs_4" : [ 0.31514889, -0.34547573, -0.36502516, -0.53982651 ],
+			"coeffs_5" : [ 0.25745746, -0.67797601, -0.13618395, -0.0012534426 ],
+			"coeffs_6" : [ -0.10845895, -0.62017393, -0.36777323, 0.50325412 ],
+			"coeffs_7" : [ -0.034162603, -0.026477255, -0.61556458, 0.068136685 ],
+			"coeffs_8" : [ -0.17564568, 0.20969374, -0.099104494, 0.3092688 ],
+			"coeffs_9" : [ -0.40775234, 0.54138815, -0.44739908, 0.3837676 ],
+			"intercepts" : [ -0.47025952, 0.32940912, 0.16315737, 0.6275273 ]
+		},
+		"Layer_2" : {
+			"name" : "Hidden_Layer_2",
+			"NbInputs" : 4,
+			"NbOutputs" : 6 ,
+			"coeffs_0" : [ -0.4579879, -0.56806999, 0.23340079, 0.25324309, 0.49246341, 0.63525355 ],
+			"coeffs_1" : [ 0.55788177, -0.47119504, 0.43498898, 0.66421002, -0.43956628, 0.3144322 ],
+			"coeffs_2" : [ 0.19748498, 0.090364613, 0.078745455, 0.47568995, -0.63510573, 0.065912031 ],
+			"coeffs_3" : [ 0.28524947, 0.47801107, -0.63198066, 0.57025778, -0.40333396, -0.74828416 ],
+			"intercepts" : [ 0.73236895, 0.77151906, -0.10209864, -0.59668881, -0.027916193, 0.70883727 ]
+		},
+		"Layer_3" : {
+			"name" : "Output_Layer",
+			"NbInputs" : 6,
+			"NbOutputs" : 1 ,
+			"coeffs_0" : [ -0.63619685 ],
+			"coeffs_1" : [ 0.39730999 ],
+			"coeffs_2" : [ 0.38911778 ],
+			"coeffs_3" : [ 0.58217084 ],
+			"coeffs_4" : [ 0.78606409 ],
+			"coeffs_5" : [ -0.43629405 ],
+			"intercepts" : [ 0.42161599 ]
+		}
+	}
+}
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_DIABETES_SMALL_APPLY_OUTPUT_REG  [ -0.062273361, 0.015731946, -0.048252195, -0.018999904, -0.058345765,  ... , -0.067386933, 0.0083437264, -0.10086162, -0.019165754, -0.028974369 ]
+MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_DIABETES_SMALL_REG_PERFS { "count" : 64, "rmse" : 164.85796, "mape" : 1.0004025, "R2" : -3.1597681 }
+This will be printed
+MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
+MCU_DEPLOY_REGRESSION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_SMALL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_SMALL' [ 'Tue Jan 30 11:35:58 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

@@ -1,0 +1,77 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.CENSUS_SMALL' [ 'Tue Jan 30 11:36:02 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_CLASSIFICATION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 4 4
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_GINI", "version" : "2024-W04"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"classes" : [ "<=50K", ">50K" ],
+	"tree" : {
+	"features" : 14,
+	"outputs" : 2,
+	"max_depth" : 4,
+	"node_count" : 21,
+	"nodes" : {
+		"node_00" : {"left" : 1, "right" : 12, "feature" : 4, "threshold" : 11.5, "impurity" : 0.34179688, "n_samples" : 64, "w_samples" : 64, "value" : [0.78125, 0.21875]},
+		"node_01" : {"left" : 2, "right" : 7, "feature" : 12, "threshold" : 2.5, "impurity" : 0.16197532, "n_samples" : 45, "w_samples" : 45, "value" : [0.91111112, 0.088888891]},
+		"node_02" : {"left" : 3, "right" : 6, "feature" : 2, "threshold" : 98443.5, "impurity" : 0.058769524, "n_samples" : 33, "w_samples" : 33, "value" : [0.969697, 0.030303031]},
+		"node_03" : {"left" : 4, "right" : 5, "feature" : 2, "threshold" : 61794.5, "impurity" : 0.24489796, "n_samples" : 7, "w_samples" : 7, "value" : [0.85714287, 0.14285715]},
+		"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [1, 0]},
+		"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44444442, "n_samples" : 3, "w_samples" : 3, "value" : [0.66666669, 0.33333334]},
+		"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 26, "w_samples" : 26, "value" : [1, 0]},
+		"node_07" : {"left" : 8, "right" : 11, "feature" : 2, "threshold" : 198938, "impurity" : 0.375, "n_samples" : 12, "w_samples" : 12, "value" : [0.75, 0.25]},
+		"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 2.5, "impurity" : 0.48979592, "n_samples" : 7, "w_samples" : 7, "value" : [0.5714286, 0.42857143]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.5, "n_samples" : 4, "w_samples" : 4, "value" : [0.5, 0.5]},
+		"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44444442, "n_samples" : 3, "w_samples" : 3, "value" : [0.66666669, 0.33333334]},
+		"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 5, "w_samples" : 5, "value" : [1, 0]},
+		"node_12" : {"left" : 13, "right" : 18, "feature" : 0, "threshold" : 1.5, "impurity" : 0.49861497, "n_samples" : 19, "w_samples" : 19, "value" : [0.47368422, 0.52631581]},
+		"node_13" : {"left" : 14, "right" : 17, "feature" : 2, "threshold" : 218188.5, "impurity" : 0.42000002, "n_samples" : 10, "w_samples" : 10, "value" : [0.69999999, 0.30000001]},
+		"node_14" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 144622, "impurity" : 0.24489796, "n_samples" : 7, "w_samples" : 7, "value" : [0.85714287, 0.14285715]},
+		"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44444442, "n_samples" : 3, "w_samples" : 3, "value" : [0.66666669, 0.33333334]},
+		"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [1, 0]},
+		"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44444442, "n_samples" : 3, "w_samples" : 3, "value" : [0.33333334, 0.66666669]},
+		"node_18" : {"left" : 19, "right" : 20, "feature" : 4, "threshold" : 13.5, "impurity" : 0.34567899, "n_samples" : 9, "w_samples" : 9, "value" : [0.22222222, 0.77777779]},
+		"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 4, "w_samples" : 4, "value" : [0, 1]},
+		"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.48000002, "n_samples" : 5, "w_samples" : 5, "value" : [0.40000001, 0.60000002]}
+		}
+	}
+}
+
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_CLASS  [ ">50K", "<=50K", "<=50K", "<=50K", "<=50K",  ... , "<=50K", "<=50K", ">50K", "<=50K", "<=50K" ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_PROBA_STEP
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 0 [ 0.40000001, 0.60000002 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 1 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 2 [ 0.66666669, 0.33333334 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 3 [ 0.5, 0.5 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 4 [ 1, 0 ]
+...
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 59 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 60 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 61 [ 0, 1 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 62 [ 1, 0 ]
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_APPLY_OUTPUT_PROBA 63 [ 0.66666669, 0.33333334 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_CENSUS_SMALL_CLASS_PERFS { "count" : 64, "precision" : 0.875,  "AUC" : [ 0.96571428, 0.96571428 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.CENSUS_SMALL' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.CENSUS_SMALL' [ 'Tue Jan 30 11:36:02 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END

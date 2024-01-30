@@ -1,0 +1,67 @@
+MCU_DEPLOY_ON_TARGET_ARMV7_32_START
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.IRIS' [ 'Tue Jan 30 11:36:29 2024' ]
+MLLite starting
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
+MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
+MCU_DEPLOY_CLASSIFICATION_MODEL_OPTIONS
+{ "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" }
+MCU_DEPLOY_CLASSIFICATION_CODE FIT_MODEL_STEP
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 0 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_DEPTH_FIRST_BUILDER' 6 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 4 4
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
+MODEL_JSON_DUMP_START
+{
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_GINI", "version" : "2024-W04"},
+	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"classes" : [ 0, 1, 2 ],
+	"tree" : {
+	"features" : 4,
+	"outputs" : 3,
+	"max_depth" : 4,
+	"node_count" : 11,
+	"nodes" : {
+		"node_00" : {"left" : 1, "right" : 2, "feature" : 2, "threshold" : 2.45, "impurity" : 0.66666663, "n_samples" : 150, "w_samples" : 150, "value" : [0.33333334, 0.33333334, 0.33333334]},
+		"node_01" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 50, "w_samples" : 50, "value" : [1, 0, 0]},
+		"node_02" : {"left" : 3, "right" : 8, "feature" : 3, "threshold" : 1.75, "impurity" : 0.5, "n_samples" : 100, "w_samples" : 100, "value" : [0, 0.5, 0.5]},
+		"node_03" : {"left" : 4, "right" : 7, "feature" : 2, "threshold" : 4.8500004, "impurity" : 0.16803843, "n_samples" : 54, "w_samples" : 54, "value" : [0, 0.9074074, 0.09259259]},
+		"node_04" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 5.4499998, "impurity" : 0.0425331, "n_samples" : 46, "w_samples" : 46, "value" : [0, 0.97826087, 0.021739131]},
+		"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24489796, "n_samples" : 7, "w_samples" : 7, "value" : [0, 0.85714287, 0.14285715]},
+		"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 39, "w_samples" : 39, "value" : [0, 1, 0]},
+		"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.5, "n_samples" : 8, "w_samples" : 8, "value" : [0, 0.5, 0.5]},
+		"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 5.9499998, "impurity" : 0.0425331, "n_samples" : 46, "w_samples" : 46, "value" : [0, 0.021739131, 0.97826087]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24489796, "n_samples" : 7, "w_samples" : 7, "value" : [0, 0.14285715, 0.85714287]},
+		"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 39, "w_samples" : 39, "value" : [0, 0, 1]}
+		}
+	}
+}
+
+MODEL_JSON_DUMP_END
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_STEP
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_CLASS  [ 0, 0, 0, 0, 0,  ... , 2, 2, 2, 2, 2 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_PROBA_STEP
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 0 [ 1, 0, 0 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 1 [ 1, 0, 0 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 2 [ 1, 0, 0 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 3 [ 1, 0, 0 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 4 [ 1, 0, 0 ]
+...
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 145 [ 0, 0, 1 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 146 [ 0, 0, 1 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 147 [ 0, 0, 1 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 148 [ 0, 0, 1 ]
+MLLITE_AUTO_DEPLOY_IRIS_APPLY_OUTPUT_PROBA 149 [ 0, 0.14285715, 0.85714287 ]
+MCU_DEPLOY_CLASSIFICATION_CODE MODEL_COMPUTE_PERF_STEP
+MLLITE_AUTO_DEPLOY_IRIS_CLASS_PERFS { "count" : 150, "precision" : 0.95999998,  "AUC" : [ 1, 0.9982, 0.9982 ] }
+This will be printed
+MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
+MCU_DEPLOY_CLASSIFICATION_CODE done
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.IRIS' 0
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.IRIS' [ 'Tue Jan 30 11:36:29 2024' ]
+MCU_DEPLOY_ON_TARGET_ARMV7_32_END
