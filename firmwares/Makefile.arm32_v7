@@ -1,0 +1,673 @@
+armv7_32_regression_svm_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_svm_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_svm_california_housing_original.log 
+
+
+armv7_32_regression_mlp_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_mlp_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_mlp_california_housing_original.log 
+
+
+armv7_32_regression_ridge_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_ridge_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_ridge_diabetes_medium.log 
+
+
+armv7_32_regression_ridge_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_ridge_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_ridge_freidman3_medium.log 
+
+
+armv7_32_regression_svm_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_svm_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_svm_california_housing_small.log 
+
+
+armv7_32_regression_svm_nu_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_california_housing_small.log 
+
+
+armv7_32_regression_svm_nu_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_california_housing_original.log 
+
+
+armv7_32_regression_xgb_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_xgb_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_xgb_diabetes_medium.log 
+
+
+armv7_32_regression_mlp_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_mlp_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_mlp_freidman3_original.log 
+
+
+armv7_32_regression_svm_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_svm_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_svm_diabetes_original.log 
+
+
+armv7_32_regression_svm_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_svm_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_svm_freidman3_original.log 
+
+
+armv7_32_regression_xgb_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_xgb_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_xgb_california_housing_original.log 
+
+
+armv7_32_regression_svm_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_freidman3_medium.log 
+
+
+armv7_32_regression_svm_nu_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_diabetes_original.log 
+
+
+armv7_32_regression_svm_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_svm_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_svm_RandomReg_10_small.log 
+
+
+armv7_32_regression_mlp_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_mlp_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_mlp_freidman3_small.log 
+
+
+armv7_32_regression_tree_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_tree_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_tree_freidman3_original.log 
+
+
+armv7_32_regression_rf_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_rf_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_rf_california_housing_original.log 
+
+
+armv7_32_regression_mlp_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_mlp_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_mlp_california_housing_medium.log 
+
+
+armv7_32_regression_ridge_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_ridge_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_ridge_RandomReg_10_small.log 
+
+
+armv7_32_regression_svm_nu_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_freidman3_small.log 
+
+
+armv7_32_regression_svm_nu_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_freidman3_original.log 
+
+
+armv7_32_regression_svm_nu_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_california_housing_medium.log 
+
+
+armv7_32_regression_xgb_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_xgb_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_xgb_california_housing_medium.log 
+
+
+armv7_32_regression_svm_nu_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_RandomReg_10_medium.log 
+
+
+armv7_32_regression_rf_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_rf_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_rf_RandomReg_10_small.log 
+
+
+armv7_32_regression_svm_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_RandomReg_10_medium.log 
+
+
+armv7_32_regression_xgb_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_xgb_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_xgb_RandomReg_10_small.log 
+
+
+armv7_32_regression_xgb_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_xgb_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_xgb_RandomReg_10_original.log 
+
+
+armv7_32_regression_svm_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_svm_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_svm_RandomReg_10_original.log 
+
+
+armv7_32_regression_rf_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_rf_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_rf_diabetes_original.log 
+
+
+armv7_32_regression_tree_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_tree_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_tree_RandomReg_10_medium.log 
+
+
+armv7_32_regression_mlp_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_mlp_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_mlp_RandomReg_10_medium.log 
+
+
+armv7_32_regression_mlp_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_mlp_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_mlp_freidman3_medium.log 
+
+
+armv7_32_regression_rf_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_rf_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_rf_california_housing_medium.log 
+
+
+armv7_32_regression_xgb_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_xgb_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_xgb_diabetes_small.log 
+
+
+armv7_32_regression_tree_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_tree_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_tree_california_housing_small.log 
+
+
+armv7_32_regression_ridge_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_ridge_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_ridge_RandomReg_10_original.log 
+
+
+armv7_32_regression_tree_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_tree_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_tree_diabetes_original.log 
+
+
+armv7_32_regression_xgb_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_xgb_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_xgb_diabetes_original.log 
+
+
+armv7_32_regression_tree_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_tree_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_tree_freidman3_medium.log 
+
+
+armv7_32_regression_ridge_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_ridge_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_ridge_freidman3_small.log 
+
+
+armv7_32_regression_xgb_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_xgb_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_xgb_california_housing_small.log 
+
+
+armv7_32_regression_tree_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_tree_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_tree_diabetes_medium.log 
+
+
+armv7_32_regression_rf_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_rf_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_rf_freidman3_original.log 
+
+
+armv7_32_regression_xgb_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_xgb_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_xgb_freidman3_small.log 
+
+
+armv7_32_regression_svm_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_california_housing_medium.log 
+
+
+armv7_32_regression_svm_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_diabetes_medium.log 
+
+
+armv7_32_regression_mlp_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_mlp_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_mlp_california_housing_small.log 
+
+
+armv7_32_regression_tree_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_tree_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_tree_california_housing_medium.log 
+
+
+armv7_32_regression_svm_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_svm_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_svm_diabetes_small.log 
+
+
+armv7_32_regression_svm_nu_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_RandomReg_10_small.log 
+
+
+armv7_32_regression_tree_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_tree_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_tree_diabetes_small.log 
+
+
+armv7_32_regression_ridge_california_housing_medium  :
+	./armv7_32/regression/armv7_32_regression_ridge_california_housing_medium.exe  >  armv7_32/regression/armv7_32_regression_ridge_california_housing_medium.log 
+
+
+armv7_32_regression_rf_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_rf_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_rf_RandomReg_10_medium.log 
+
+
+armv7_32_regression_tree_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_tree_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_tree_RandomReg_10_small.log 
+
+
+armv7_32_regression_mlp_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_mlp_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_mlp_diabetes_original.log 
+
+
+armv7_32_regression_svm_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_svm_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_svm_freidman3_small.log 
+
+
+armv7_32_regression_rf_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_rf_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_rf_california_housing_small.log 
+
+
+armv7_32_regression_ridge_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_ridge_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_ridge_RandomReg_10_medium.log 
+
+
+armv7_32_regression_tree_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_tree_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_tree_freidman3_small.log 
+
+
+armv7_32_regression_xgb_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_xgb_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_xgb_freidman3_medium.log 
+
+
+armv7_32_regression_mlp_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_mlp_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_mlp_diabetes_medium.log 
+
+
+armv7_32_regression_rf_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_rf_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_rf_diabetes_small.log 
+
+
+armv7_32_regression_tree_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_tree_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_tree_RandomReg_10_original.log 
+
+
+armv7_32_regression_ridge_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_ridge_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_ridge_california_housing_original.log 
+
+
+armv7_32_regression_svm_nu_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_diabetes_medium.log 
+
+
+armv7_32_regression_ridge_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_ridge_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_ridge_freidman3_original.log 
+
+
+armv7_32_regression_ridge_diabetes_original  :
+	./armv7_32/regression/armv7_32_regression_ridge_diabetes_original.exe  >  armv7_32/regression/armv7_32_regression_ridge_diabetes_original.log 
+
+
+armv7_32_regression_tree_california_housing_original  :
+	./armv7_32/regression/armv7_32_regression_tree_california_housing_original.exe  >  armv7_32/regression/armv7_32_regression_tree_california_housing_original.log 
+
+
+armv7_32_regression_rf_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_rf_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_rf_RandomReg_10_original.log 
+
+
+armv7_32_regression_rf_freidman3_small  :
+	./armv7_32/regression/armv7_32_regression_rf_freidman3_small.exe  >  armv7_32/regression/armv7_32_regression_rf_freidman3_small.log 
+
+
+armv7_32_regression_svm_nu_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_freidman3_medium.log 
+
+
+armv7_32_regression_svm_nu_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_diabetes_small.log 
+
+
+armv7_32_regression_mlp_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_mlp_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_mlp_diabetes_small.log 
+
+
+armv7_32_regression_ridge_california_housing_small  :
+	./armv7_32/regression/armv7_32_regression_ridge_california_housing_small.exe  >  armv7_32/regression/armv7_32_regression_ridge_california_housing_small.log 
+
+
+armv7_32_regression_xgb_freidman3_original  :
+	./armv7_32/regression/armv7_32_regression_xgb_freidman3_original.exe  >  armv7_32/regression/armv7_32_regression_xgb_freidman3_original.log 
+
+
+armv7_32_regression_rf_freidman3_medium  :
+	./armv7_32/regression/armv7_32_regression_rf_freidman3_medium.exe  >  armv7_32/regression/armv7_32_regression_rf_freidman3_medium.log 
+
+
+armv7_32_regression_svm_nu_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_svm_nu_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_svm_nu_RandomReg_10_original.log 
+
+
+armv7_32_regression_mlp_RandomReg_10_original  :
+	./armv7_32/regression/armv7_32_regression_mlp_RandomReg_10_original.exe  >  armv7_32/regression/armv7_32_regression_mlp_RandomReg_10_original.log 
+
+
+armv7_32_regression_ridge_diabetes_small  :
+	./armv7_32/regression/armv7_32_regression_ridge_diabetes_small.exe  >  armv7_32/regression/armv7_32_regression_ridge_diabetes_small.log 
+
+
+armv7_32_regression_xgb_RandomReg_10_medium  :
+	./armv7_32/regression/armv7_32_regression_xgb_RandomReg_10_medium.exe  >  armv7_32/regression/armv7_32_regression_xgb_RandomReg_10_medium.log 
+
+
+armv7_32_regression_rf_diabetes_medium  :
+	./armv7_32/regression/armv7_32_regression_rf_diabetes_medium.exe  >  armv7_32/regression/armv7_32_regression_rf_diabetes_medium.log 
+
+
+armv7_32_regression_mlp_RandomReg_10_small  :
+	./armv7_32/regression/armv7_32_regression_mlp_RandomReg_10_small.exe  >  armv7_32/regression/armv7_32_regression_mlp_RandomReg_10_small.log 
+
+
+armv7_32_classification_svm_nu_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_FourClass_10_medium.log 
+
+
+armv7_32_classification_xgb_digits_original  :
+	./armv7_32/classification/armv7_32_classification_xgb_digits_original.exe  >  armv7_32/classification/armv7_32_classification_xgb_digits_original.log 
+
+
+armv7_32_classification_svm_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_svm_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_svm_FourClass_10_small.log 
+
+
+armv7_32_classification_rf_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_rf_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_rf_FourClass_10_small.log 
+
+
+armv7_32_classification_svm_nu_census_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_census_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_census_medium.log 
+
+
+armv7_32_classification_rf_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_rf_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_rf_digits_medium.log 
+
+
+armv7_32_classification_tree_census_small  :
+	./armv7_32/classification/armv7_32_classification_tree_census_small.exe  >  armv7_32/classification/armv7_32_classification_tree_census_small.log 
+
+
+armv7_32_classification_ridge_digits_small  :
+	./armv7_32/classification/armv7_32_classification_ridge_digits_small.exe  >  armv7_32/classification/armv7_32_classification_ridge_digits_small.log 
+
+
+armv7_32_classification_svm_nu_iris  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_iris.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_iris.log 
+
+
+armv7_32_classification_svm_digits_original  :
+	./armv7_32/classification/armv7_32_classification_svm_digits_original.exe  >  armv7_32/classification/armv7_32_classification_svm_digits_original.log 
+
+
+armv7_32_classification_svm_nu_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_FourClass_10_original.log 
+
+
+armv7_32_classification_xgb_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_xgb_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_xgb_FourClass_10_medium.log 
+
+
+armv7_32_classification_mlp_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_mlp_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_mlp_BreastCancer_original.log 
+
+
+armv7_32_classification_tree_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_tree_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_tree_BreastCancer_small.log 
+
+
+armv7_32_classification_mlp_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_mlp_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_mlp_FourClass_10_medium.log 
+
+
+armv7_32_classification_svm_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_FourClass_10_medium.log 
+
+
+armv7_32_classification_rf_digits_small  :
+	./armv7_32/classification/armv7_32_classification_rf_digits_small.exe  >  armv7_32/classification/armv7_32_classification_rf_digits_small.log 
+
+
+armv7_32_classification_svm_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_svm_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_svm_BreastCancer_small.log 
+
+
+armv7_32_classification_xgb_digits_small  :
+	./armv7_32/classification/armv7_32_classification_xgb_digits_small.exe  >  armv7_32/classification/armv7_32_classification_xgb_digits_small.log 
+
+
+armv7_32_classification_tree_census_medium  :
+	./armv7_32/classification/armv7_32_classification_tree_census_medium.exe  >  armv7_32/classification/armv7_32_classification_tree_census_medium.log 
+
+
+armv7_32_classification_svm_census_small  :
+	./armv7_32/classification/armv7_32_classification_svm_census_small.exe  >  armv7_32/classification/armv7_32_classification_svm_census_small.log 
+
+
+armv7_32_classification_tree_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_tree_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_tree_FourClass_10_small.log 
+
+
+armv7_32_classification_mlp_digits_small  :
+	./armv7_32/classification/armv7_32_classification_mlp_digits_small.exe  >  armv7_32/classification/armv7_32_classification_mlp_digits_small.log 
+
+
+armv7_32_classification_ridge_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_ridge_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_ridge_FourClass_10_small.log 
+
+
+armv7_32_classification_rf_census_small  :
+	./armv7_32/classification/armv7_32_classification_rf_census_small.exe  >  armv7_32/classification/armv7_32_classification_rf_census_small.log 
+
+
+armv7_32_classification_ridge_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_ridge_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_ridge_BreastCancer_original.log 
+
+
+armv7_32_classification_svm_nu_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_FourClass_10_small.log 
+
+
+armv7_32_classification_mlp_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_mlp_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_mlp_BreastCancer_small.log 
+
+
+armv7_32_classification_xgb_census_medium  :
+	./armv7_32/classification/armv7_32_classification_xgb_census_medium.exe  >  armv7_32/classification/armv7_32_classification_xgb_census_medium.log 
+
+
+armv7_32_classification_svm_nu_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_BreastCancer_small.log 
+
+
+armv7_32_classification_mlp_census_small  :
+	./armv7_32/classification/armv7_32_classification_mlp_census_small.exe  >  armv7_32/classification/armv7_32_classification_mlp_census_small.log 
+
+
+armv7_32_classification_rf_digits_original  :
+	./armv7_32/classification/armv7_32_classification_rf_digits_original.exe  >  armv7_32/classification/armv7_32_classification_rf_digits_original.log 
+
+
+armv7_32_classification_tree_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_tree_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_tree_BreastCancer_medium.log 
+
+
+armv7_32_classification_svm_nu_digits_original  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_digits_original.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_digits_original.log 
+
+
+armv7_32_classification_tree_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_tree_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_tree_FourClass_10_medium.log 
+
+
+armv7_32_classification_svm_nu_digits_small  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_digits_small.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_digits_small.log 
+
+
+armv7_32_classification_ridge_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_ridge_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_ridge_FourClass_10_original.log 
+
+
+armv7_32_classification_ridge_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_ridge_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_ridge_FourClass_10_medium.log 
+
+
+armv7_32_classification_tree_iris  :
+	./armv7_32/classification/armv7_32_classification_tree_iris.exe  >  armv7_32/classification/armv7_32_classification_tree_iris.log 
+
+
+armv7_32_classification_rf_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_rf_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_rf_BreastCancer_small.log 
+
+
+armv7_32_classification_rf_iris  :
+	./armv7_32/classification/armv7_32_classification_rf_iris.exe  >  armv7_32/classification/armv7_32_classification_rf_iris.log 
+
+
+armv7_32_classification_mlp_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_mlp_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_mlp_FourClass_10_original.log 
+
+
+armv7_32_classification_ridge_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_ridge_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_ridge_digits_medium.log 
+
+
+armv7_32_classification_svm_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_svm_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_svm_BreastCancer_original.log 
+
+
+armv7_32_classification_svm_iris  :
+	./armv7_32/classification/armv7_32_classification_svm_iris.exe  >  armv7_32/classification/armv7_32_classification_svm_iris.log 
+
+
+armv7_32_classification_tree_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_tree_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_tree_digits_medium.log 
+
+
+armv7_32_classification_xgb_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_xgb_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_xgb_BreastCancer_original.log 
+
+
+armv7_32_classification_svm_digits_small  :
+	./armv7_32/classification/armv7_32_classification_svm_digits_small.exe  >  armv7_32/classification/armv7_32_classification_svm_digits_small.log 
+
+
+armv7_32_classification_xgb_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_xgb_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_xgb_BreastCancer_medium.log 
+
+
+armv7_32_classification_ridge_iris  :
+	./armv7_32/classification/armv7_32_classification_ridge_iris.exe  >  armv7_32/classification/armv7_32_classification_ridge_iris.log 
+
+
+armv7_32_classification_rf_FourClass_10_medium  :
+	./armv7_32/classification/armv7_32_classification_rf_FourClass_10_medium.exe  >  armv7_32/classification/armv7_32_classification_rf_FourClass_10_medium.log 
+
+
+armv7_32_classification_xgb_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_xgb_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_xgb_BreastCancer_small.log 
+
+
+armv7_32_classification_ridge_digits_original  :
+	./armv7_32/classification/armv7_32_classification_ridge_digits_original.exe  >  armv7_32/classification/armv7_32_classification_ridge_digits_original.log 
+
+
+armv7_32_classification_ridge_census_medium  :
+	./armv7_32/classification/armv7_32_classification_ridge_census_medium.exe  >  armv7_32/classification/armv7_32_classification_ridge_census_medium.log 
+
+
+armv7_32_classification_svm_nu_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_BreastCancer_medium.log 
+
+
+armv7_32_classification_ridge_census_small  :
+	./armv7_32/classification/armv7_32_classification_ridge_census_small.exe  >  armv7_32/classification/armv7_32_classification_ridge_census_small.log 
+
+
+armv7_32_classification_mlp_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_mlp_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_mlp_BreastCancer_medium.log 
+
+
+armv7_32_classification_mlp_iris  :
+	./armv7_32/classification/armv7_32_classification_mlp_iris.exe  >  armv7_32/classification/armv7_32_classification_mlp_iris.log 
+
+
+armv7_32_classification_xgb_census_small  :
+	./armv7_32/classification/armv7_32_classification_xgb_census_small.exe  >  armv7_32/classification/armv7_32_classification_xgb_census_small.log 
+
+
+armv7_32_classification_svm_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_digits_medium.log 
+
+
+armv7_32_classification_svm_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_svm_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_svm_FourClass_10_original.log 
+
+
+armv7_32_classification_ridge_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_ridge_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_ridge_BreastCancer_medium.log 
+
+
+armv7_32_classification_mlp_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_mlp_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_mlp_FourClass_10_small.log 
+
+
+armv7_32_classification_xgb_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_xgb_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_xgb_digits_medium.log 
+
+
+armv7_32_classification_tree_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_tree_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_tree_BreastCancer_original.log 
+
+
+armv7_32_classification_svm_census_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_census_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_census_medium.log 
+
+
+armv7_32_classification_tree_digits_small  :
+	./armv7_32/classification/armv7_32_classification_tree_digits_small.exe  >  armv7_32/classification/armv7_32_classification_tree_digits_small.log 
+
+
+armv7_32_classification_rf_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_rf_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_rf_BreastCancer_medium.log 
+
+
+armv7_32_classification_mlp_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_mlp_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_mlp_digits_medium.log 
+
+
+armv7_32_classification_tree_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_tree_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_tree_FourClass_10_original.log 
+
+
+armv7_32_classification_xgb_FourClass_10_small  :
+	./armv7_32/classification/armv7_32_classification_xgb_FourClass_10_small.exe  >  armv7_32/classification/armv7_32_classification_xgb_FourClass_10_small.log 
+
+
+armv7_32_classification_rf_census_medium  :
+	./armv7_32/classification/armv7_32_classification_rf_census_medium.exe  >  armv7_32/classification/armv7_32_classification_rf_census_medium.log 
+
+
+armv7_32_classification_mlp_census_medium  :
+	./armv7_32/classification/armv7_32_classification_mlp_census_medium.exe  >  armv7_32/classification/armv7_32_classification_mlp_census_medium.log 
+
+
+armv7_32_classification_tree_digits_original  :
+	./armv7_32/classification/armv7_32_classification_tree_digits_original.exe  >  armv7_32/classification/armv7_32_classification_tree_digits_original.log 
+
+
+armv7_32_classification_xgb_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_xgb_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_xgb_FourClass_10_original.log 
+
+
+armv7_32_classification_mlp_digits_original  :
+	./armv7_32/classification/armv7_32_classification_mlp_digits_original.exe  >  armv7_32/classification/armv7_32_classification_mlp_digits_original.log 
+
+
+armv7_32_classification_ridge_BreastCancer_small  :
+	./armv7_32/classification/armv7_32_classification_ridge_BreastCancer_small.exe  >  armv7_32/classification/armv7_32_classification_ridge_BreastCancer_small.log 
+
+
+armv7_32_classification_xgb_iris  :
+	./armv7_32/classification/armv7_32_classification_xgb_iris.exe  >  armv7_32/classification/armv7_32_classification_xgb_iris.log 
+
+
+armv7_32_classification_svm_nu_digits_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_digits_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_digits_medium.log 
+
+
+armv7_32_classification_rf_FourClass_10_original  :
+	./armv7_32/classification/armv7_32_classification_rf_FourClass_10_original.exe  >  armv7_32/classification/armv7_32_classification_rf_FourClass_10_original.log 
+
+
+armv7_32_classification_svm_nu_census_small  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_census_small.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_census_small.log 
+
+
+armv7_32_classification_svm_BreastCancer_medium  :
+	./armv7_32/classification/armv7_32_classification_svm_BreastCancer_medium.exe  >  armv7_32/classification/armv7_32_classification_svm_BreastCancer_medium.log 
+
+
+armv7_32_classification_rf_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_rf_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_rf_BreastCancer_original.log 
+
+
+armv7_32_classification_svm_nu_BreastCancer_original  :
+	./armv7_32/classification/armv7_32_classification_svm_nu_BreastCancer_original.exe  >  armv7_32/classification/armv7_32_classification_svm_nu_BreastCancer_original.log 
+
+
+all :  armv7_32_regression_svm_california_housing_original armv7_32_regression_mlp_california_housing_original armv7_32_regression_ridge_diabetes_medium armv7_32_regression_ridge_freidman3_medium armv7_32_regression_svm_california_housing_small armv7_32_regression_svm_nu_california_housing_small armv7_32_regression_svm_nu_california_housing_original armv7_32_regression_xgb_diabetes_medium armv7_32_regression_mlp_freidman3_original armv7_32_regression_svm_diabetes_original armv7_32_regression_svm_freidman3_original armv7_32_regression_xgb_california_housing_original armv7_32_regression_svm_freidman3_medium armv7_32_regression_svm_nu_diabetes_original armv7_32_regression_svm_RandomReg_10_small armv7_32_regression_mlp_freidman3_small armv7_32_regression_tree_freidman3_original armv7_32_regression_rf_california_housing_original armv7_32_regression_mlp_california_housing_medium armv7_32_regression_ridge_RandomReg_10_small armv7_32_regression_svm_nu_freidman3_small armv7_32_regression_svm_nu_freidman3_original armv7_32_regression_svm_nu_california_housing_medium armv7_32_regression_xgb_california_housing_medium armv7_32_regression_svm_nu_RandomReg_10_medium armv7_32_regression_rf_RandomReg_10_small armv7_32_regression_svm_RandomReg_10_medium armv7_32_regression_xgb_RandomReg_10_small armv7_32_regression_xgb_RandomReg_10_original armv7_32_regression_svm_RandomReg_10_original armv7_32_regression_rf_diabetes_original armv7_32_regression_tree_RandomReg_10_medium armv7_32_regression_mlp_RandomReg_10_medium armv7_32_regression_mlp_freidman3_medium armv7_32_regression_rf_california_housing_medium armv7_32_regression_xgb_diabetes_small armv7_32_regression_tree_california_housing_small armv7_32_regression_ridge_RandomReg_10_original armv7_32_regression_tree_diabetes_original armv7_32_regression_xgb_diabetes_original armv7_32_regression_tree_freidman3_medium armv7_32_regression_ridge_freidman3_small armv7_32_regression_xgb_california_housing_small armv7_32_regression_tree_diabetes_medium armv7_32_regression_rf_freidman3_original armv7_32_regression_xgb_freidman3_small armv7_32_regression_svm_california_housing_medium armv7_32_regression_svm_diabetes_medium armv7_32_regression_mlp_california_housing_small armv7_32_regression_tree_california_housing_medium armv7_32_regression_svm_diabetes_small armv7_32_regression_svm_nu_RandomReg_10_small armv7_32_regression_tree_diabetes_small armv7_32_regression_ridge_california_housing_medium armv7_32_regression_rf_RandomReg_10_medium armv7_32_regression_tree_RandomReg_10_small armv7_32_regression_mlp_diabetes_original armv7_32_regression_svm_freidman3_small armv7_32_regression_rf_california_housing_small armv7_32_regression_ridge_RandomReg_10_medium armv7_32_regression_tree_freidman3_small armv7_32_regression_xgb_freidman3_medium armv7_32_regression_mlp_diabetes_medium armv7_32_regression_rf_diabetes_small armv7_32_regression_tree_RandomReg_10_original armv7_32_regression_ridge_california_housing_original armv7_32_regression_svm_nu_diabetes_medium armv7_32_regression_ridge_freidman3_original armv7_32_regression_ridge_diabetes_original armv7_32_regression_tree_california_housing_original armv7_32_regression_rf_RandomReg_10_original armv7_32_regression_rf_freidman3_small armv7_32_regression_svm_nu_freidman3_medium armv7_32_regression_svm_nu_diabetes_small armv7_32_regression_mlp_diabetes_small armv7_32_regression_ridge_california_housing_small armv7_32_regression_xgb_freidman3_original armv7_32_regression_rf_freidman3_medium armv7_32_regression_svm_nu_RandomReg_10_original armv7_32_regression_mlp_RandomReg_10_original armv7_32_regression_ridge_diabetes_small armv7_32_regression_xgb_RandomReg_10_medium armv7_32_regression_rf_diabetes_medium armv7_32_regression_mlp_RandomReg_10_small armv7_32_classification_svm_nu_FourClass_10_medium armv7_32_classification_xgb_digits_original armv7_32_classification_svm_FourClass_10_small armv7_32_classification_rf_FourClass_10_small armv7_32_classification_svm_nu_census_medium armv7_32_classification_rf_digits_medium armv7_32_classification_tree_census_small armv7_32_classification_ridge_digits_small armv7_32_classification_svm_nu_iris armv7_32_classification_svm_digits_original armv7_32_classification_svm_nu_FourClass_10_original armv7_32_classification_xgb_FourClass_10_medium armv7_32_classification_mlp_BreastCancer_original armv7_32_classification_tree_BreastCancer_small armv7_32_classification_mlp_FourClass_10_medium armv7_32_classification_svm_FourClass_10_medium armv7_32_classification_rf_digits_small armv7_32_classification_svm_BreastCancer_small armv7_32_classification_xgb_digits_small armv7_32_classification_tree_census_medium armv7_32_classification_svm_census_small armv7_32_classification_tree_FourClass_10_small armv7_32_classification_mlp_digits_small armv7_32_classification_ridge_FourClass_10_small armv7_32_classification_rf_census_small armv7_32_classification_ridge_BreastCancer_original armv7_32_classification_svm_nu_FourClass_10_small armv7_32_classification_mlp_BreastCancer_small armv7_32_classification_xgb_census_medium armv7_32_classification_svm_nu_BreastCancer_small armv7_32_classification_mlp_census_small armv7_32_classification_rf_digits_original armv7_32_classification_tree_BreastCancer_medium armv7_32_classification_svm_nu_digits_original armv7_32_classification_tree_FourClass_10_medium armv7_32_classification_svm_nu_digits_small armv7_32_classification_ridge_FourClass_10_original armv7_32_classification_ridge_FourClass_10_medium armv7_32_classification_tree_iris armv7_32_classification_rf_BreastCancer_small armv7_32_classification_rf_iris armv7_32_classification_mlp_FourClass_10_original armv7_32_classification_ridge_digits_medium armv7_32_classification_svm_BreastCancer_original armv7_32_classification_svm_iris armv7_32_classification_tree_digits_medium armv7_32_classification_xgb_BreastCancer_original armv7_32_classification_svm_digits_small armv7_32_classification_xgb_BreastCancer_medium armv7_32_classification_ridge_iris armv7_32_classification_rf_FourClass_10_medium armv7_32_classification_xgb_BreastCancer_small armv7_32_classification_ridge_digits_original armv7_32_classification_ridge_census_medium armv7_32_classification_svm_nu_BreastCancer_medium armv7_32_classification_ridge_census_small armv7_32_classification_mlp_BreastCancer_medium armv7_32_classification_mlp_iris armv7_32_classification_xgb_census_small armv7_32_classification_svm_digits_medium armv7_32_classification_svm_FourClass_10_original armv7_32_classification_ridge_BreastCancer_medium armv7_32_classification_mlp_FourClass_10_small armv7_32_classification_xgb_digits_medium armv7_32_classification_tree_BreastCancer_original armv7_32_classification_svm_census_medium armv7_32_classification_tree_digits_small armv7_32_classification_rf_BreastCancer_medium armv7_32_classification_mlp_digits_medium armv7_32_classification_tree_FourClass_10_original armv7_32_classification_xgb_FourClass_10_small armv7_32_classification_rf_census_medium armv7_32_classification_mlp_census_medium armv7_32_classification_tree_digits_original armv7_32_classification_xgb_FourClass_10_original armv7_32_classification_mlp_digits_original armv7_32_classification_ridge_BreastCancer_small armv7_32_classification_xgb_iris armv7_32_classification_svm_nu_digits_medium armv7_32_classification_rf_FourClass_10_original armv7_32_classification_svm_nu_census_small armv7_32_classification_svm_BreastCancer_medium armv7_32_classification_rf_BreastCancer_original armv7_32_classification_svm_nu_BreastCancer_original
