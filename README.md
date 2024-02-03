@@ -20,11 +20,11 @@ Usual firmware flashing software/methods.
 1. STM32F4 (With FPU),  BlackPill. ARM Cortex-M4 CPU. 128KB RAM, 512 KB Flash
 2. ESP32, Espressif Systems. Tensilica (Cadence) L6 CPU. 320KB of RAM, 4MB of Flash
 3. ESP32s2, Espressif. Wemos Mini. ESP32-S2FNR2, Tensilica L7 CPU. 320KB RAM, 2MB of PSRAM, 4MB of Flash.
-4. ESP32c3, Espressif. RiscV CPU. 384KB RAM, 4MB Flash.
-5. K210. Sipeed Maix M1 Dock. Kendryte K210 CPU. 8MB Ram. 16MB Flash.
+4. ESP32c3, Espressif. RiscV CPU. RV32IMC ISA. 384KB RAM, 4MB Flash.
+5. K210. Sipeed Maix M1 Dock. Kendryte K210 CPU. RV64GC ISA. 8MB Ram. 16MB Flash.
 6. MIPS32. OpenWRT on Xiaomi Mi Router 4A Gigabit Edition network router. 128MB RAM, 16MB Flash.
-7. ARMv7_32. samsung exynos 32-bit ARM SOC. 2GB RAM. 32GB MMC Disk.
-8. X86_64. HP Z600 workstation running Debian. 32 GB of RAM. 128 GB of disk. Used for development and as desktop.
+7. ARMv7_32. Samsung Exynos 5422 32-bit ARM SOC. 2GB RAM. 32GB MMC Disk.
+8. X86_64. HP Z600 workstation running Debian. Intel Xeon CPU X5650 @ 2.67GHz. 32 GB of RAM. 128 GB of disk. Used for development and as desktop.
 
 ## Models
 
