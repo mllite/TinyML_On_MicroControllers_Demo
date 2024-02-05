@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Ho_RandomForest.CENSUS_ORIGINAL' [ 'Thu Jan 25 12:03:13 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Ho_RandomForest.CENSUS_ORIGINAL' [ 'Sat Feb  3 23:18:11 2024' ]
 MLLite starting
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
@@ -151,6 +151,7 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
@@ -170,6 +171,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_CLASSIFIER_FIT' 16 32
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
@@ -228,6 +232,8 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_CLASSIFIER_FIT' 22 32
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
+PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
@@ -263,7 +269,6 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
-PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
@@ -303,8 +308,6 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 1 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 0 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 2 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 3 6
-PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 4 6
-PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 5 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_BEST_FIRST_BUILDER' 6 6
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 2 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_CLASSIFIER_FIT' 3 4
@@ -320,13 +323,16 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'RANDOM_FOREST_CLASSIFIER_FIT' 32 32
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Ho_RandomForest", "version" : "2024-W03"},
+	"metadata" : { "model" : "Ho_RandomForest", "version" : "2024-W04"},
 	"options" : { "n_estimators" : 32, "max_samples" : 32, "random_state" : 1789,  "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
+	"classes" : [ "<=50K", ">50K" ],
 	"forest" : {
 		"Trees" : 32,
 		"RF_Tree_00" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1962315470, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -338,25 +344,25 @@ MODEL_JSON_DUMP_START
 				"node_01" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.30809742, "n_samples" : 38094, "w_samples" : 38094, "value" : [0.80976009, 0.19023994]},
 				"node_02" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 109525.5, "impurity" : 0.48677492, "n_samples" : 10748, "w_samples" : 10748, "value" : [0.58131742, 0.41868255]},
 				"node_03" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 0.5, "impurity" : 0.15178668, "n_samples" : 18371, "w_samples" : 18371, "value" : [0.91726089, 0.0827391]},
-				"node_04" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 82504.5, "impurity" : 0.41211194, "n_samples" : 19723, "w_samples" : 19723, "value" : [0.70962834, 0.29037166]},
-				"node_05" : {"left" : 21, "right" : 22, "feature" : 12, "threshold" : 1.5, "impurity" : 0.029068053, "n_samples" : 8677, "w_samples" : 8677, "value" : [0.98524839, 0.014751642]},
+				"node_04" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 82504.5, "impurity" : 0.41211194, "n_samples" : 19723, "w_samples" : 19723, "value" : [0.70962834, 0.29037166]},
+				"node_05" : {"left" : 17, "right" : 18, "feature" : 12, "threshold" : 1.5, "impurity" : 0.029068053, "n_samples" : 8677, "w_samples" : 8677, "value" : [0.98524839, 0.014751642]},
 				"node_06" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 124647, "impurity" : 0.24594951, "n_samples" : 9694, "w_samples" : 9694, "value" : [0.85640603, 0.14359398]},
 				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46626753, "n_samples" : 2464, "w_samples" : 2464, "value" : [0.62987012, 0.37012988]},
 				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.49105525, "n_samples" : 8284, "w_samples" : 8284, "value" : [0.56687593, 0.4331241]},
 				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38951743, "n_samples" : 3174, "w_samples" : 3174, "value" : [0.73503464, 0.26496536]},
-				"node_10" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 197048, "impurity" : 0.49717647, "n_samples" : 5110, "w_samples" : 5110, "value" : [0.4624266, 0.5375734]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3823005, "n_samples" : 2564, "w_samples" : 2564, "value" : [0.74258971, 0.25741029]},
-				"node_12" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 3.5, "impurity" : 0.41619337, "n_samples" : 17159, "w_samples" : 17159, "value" : [0.70470309, 0.29529694]},
-				"node_13" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 154569.5, "impurity" : 0.4307673, "n_samples" : 12757, "w_samples" : 12757, "value" : [0.68605471, 0.31394529]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36610097, "n_samples" : 4402, "w_samples" : 4402, "value" : [0.75874603, 0.24125397]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49917823, "n_samples" : 2664, "w_samples" : 2664, "value" : [0.47972974, 0.52027029]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49363387, "n_samples" : 2446, "w_samples" : 2446, "value" : [0.44358134, 0.55641866]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43933237, "n_samples" : 3867, "w_samples" : 3867, "value" : [0.67416602, 0.32583398]},
-				"node_18" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : 2.5, "impurity" : 0.42686516, "n_samples" : 8890, "w_samples" : 8890, "value" : [0.69122612, 0.30877391]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41391987, "n_samples" : 5254, "w_samples" : 5254, "value" : [0.707461, 0.29253903]},
-				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4437086, "n_samples" : 3636, "w_samples" : 3636, "value" : [0.66776675, 0.33223322]},
-				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.010712326, "n_samples" : 4271, "w_samples" : 4271, "value" : [0.99461484, 0.0053851558]},
-				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.046526551, "n_samples" : 4406, "w_samples" : 4406, "value" : [0.97616887, 0.02383114]},
+				"node_10" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 197048, "impurity" : 0.49717647, "n_samples" : 5110, "w_samples" : 5110, "value" : [0.4624266, 0.5375734]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49917823, "n_samples" : 2664, "w_samples" : 2664, "value" : [0.47972974, 0.52027029]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49363387, "n_samples" : 2446, "w_samples" : 2446, "value" : [0.44358134, 0.55641866]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3823005, "n_samples" : 2564, "w_samples" : 2564, "value" : [0.74258971, 0.25741029]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 3.5, "impurity" : 0.41619337, "n_samples" : 17159, "w_samples" : 17159, "value" : [0.70470309, 0.29529694]},
+				"node_15" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 154569.5, "impurity" : 0.4307673, "n_samples" : 12757, "w_samples" : 12757, "value" : [0.68605471, 0.31394529]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36610097, "n_samples" : 4402, "w_samples" : 4402, "value" : [0.75874603, 0.24125397]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.010712326, "n_samples" : 4271, "w_samples" : 4271, "value" : [0.99461484, 0.0053851558]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.046526551, "n_samples" : 4406, "w_samples" : 4406, "value" : [0.97616887, 0.02383114]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43933237, "n_samples" : 3867, "w_samples" : 3867, "value" : [0.67416602, 0.32583398]},
+				"node_20" : {"left" : 21, "right" : 22, "feature" : 0, "threshold" : 2.5, "impurity" : 0.42686516, "n_samples" : 8890, "w_samples" : 8890, "value" : [0.69122612, 0.30877391]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41391987, "n_samples" : 5254, "w_samples" : 5254, "value" : [0.707461, 0.29253903]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4437086, "n_samples" : 3636, "w_samples" : 3636, "value" : [0.66776675, 0.33223322]},
 				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.23451114, "n_samples" : 2580, "w_samples" : 2580, "value" : [0.86434108, 0.13565892]},
 				"node_24" : {"left" : 25, "right" : 26, "feature" : 2, "threshold" : 213231, "impurity" : 0.25003552, "n_samples" : 7114, "w_samples" : 7114, "value" : [0.85352826, 0.14647174]},
 				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.26038259, "n_samples" : 3867, "w_samples" : 3867, "value" : [0.84613395, 0.15386605]},
@@ -365,8 +371,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_01" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 3261513707, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -381,8 +388,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_02" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1270981430, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -401,8 +409,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_03" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1989411589, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -411,24 +420,24 @@ MODEL_JSON_DUMP_START
 			"node_count" : 27,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36571234, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.75912124, 0.24087875]},
-				"node_01" : {"left" : 5, "right" : 6, "feature" : 2, "threshold" : 213231, "impurity" : 0.30816334, "n_samples" : 38241, "w_samples" : 38241, "value" : [0.80970687, 0.19029315]},
+				"node_01" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 213231, "impurity" : 0.30816334, "n_samples" : 38241, "w_samples" : 38241, "value" : [0.80970687, 0.19029315]},
 				"node_02" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48825151, "n_samples" : 10601, "w_samples" : 10601, "value" : [0.57664371, 0.42335629]},
 				"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39371222, "n_samples" : 3852, "w_samples" : 3852, "value" : [0.73052961, 0.26947039]},
-				"node_04" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 145351.5, "impurity" : 0.49974972, "n_samples" : 6749, "w_samples" : 6749, "value" : [0.48881316, 0.51118684]},
-				"node_05" : {"left" : 9, "right" : 10, "feature" : 12, "threshold" : 1.5, "impurity" : 0.32049745, "n_samples" : 25552, "w_samples" : 25552, "value" : [0.79958516, 0.20041484]},
-				"node_06" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.28208244, "n_samples" : 12689, "w_samples" : 12689, "value" : [0.83008903, 0.16991095]},
-				"node_07" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 0.5, "impurity" : 0.13422543, "n_samples" : 6690, "w_samples" : 6690, "value" : [0.92765319, 0.072346784]},
-				"node_08" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 267684.5, "impurity" : 0.40206426, "n_samples" : 5999, "w_samples" : 5999, "value" : [0.72128689, 0.27871311]},
-				"node_09" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 0.5, "impurity" : 0.1738475, "n_samples" : 7029, "w_samples" : 7029, "value" : [0.90382701, 0.096172996]},
-				"node_10" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 1.5, "impurity" : 0.36477083, "n_samples" : 18523, "w_samples" : 18523, "value" : [0.76002806, 0.23997192]},
-				"node_11" : {"left" : 25, "right" : 26, "feature" : 2, "threshold" : 126568.5, "impurity" : 0.1991623, "n_samples" : 7935, "w_samples" : 7935, "value" : [0.88783866, 0.11216131]},
-				"node_12" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : 2.5, "impurity" : 0.4460488, "n_samples" : 10588, "w_samples" : 10588, "value" : [0.66424257, 0.33575746]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.010263681, "n_samples" : 2714, "w_samples" : 2714, "value" : [0.99484158, 0.0051584379]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25976223, "n_samples" : 4315, "w_samples" : 4315, "value" : [0.8465817, 0.1534183]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.019029379, "n_samples" : 3435, "w_samples" : 3435, "value" : [0.99039304, 0.0096069872]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.23871654, "n_samples" : 3255, "w_samples" : 3255, "value" : [0.86144394, 0.13855606]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49833149, "n_samples" : 2562, "w_samples" : 2562, "value" : [0.5288837, 0.4711163]},
-				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49745017, "n_samples" : 4187, "w_samples" : 4187, "value" : [0.46429425, 0.53570575]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 2, "threshold" : 145351.5, "impurity" : 0.49974972, "n_samples" : 6749, "w_samples" : 6749, "value" : [0.48881316, 0.51118684]},
+				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49833149, "n_samples" : 2562, "w_samples" : 2562, "value" : [0.5288837, 0.4711163]},
+				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49745017, "n_samples" : 4187, "w_samples" : 4187, "value" : [0.46429425, 0.53570575]},
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 12, "threshold" : 1.5, "impurity" : 0.32049745, "n_samples" : 25552, "w_samples" : 25552, "value" : [0.79958516, 0.20041484]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.28208244, "n_samples" : 12689, "w_samples" : 12689, "value" : [0.83008903, 0.16991095]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 0.5, "impurity" : 0.13422543, "n_samples" : 6690, "w_samples" : 6690, "value" : [0.92765319, 0.072346784]},
+				"node_10" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 267684.5, "impurity" : 0.40206426, "n_samples" : 5999, "w_samples" : 5999, "value" : [0.72128689, 0.27871311]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.019029379, "n_samples" : 3435, "w_samples" : 3435, "value" : [0.99039304, 0.0096069872]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.23871654, "n_samples" : 3255, "w_samples" : 3255, "value" : [0.86144394, 0.13855606]},
+				"node_13" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : 0.5, "impurity" : 0.1738475, "n_samples" : 7029, "w_samples" : 7029, "value" : [0.90382701, 0.096172996]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 1.5, "impurity" : 0.36477083, "n_samples" : 18523, "w_samples" : 18523, "value" : [0.76002806, 0.23997192]},
+				"node_15" : {"left" : 25, "right" : 26, "feature" : 2, "threshold" : 126568.5, "impurity" : 0.1991623, "n_samples" : 7935, "w_samples" : 7935, "value" : [0.88783866, 0.11216131]},
+				"node_16" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : 2.5, "impurity" : 0.4460488, "n_samples" : 10588, "w_samples" : 10588, "value" : [0.66424257, 0.33575746]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.010263681, "n_samples" : 2714, "w_samples" : 2714, "value" : [0.99484158, 0.0051584379]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25976223, "n_samples" : 4315, "w_samples" : 4315, "value" : [0.8465817, 0.1534183]},
 				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43154615, "n_samples" : 4835, "w_samples" : 4835, "value" : [0.68500519, 0.31499484]},
 				"node_20" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 152689.5, "impurity" : 0.45690364, "n_samples" : 5753, "w_samples" : 5753, "value" : [0.64679295, 0.35320702]},
 				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44376236, "n_samples" : 3268, "w_samples" : 3268, "value" : [0.66768664, 0.33231333]},
@@ -441,8 +450,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_04" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2542483397, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -451,16 +461,16 @@ MODEL_JSON_DUMP_START
 			"node_count" : 19,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 4, "threshold" : 12.5, "impurity" : 0.36229545, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76239711, 0.23760289]},
-				"node_01" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 2.5, "impurity" : 0.26895189, "n_samples" : 36868, "w_samples" : 36868, "value" : [0.83988827, 0.16011176]},
+				"node_01" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 2.5, "impurity" : 0.26895189, "n_samples" : 36868, "w_samples" : 36868, "value" : [0.83988827, 0.16011176]},
 				"node_02" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.49886698, "n_samples" : 11974, "w_samples" : 11974, "value" : [0.52380157, 0.47619843]},
 				"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.40366018, "n_samples" : 4431, "w_samples" : 4431, "value" : [0.7194764, 0.2805236]},
-				"node_04" : {"left" : 9, "right" : 10, "feature" : 12, "threshold" : 2.5, "impurity" : 0.4833855, "n_samples" : 7543, "w_samples" : 7543, "value" : [0.40885589, 0.59114408]},
-				"node_05" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.22592545, "n_samples" : 30143, "w_samples" : 30143, "value" : [0.87018543, 0.12981455]},
-				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41669518, "n_samples" : 6725, "w_samples" : 6725, "value" : [0.70408922, 0.29591078]},
-				"node_07" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 0.5, "impurity" : 0.10182559, "n_samples" : 15165, "w_samples" : 15165, "value" : [0.94619191, 0.053808112]},
-				"node_08" : {"left" : 11, "right" : 12, "feature" : 12, "threshold" : 1.5, "impurity" : 0.32803226, "n_samples" : 14978, "w_samples" : 14978, "value" : [0.79323006, 0.20676993]},
-				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49829137, "n_samples" : 4824, "w_samples" : 4824, "value" : [0.47077113, 0.52922887]},
-				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41920364, "n_samples" : 2719, "w_samples" : 2719, "value" : [0.299007, 0.700993]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 2.5, "impurity" : 0.4833855, "n_samples" : 7543, "w_samples" : 7543, "value" : [0.40885589, 0.59114408]},
+				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49829137, "n_samples" : 4824, "w_samples" : 4824, "value" : [0.47077113, 0.52922887]},
+				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41920364, "n_samples" : 2719, "w_samples" : 2719, "value" : [0.299007, 0.700993]},
+				"node_07" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.22592545, "n_samples" : 30143, "w_samples" : 30143, "value" : [0.87018543, 0.12981455]},
+				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41669518, "n_samples" : 6725, "w_samples" : 6725, "value" : [0.70408922, 0.29591078]},
+				"node_09" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 0.5, "impurity" : 0.10182559, "n_samples" : 15165, "w_samples" : 15165, "value" : [0.94619191, 0.053808112]},
+				"node_10" : {"left" : 11, "right" : 12, "feature" : 12, "threshold" : 1.5, "impurity" : 0.32803226, "n_samples" : 14978, "w_samples" : 14978, "value" : [0.79323006, 0.20676993]},
 				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.18180054, "n_samples" : 3372, "w_samples" : 3372, "value" : [0.89887309, 0.10112692]},
 				"node_12" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 9.5, "impurity" : 0.36214906, "n_samples" : 11606, "w_samples" : 11606, "value" : [0.76253664, 0.23746338]},
 				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.30465543, "n_samples" : 7313, "w_samples" : 7313, "value" : [0.81252563, 0.18747436]},
@@ -473,8 +483,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_05" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 640771154, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -507,44 +518,44 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_06" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2769939576, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
 			"max_depth" : 4,
-			"node_count" : 23,
+			"node_count" : 21,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 4, "threshold" : 12.5, "impurity" : 0.36338931, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76135296, 0.23864706]},
-				"node_01" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.26746082, "n_samples" : 36776, "w_samples" : 36776, "value" : [0.84098327, 0.15901674]},
-				"node_02" : {"left" : 5, "right" : 6, "feature" : 4, "threshold" : 13.5, "impurity" : 0.49930453, "n_samples" : 12066, "w_samples" : 12066, "value" : [0.51864743, 0.48135257]},
-				"node_03" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 0.5, "impurity" : 0.126863, "n_samples" : 17983, "w_samples" : 17983, "value" : [0.93193573, 0.06806428]},
-				"node_04" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : 8.5, "impurity" : 0.37101787, "n_samples" : 18793, "w_samples" : 18793, "value" : [0.75395095, 0.24604906]},
-				"node_05" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48530245, "n_samples" : 7944, "w_samples" : 7944, "value" : [0.58572507, 0.41427493]},
-				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47552383, "n_samples" : 4122, "w_samples" : 4122, "value" : [0.38937408, 0.61062592]},
-				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38372266, "n_samples" : 3519, "w_samples" : 3519, "value" : [0.74111962, 0.25888038]},
-				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49713427, "n_samples" : 4425, "w_samples" : 4425, "value" : [0.46214688, 0.53785312]},
-				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.16537946, "n_samples" : 3298, "w_samples" : 3298, "value" : [0.9090358, 0.09096422]},
-				"node_10" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 9.5, "impurity" : 0.40236902, "n_samples" : 15495, "w_samples" : 15495, "value" : [0.72094226, 0.27905777]},
-				"node_11" : {"left" : 17, "right" : 18, "feature" : 12, "threshold" : 1.5, "impurity" : 0.025090873, "n_samples" : 8578, "w_samples" : 8578, "value" : [0.98729306, 0.012706924]},
-				"node_12" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 236416.5, "impurity" : 0.20899791, "n_samples" : 9405, "w_samples" : 9405, "value" : [0.88144606, 0.11855396]},
-				"node_13" : {"left" : 21, "right" : 22, "feature" : 0, "threshold" : 2.5, "impurity" : 0.36373508, "n_samples" : 8415, "w_samples" : 8415, "value" : [0.76102197, 0.23897801]},
-				"node_14" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 185446, "impurity" : 0.43993074, "n_samples" : 7080, "w_samples" : 7080, "value" : [0.67330509, 0.32669491]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4246527, "n_samples" : 3998, "w_samples" : 3998, "value" : [0.69409704, 0.30590296]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45717299, "n_samples" : 3082, "w_samples" : 3082, "value" : [0.64633358, 0.35366645]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0049566031, "n_samples" : 4025, "w_samples" : 4025, "value" : [0.9975155, 0.002484472]},
-				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.042542219, "n_samples" : 4553, "w_samples" : 4553, "value" : [0.97825611, 0.021743905]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.21391892, "n_samples" : 6782, "w_samples" : 6782, "value" : [0.87820703, 0.12179298]},
-				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.19607949, "n_samples" : 2623, "w_samples" : 2623, "value" : [0.88982081, 0.11017919]},
-				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35768086, "n_samples" : 3670, "w_samples" : 3670, "value" : [0.76675749, 0.23324251]},
-				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36832732, "n_samples" : 4745, "w_samples" : 4745, "value" : [0.7565859, 0.24341412]}
+				"node_01" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.26746082, "n_samples" : 36776, "w_samples" : 36776, "value" : [0.84098327, 0.15901674]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 4, "threshold" : 13.5, "impurity" : 0.49930453, "n_samples" : 12066, "w_samples" : 12066, "value" : [0.51864743, 0.48135257]},
+				"node_03" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48530245, "n_samples" : 7944, "w_samples" : 7944, "value" : [0.58572507, 0.41427493]},
+				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47552383, "n_samples" : 4122, "w_samples" : 4122, "value" : [0.38937408, 0.61062592]},
+				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38372266, "n_samples" : 3519, "w_samples" : 3519, "value" : [0.74111962, 0.25888038]},
+				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49713427, "n_samples" : 4425, "w_samples" : 4425, "value" : [0.46214688, 0.53785312]},
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 8.5, "impurity" : 0.126863, "n_samples" : 17983, "w_samples" : 17983, "value" : [0.93193573, 0.06806428]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 3.5, "impurity" : 0.37101787, "n_samples" : 18793, "w_samples" : 18793, "value" : [0.75395095, 0.24604906]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.38843781, "n_samples" : 14074, "w_samples" : 14074, "value" : [0.73618019, 0.26381981]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3115626, "n_samples" : 4719, "w_samples" : 4719, "value" : [0.80695063, 0.19304937]},
+				"node_11" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : 2.5, "impurity" : 0.33721739, "n_samples" : 8281, "w_samples" : 8281, "value" : [0.78529161, 0.21470837]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44490385, "n_samples" : 5793, "w_samples" : 5793, "value" : [0.66597617, 0.33402383]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.041849792, "n_samples" : 3227, "w_samples" : 3227, "value" : [0.97861791, 0.021382088]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 0.5, "impurity" : 0.14429307, "n_samples" : 14756, "w_samples" : 14756, "value" : [0.92172676, 0.078273244]},
+				"node_15" : {"left" : 19, "right" : 20, "feature" : 4, "threshold" : 9.5, "impurity" : 0.027533889, "n_samples" : 6661, "w_samples" : 6661, "value" : [0.98603815, 0.013961867]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22796148, "n_samples" : 8095, "w_samples" : 8095, "value" : [0.86880791, 0.13119209]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.31989771, "n_samples" : 4692, "w_samples" : 4692, "value" : [0.80008525, 0.19991475]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35853958, "n_samples" : 3589, "w_samples" : 3589, "value" : [0.76595151, 0.23404849]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.016264796, "n_samples" : 2805, "w_samples" : 2805, "value" : [0.99180037, 0.0081996433]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.035647929, "n_samples" : 3856, "w_samples" : 3856, "value" : [0.98184645, 0.018153528]}
 				}
 			}
 		},
 		"RF_Tree_07" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2215876622, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -561,7 +572,7 @@ MODEL_JSON_DUMP_START
 				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49028021, "n_samples" : 5329, "w_samples" : 5329, "value" : [0.56971288, 0.43028712]},
 				"node_07" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.25772083, "n_samples" : 12366, "w_samples" : 12366, "value" : [0.84805113, 0.1519489]},
 				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.27764189, "n_samples" : 24537, "w_samples" : 24537, "value" : [0.83343524, 0.16656478]},
-				"node_09" : {"left" : 19, "right" : 20, "feature" : 4, "threshold" : 9.5, "impurity" : 0.13444954, "n_samples" : 12390, "w_samples" : 12390, "value" : [0.92752218, 0.072477803]},
+				"node_09" : {"left" : 21, "right" : 22, "feature" : 4, "threshold" : 9.5, "impurity" : 0.13444954, "n_samples" : 12390, "w_samples" : 12390, "value" : [0.92752218, 0.072477803]},
 				"node_10" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 3.5, "impurity" : 0.38721985, "n_samples" : 12147, "w_samples" : 12147, "value" : [0.73746604, 0.26253396]},
 				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22218597, "n_samples" : 7290, "w_samples" : 7290, "value" : [0.87270236, 0.12729767]},
 				"node_12" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 1.5, "impurity" : 0.30450284, "n_samples" : 5076, "w_samples" : 5076, "value" : [0.81264776, 0.18735224]},
@@ -569,52 +580,56 @@ MODEL_JSON_DUMP_START
 				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41428858, "n_samples" : 2594, "w_samples" : 2594, "value" : [0.70701617, 0.2929838]},
 				"node_15" : {"left" : 17, "right" : 18, "feature" : 4, "threshold" : 9.5, "impurity" : 0.40088576, "n_samples" : 9211, "w_samples" : 9211, "value" : [0.72261429, 0.27738574]},
 				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33861989, "n_samples" : 2936, "w_samples" : 2936, "value" : [0.78405994, 0.21594006]},
-				"node_17" : {"left" : 23, "right" : 24, "feature" : 0, "threshold" : 2.5, "impurity" : 0.34146535, "n_samples" : 5516, "w_samples" : 5516, "value" : [0.78154463, 0.2184554]},
+				"node_17" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : 2.5, "impurity" : 0.34146535, "n_samples" : 5516, "w_samples" : 5516, "value" : [0.78154463, 0.2184554]},
 				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46374339, "n_samples" : 3695, "w_samples" : 3695, "value" : [0.63464141, 0.36535859]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.10677665, "n_samples" : 7298, "w_samples" : 7298, "value" : [0.94340914, 0.056590848]},
-				"node_20" : {"left" : 21, "right" : 22, "feature" : 0, "threshold" : 0.5, "impurity" : 0.17235082, "n_samples" : 5092, "w_samples" : 5092, "value" : [0.90475255, 0.095247447]},
-				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.044388056, "n_samples" : 2598, "w_samples" : 2598, "value" : [0.97729021, 0.022709778]},
-				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2832678, "n_samples" : 2494, "w_samples" : 2494, "value" : [0.82919008, 0.17080994]},
-				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.31692213, "n_samples" : 3054, "w_samples" : 3054, "value" : [0.80255401, 0.19744597]},
-				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36945653, "n_samples" : 2462, "w_samples" : 2462, "value" : [0.75548333, 0.24451666]}
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.31692213, "n_samples" : 3054, "w_samples" : 3054, "value" : [0.80255401, 0.19744597]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36945653, "n_samples" : 2462, "w_samples" : 2462, "value" : [0.75548333, 0.24451666]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.10677665, "n_samples" : 7298, "w_samples" : 7298, "value" : [0.94340914, 0.056590848]},
+				"node_22" : {"left" : 23, "right" : 24, "feature" : 0, "threshold" : 0.5, "impurity" : 0.17235082, "n_samples" : 5092, "w_samples" : 5092, "value" : [0.90475255, 0.095247447]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.044388056, "n_samples" : 2598, "w_samples" : 2598, "value" : [0.97729021, 0.022709778]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2832678, "n_samples" : 2494, "w_samples" : 2494, "value" : [0.82919008, 0.17080994]}
 				}
 			}
 		},
 		"RF_Tree_08" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 3978449530, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
 			"max_depth" : 4,
-			"node_count" : 19,
+			"node_count" : 21,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36467052, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.7601245, 0.23987551]},
-				"node_01" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.30791891, "n_samples" : 38065, "w_samples" : 38065, "value" : [0.8099041, 0.19009589]},
-				"node_02" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48578703, "n_samples" : 10777, "w_samples" : 10777, "value" : [0.58429992, 0.41570011]},
-				"node_03" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 0.5, "impurity" : 0.15585566, "n_samples" : 18325, "w_samples" : 18325, "value" : [0.91481584, 0.085184172]},
-				"node_04" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 1.5, "impurity" : 0.40967667, "n_samples" : 19740, "w_samples" : 19740, "value" : [0.71251267, 0.28748733]},
-				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38230813, "n_samples" : 3943, "w_samples" : 3943, "value" : [0.74258178, 0.25741822]},
-				"node_06" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 143730.5, "impurity" : 0.49990135, "n_samples" : 6834, "w_samples" : 6834, "value" : [0.49297631, 0.50702369]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 1.5, "impurity" : 0.30791891, "n_samples" : 38065, "w_samples" : 38065, "value" : [0.8099041, 0.19009589]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48578703, "n_samples" : 10777, "w_samples" : 10777, "value" : [0.58429992, 0.41570011]},
+				"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38230813, "n_samples" : 3943, "w_samples" : 3943, "value" : [0.74258178, 0.25741822]},
+				"node_04" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : 2.5, "impurity" : 0.49990135, "n_samples" : 6834, "w_samples" : 6834, "value" : [0.49297631, 0.50702369]},
+				"node_05" : {"left" : 9, "right" : 10, "feature" : 12, "threshold" : 1.5, "impurity" : 0.15585566, "n_samples" : 18325, "w_samples" : 18325, "value" : [0.91481584, 0.085184172]},
+				"node_06" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 1.5, "impurity" : 0.40967667, "n_samples" : 19740, "w_samples" : 19740, "value" : [0.71251267, 0.28748733]},
 				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27042943, "n_samples" : 4299, "w_samples" : 4299, "value" : [0.83879972, 0.16120028]},
-				"node_08" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 2.5, "impurity" : 0.43709219, "n_samples" : 15441, "w_samples" : 15441, "value" : [0.67735249, 0.32264748]},
-				"node_09" : {"left" : 17, "right" : 18, "feature" : 12, "threshold" : 1.5, "impurity" : 0.02582413, "n_samples" : 8637, "w_samples" : 8637, "value" : [0.98691678, 0.013083247]},
-				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25424796, "n_samples" : 9688, "w_samples" : 9688, "value" : [0.85053676, 0.14946325]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.42426234, "n_samples" : 7184, "w_samples" : 7184, "value" : [0.69459909, 0.30540088]},
-				"node_12" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 10.5, "impurity" : 0.44728684, "n_samples" : 8257, "w_samples" : 8257, "value" : [0.66234708, 0.33765289]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36878055, "n_samples" : 5778, "w_samples" : 5778, "value" : [0.75614399, 0.24385601]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49366677, "n_samples" : 2479, "w_samples" : 2479, "value" : [0.44372731, 0.55627269]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49911273, "n_samples" : 2635, "w_samples" : 2635, "value" : [0.52106261, 0.47893739]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49878484, "n_samples" : 4199, "w_samples" : 4199, "value" : [0.47535127, 0.52464873]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.005214572, "n_samples" : 4208, "w_samples" : 4208, "value" : [0.99738592, 0.0026140683]},
-				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.044999301, "n_samples" : 4429, "w_samples" : 4429, "value" : [0.97696996, 0.02303003]}
+				"node_08" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 2.5, "impurity" : 0.43709219, "n_samples" : 15441, "w_samples" : 15441, "value" : [0.67735249, 0.32264748]},
+				"node_09" : {"left" : 19, "right" : 20, "feature" : 12, "threshold" : 0.5, "impurity" : 0.052497745, "n_samples" : 5894, "w_samples" : 5894, "value" : [0.97302341, 0.026976587]},
+				"node_10" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 12.5, "impurity" : 0.20012528, "n_samples" : 12431, "w_samples" : 12431, "value" : [0.88721746, 0.11278256]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.13932723, "n_samples" : 9862, "w_samples" : 9862, "value" : [0.92466033, 0.07533969]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38143504, "n_samples" : 2569, "w_samples" : 2569, "value" : [0.74347997, 0.25652003]},
+				"node_13" : {"left" : 15, "right" : 16, "feature" : 4, "threshold" : 10.5, "impurity" : 0.42426234, "n_samples" : 7184, "w_samples" : 7184, "value" : [0.69459909, 0.30540088]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44728684, "n_samples" : 8257, "w_samples" : 8257, "value" : [0.66234708, 0.33765289]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33346754, "n_samples" : 4545, "w_samples" : 4545, "value" : [0.78855884, 0.21144114]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49785125, "n_samples" : 2639, "w_samples" : 2639, "value" : [0.53277755, 0.46722242]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49986345, "n_samples" : 3449, "w_samples" : 3449, "value" : [0.50826329, 0.49173674]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4989785, "n_samples" : 3385, "w_samples" : 3385, "value" : [0.4774003, 0.5225997]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.035660982, "n_samples" : 2533, "w_samples" : 2533, "value" : [0.98183972, 0.018160284]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.064981163, "n_samples" : 3361, "w_samples" : 3361, "value" : [0.96637905, 0.033620946]}
 				}
 			}
 		},
 		"RF_Tree_09" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2603125635, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -628,11 +643,11 @@ MODEL_JSON_DUMP_START
 				"node_03" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 0.5, "impurity" : 0.15198237, "n_samples" : 18345, "w_samples" : 18345, "value" : [0.91714364, 0.082856365]},
 				"node_04" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 97150.5, "impurity" : 0.41201448, "n_samples" : 19724, "w_samples" : 19724, "value" : [0.70974445, 0.29025552]},
 				"node_05" : {"left" : 25, "right" : 26, "feature" : 4, "threshold" : 9.5, "impurity" : 0.024893284, "n_samples" : 8647, "w_samples" : 8647, "value" : [0.98739445, 0.012605528]},
-				"node_06" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 173003.5, "impurity" : 0.24865085, "n_samples" : 9698, "w_samples" : 9698, "value" : [0.85450608, 0.14549391]},
+				"node_06" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 173003.5, "impurity" : 0.24865085, "n_samples" : 9698, "w_samples" : 9698, "value" : [0.85450608, 0.14549391]},
 				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46574056, "n_samples" : 2487, "w_samples" : 2487, "value" : [0.63088059, 0.36911944]},
 				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48944318, "n_samples" : 8286, "w_samples" : 8286, "value" : [0.57265264, 0.42734733]},
 				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38197899, "n_samples" : 3143, "w_samples" : 3143, "value" : [0.74292076, 0.25707921]},
-				"node_10" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 196346, "impurity" : 0.4980278, "n_samples" : 5143, "w_samples" : 5143, "value" : [0.4685981, 0.53140193]},
+				"node_10" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 196346, "impurity" : 0.4980278, "n_samples" : 5143, "w_samples" : 5143, "value" : [0.4685981, 0.53140193]},
 				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38396633, "n_samples" : 3230, "w_samples" : 3230, "value" : [0.7408669, 0.25913313]},
 				"node_12" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 3.5, "impurity" : 0.41705352, "n_samples" : 16494, "w_samples" : 16494, "value" : [0.70364982, 0.29635018]},
 				"node_13" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 219282, "impurity" : 0.43075442, "n_samples" : 12299, "w_samples" : 12299, "value" : [0.68607205, 0.31392795]},
@@ -641,20 +656,21 @@ MODEL_JSON_DUMP_START
 				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41478342, "n_samples" : 4285, "w_samples" : 4285, "value" : [0.70641774, 0.29358226]},
 				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.42704856, "n_samples" : 4482, "w_samples" : 4482, "value" : [0.69098616, 0.30901384]},
 				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45185518, "n_samples" : 3532, "w_samples" : 3532, "value" : [0.65515292, 0.34484711]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.23425806, "n_samples" : 4399, "w_samples" : 4399, "value" : [0.86451465, 0.13548534]},
-				"node_20" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 242046, "impurity" : 0.26029474, "n_samples" : 5299, "w_samples" : 5299, "value" : [0.84619737, 0.1538026]},
-				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27699679, "n_samples" : 2848, "w_samples" : 2848, "value" : [0.83391851, 0.16608146]},
-				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24012983, "n_samples" : 2451, "w_samples" : 2451, "value" : [0.86046511, 0.13953489]},
-				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49900645, "n_samples" : 2692, "w_samples" : 2692, "value" : [0.47771174, 0.52228826]},
-				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49657017, "n_samples" : 2451, "w_samples" : 2451, "value" : [0.45858833, 0.5414117]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49900645, "n_samples" : 2692, "w_samples" : 2692, "value" : [0.47771174, 0.52228826]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49657017, "n_samples" : 2451, "w_samples" : 2451, "value" : [0.45858833, 0.5414117]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.23425806, "n_samples" : 4399, "w_samples" : 4399, "value" : [0.86451465, 0.13548534]},
+				"node_22" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 242046, "impurity" : 0.26029474, "n_samples" : 5299, "w_samples" : 5299, "value" : [0.84619737, 0.1538026]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27699679, "n_samples" : 2848, "w_samples" : 2848, "value" : [0.83391851, 0.16608146]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24012983, "n_samples" : 2451, "w_samples" : 2451, "value" : [0.86046511, 0.13953489]},
 				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.013028741, "n_samples" : 4270, "w_samples" : 4270, "value" : [0.9934426, 0.0065573771]},
 				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.036326706, "n_samples" : 4377, "w_samples" : 4377, "value" : [0.98149419, 0.018505827]}
 				}
 			}
 		},
 		"RF_Tree_10" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 3933019651, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -693,40 +709,44 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_11" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1810914472, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
 			"max_depth" : 5,
-			"node_count" : 19,
+			"node_count" : 21,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 2, "threshold" : 214258.5, "impurity" : 0.36319655, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76153719, 0.23846281]},
 				"node_01" : {"left" : 3, "right" : 4, "feature" : 10, "threshold" : 0.5, "impurity" : 0.3694821, "n_samples" : 33344, "w_samples" : 33344, "value" : [0.75545824, 0.24454175]},
 				"node_02" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 311529, "impurity" : 0.34917194, "n_samples" : 15498, "w_samples" : 15498, "value" : [0.77461606, 0.22538392]},
 				"node_03" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 2.5, "impurity" : 0.3321501, "n_samples" : 30499, "w_samples" : 30499, "value" : [0.789698, 0.21030198]},
 				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47509122, "n_samples" : 2845, "w_samples" : 2845, "value" : [0.3884007, 0.61159933]},
-				"node_05" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 70745.5, "impurity" : 0.27968365, "n_samples" : 23968, "w_samples" : 23968, "value" : [0.83190089, 0.16809914]},
+				"node_05" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 70745.5, "impurity" : 0.27968365, "n_samples" : 23968, "w_samples" : 23968, "value" : [0.83190089, 0.16809914]},
 				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4636479, "n_samples" : 6531, "w_samples" : 6531, "value" : [0.63481855, 0.36518145]},
-				"node_07" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 243236.5, "impurity" : 0.33568621, "n_samples" : 9514, "w_samples" : 9514, "value" : [0.78663021, 0.21336977]},
+				"node_07" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 243236.5, "impurity" : 0.33568621, "n_samples" : 9514, "w_samples" : 9514, "value" : [0.78663021, 0.21336977]},
 				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36942452, "n_samples" : 5984, "w_samples" : 5984, "value" : [0.75551468, 0.24448529]},
-				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2571975, "n_samples" : 3655, "w_samples" : 3655, "value" : [0.84842682, 0.15157318]},
-				"node_10" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 106175.5, "impurity" : 0.28361374, "n_samples" : 20313, "w_samples" : 20313, "value" : [0.82892728, 0.17107271]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3054992, "n_samples" : 3173, "w_samples" : 3173, "value" : [0.81185001, 0.18815002]},
-				"node_12" : {"left" : 13, "right" : 14, "feature" : 12, "threshold" : 1.5, "impurity" : 0.2794342, "n_samples" : 17140, "w_samples" : 17140, "value" : [0.83208871, 0.16791132]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.13363498, "n_samples" : 4736, "w_samples" : 4736, "value" : [0.9279983, 0.072001688]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.32539594, "n_samples" : 12404, "w_samples" : 12404, "value" : [0.79546922, 0.20453079]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.34955716, "n_samples" : 4049, "w_samples" : 4049, "value" : [0.77426523, 0.22573476]},
-				"node_16" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : 1.5, "impurity" : 0.32501489, "n_samples" : 5465, "w_samples" : 5465, "value" : [0.79579139, 0.2042086]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.16351992, "n_samples" : 2694, "w_samples" : 2694, "value" : [0.91017073, 0.089829251]},
-				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43185276, "n_samples" : 2771, "w_samples" : 2771, "value" : [0.6845904, 0.3154096]}
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.34955716, "n_samples" : 4049, "w_samples" : 4049, "value" : [0.77426523, 0.22573476]},
+				"node_10" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 269317.5, "impurity" : 0.32501489, "n_samples" : 5465, "w_samples" : 5465, "value" : [0.79579139, 0.2042086]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.31398976, "n_samples" : 2456, "w_samples" : 2456, "value" : [0.8049674, 0.19503257]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3337642, "n_samples" : 3009, "w_samples" : 3009, "value" : [0.78830177, 0.21169823]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2571975, "n_samples" : 3655, "w_samples" : 3655, "value" : [0.84842682, 0.15157318]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 12, "threshold" : 1.5, "impurity" : 0.28361374, "n_samples" : 20313, "w_samples" : 20313, "value" : [0.82892728, 0.17107271]},
+				"node_15" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 163222, "impurity" : 0.13368356, "n_samples" : 5581, "w_samples" : 5581, "value" : [0.92796987, 0.072030105]},
+				"node_16" : {"left" : 17, "right" : 18, "feature" : 4, "threshold" : 12.5, "impurity" : 0.33016449, "n_samples" : 14732, "w_samples" : 14732, "value" : [0.79140645, 0.20859353]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25707185, "n_samples" : 11328, "w_samples" : 11328, "value" : [0.84851694, 0.15148304]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47945583, "n_samples" : 3404, "w_samples" : 3404, "value" : [0.60135138, 0.39864865]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.15101039, "n_samples" : 2990, "w_samples" : 2990, "value" : [0.91772574, 0.082274251]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.11316675, "n_samples" : 2591, "w_samples" : 2591, "value" : [0.93979156, 0.060208414]}
 				}
 			}
 		},
 		"RF_Tree_12" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 4282500002, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -745,8 +765,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_13" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 248559215, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -763,14 +784,14 @@ MODEL_JSON_DUMP_START
 				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46171606, "n_samples" : 3379, "w_samples" : 3379, "value" : [0.63835454, 0.36164546]},
 				"node_07" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : 12.5, "impurity" : 0.46597463, "n_samples" : 20478, "w_samples" : 20478, "value" : [0.63043267, 0.36956733]},
 				"node_08" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.40329665, "n_samples" : 6194, "w_samples" : 6194, "value" : [0.71989024, 0.28010979]},
-				"node_09" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 9.5, "impurity" : 0.38694692, "n_samples" : 14269, "w_samples" : 14269, "value" : [0.73775315, 0.26224682]},
-				"node_10" : {"left" : 15, "right" : 16, "feature" : 4, "threshold" : 13.5, "impurity" : 0.47299409, "n_samples" : 6209, "w_samples" : 6209, "value" : [0.38379771, 0.61620229]},
+				"node_09" : {"left" : 15, "right" : 16, "feature" : 4, "threshold" : 9.5, "impurity" : 0.38694692, "n_samples" : 14269, "w_samples" : 14269, "value" : [0.73775315, 0.26224682]},
+				"node_10" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 13.5, "impurity" : 0.47299409, "n_samples" : 6209, "w_samples" : 6209, "value" : [0.38379771, 0.61620229]},
 				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.26147258, "n_samples" : 3427, "w_samples" : 3427, "value" : [0.8453458, 0.15465422]},
 				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49167687, "n_samples" : 2767, "w_samples" : 2767, "value" : [0.56451029, 0.43548971]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33347082, "n_samples" : 8546, "w_samples" : 8546, "value" : [0.78855604, 0.21144395]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44758284, "n_samples" : 5723, "w_samples" : 5723, "value" : [0.66189063, 0.33810937]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49440753, "n_samples" : 3612, "w_samples" : 3612, "value" : [0.4471207, 0.55287927]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41654414, "n_samples" : 2597, "w_samples" : 2597, "value" : [0.29572585, 0.70427418]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49440753, "n_samples" : 3612, "w_samples" : 3612, "value" : [0.4471207, 0.55287927]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41654414, "n_samples" : 2597, "w_samples" : 2597, "value" : [0.29572585, 0.70427418]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33347082, "n_samples" : 8546, "w_samples" : 8546, "value" : [0.78855604, 0.21144395]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44758284, "n_samples" : 5723, "w_samples" : 5723, "value" : [0.66189063, 0.33810937]},
 				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.17313677, "n_samples" : 5578, "w_samples" : 5578, "value" : [0.90426677, 0.09573324]},
 				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27930599, "n_samples" : 3629, "w_samples" : 3629, "value" : [0.83218515, 0.16781482]},
 				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.023665249, "n_samples" : 4676, "w_samples" : 4676, "value" : [0.98802394, 0.011976048]},
@@ -779,38 +800,44 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_14" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1247846498, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
-			"max_depth" : 4,
-			"node_count" : 17,
+			"max_depth" : 5,
+			"node_count" : 21,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 0, "threshold" : 1.5, "impurity" : 0.36385977, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76090252, 0.23909749]},
 				"node_01" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 0.5, "impurity" : 0.20067739, "n_samples" : 22353, "w_samples" : 22353, "value" : [0.88686085, 0.11313917]},
 				"node_02" : {"left" : 5, "right" : 6, "feature" : 2, "threshold" : 97459.5, "impurity" : 0.4521907, "n_samples" : 26489, "w_samples" : 26489, "value" : [0.65461135, 0.34538865]},
-				"node_03" : {"left" : 13, "right" : 14, "feature" : 12, "threshold" : 1.5, "impurity" : 0.032953322, "n_samples" : 9727, "w_samples" : 9727, "value" : [0.98324251, 0.016757479]},
+				"node_03" : {"left" : 11, "right" : 12, "feature" : 12, "threshold" : 1.5, "impurity" : 0.032953322, "n_samples" : 9727, "w_samples" : 9727, "value" : [0.98324251, 0.016757479]},
 				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.30455136, "n_samples" : 12626, "w_samples" : 12626, "value" : [0.8126089, 0.1873911]},
 				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41657394, "n_samples" : 4578, "w_samples" : 4578, "value" : [0.70423764, 0.29576233]},
 				"node_06" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 2.5, "impurity" : 0.45838815, "n_samples" : 21911, "w_samples" : 21911, "value" : [0.64424264, 0.35575739]},
-				"node_07" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 138846, "impurity" : 0.42005336, "n_samples" : 16483, "w_samples" : 16483, "value" : [0.69993329, 0.30006674]},
-				"node_08" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 2.5, "impurity" : 0.49876285, "n_samples" : 5428, "w_samples" : 5428, "value" : [0.47512895, 0.52487105]},
-				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4037329, "n_samples" : 3496, "w_samples" : 3496, "value" : [0.71939361, 0.28060642]},
-				"node_10" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 228385.5, "impurity" : 0.42418802, "n_samples" : 12987, "w_samples" : 12987, "value" : [0.6946947, 0.3053053]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49982458, "n_samples" : 2776, "w_samples" : 2776, "value" : [0.49063399, 0.50936598]},
-				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49662143, "n_samples" : 2652, "w_samples" : 2652, "value" : [0.45889893, 0.54110104]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0078339577, "n_samples" : 4323, "w_samples" : 4323, "value" : [0.99606752, 0.0039324542]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.052574217, "n_samples" : 5404, "w_samples" : 5404, "value" : [0.972983, 0.027017025]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4292863, "n_samples" : 7956, "w_samples" : 7956, "value" : [0.68803418, 0.31196582]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.41576326, "n_samples" : 5031, "w_samples" : 5031, "value" : [0.70522761, 0.29477242]}
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 138846, "impurity" : 0.42005336, "n_samples" : 16483, "w_samples" : 16483, "value" : [0.69993329, 0.30006674]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 2.5, "impurity" : 0.49876285, "n_samples" : 5428, "w_samples" : 5428, "value" : [0.47512895, 0.52487105]},
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49982458, "n_samples" : 2776, "w_samples" : 2776, "value" : [0.49063399, 0.50936598]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49662143, "n_samples" : 2652, "w_samples" : 2652, "value" : [0.45889893, 0.54110104]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0078339577, "n_samples" : 4323, "w_samples" : 4323, "value" : [0.99606752, 0.0039324542]},
+				"node_12" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 196885, "impurity" : 0.052574217, "n_samples" : 5404, "w_samples" : 5404, "value" : [0.972983, 0.027017025]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4037329, "n_samples" : 3496, "w_samples" : 3496, "value" : [0.71939361, 0.28060642]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 12, "threshold" : 1.5, "impurity" : 0.42418802, "n_samples" : 12987, "w_samples" : 12987, "value" : [0.6946947, 0.3053053]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.28912735, "n_samples" : 2841, "w_samples" : 2841, "value" : [0.82470959, 0.17529039]},
+				"node_16" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 228385.5, "impurity" : 0.44988918, "n_samples" : 10146, "w_samples" : 10146, "value" : [0.65828896, 0.34171101]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45591682, "n_samples" : 6153, "w_samples" : 6153, "value" : [0.64846414, 0.35153583]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43984509, "n_samples" : 3993, "w_samples" : 3993, "value" : [0.67342848, 0.32657149]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.043888688, "n_samples" : 2851, "w_samples" : 2851, "value" : [0.97755176, 0.022448264]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.062174857, "n_samples" : 2553, "w_samples" : 2553, "value" : [0.9678809, 0.032119077]}
 				}
 			}
 		},
 		"RF_Tree_15" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2946430490, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -821,18 +848,18 @@ MODEL_JSON_DUMP_START
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 4, "threshold" : 12.5, "impurity" : 0.36526632, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.75955123, 0.24044879]},
 				"node_01" : {"left" : 5, "right" : 6, "feature" : 4, "threshold" : 8.5, "impurity" : 0.27209479, "n_samples" : 36754, "w_samples" : 36754, "value" : [0.8375687, 0.1624313]},
 				"node_02" : {"left" : 3, "right" : 4, "feature" : 4, "threshold" : 13.5, "impurity" : 0.49900216, "n_samples" : 12088, "w_samples" : 12088, "value" : [0.52233618, 0.47766379]},
-				"node_03" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 172898, "impurity" : 0.48499668, "n_samples" : 8082, "w_samples" : 8082, "value" : [0.58661222, 0.41338778]},
+				"node_03" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 172898, "impurity" : 0.48499668, "n_samples" : 8082, "w_samples" : 8082, "value" : [0.58661222, 0.41338778]},
 				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47695667, "n_samples" : 4006, "w_samples" : 4006, "value" : [0.39266101, 0.60733896]},
-				"node_05" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 197591.5, "impurity" : 0.097340107, "n_samples" : 6452, "w_samples" : 6452, "value" : [0.9486981, 0.051301923]},
-				"node_06" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 139317, "impurity" : 0.30292523, "n_samples" : 30302, "w_samples" : 30302, "value" : [0.81390667, 0.18609333]},
-				"node_07" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 106746.5, "impurity" : 0.28763342, "n_samples" : 10055, "w_samples" : 10055, "value" : [0.82585776, 0.17414221]},
-				"node_08" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 196999, "impurity" : 0.31030703, "n_samples" : 20247, "w_samples" : 20247, "value" : [0.80797154, 0.19202845]},
-				"node_09" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 170151, "impurity" : 0.32366812, "n_samples" : 8332, "w_samples" : 8332, "value" : [0.79692751, 0.20307249]},
-				"node_10" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 308519, "impurity" : 0.30067402, "n_samples" : 11915, "w_samples" : 11915, "value" : [0.81569451, 0.1843055]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.11936516, "n_samples" : 3561, "w_samples" : 3561, "value" : [0.93625385, 0.063746139]},
-				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.069359183, "n_samples" : 2891, "w_samples" : 2891, "value" : [0.96402627, 0.035973713]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.48859215, "n_samples" : 3767, "w_samples" : 3767, "value" : [0.57552427, 0.4244757]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.48145568, "n_samples" : 4315, "w_samples" : 4315, "value" : [0.59629202, 0.40370798]},
+				"node_05" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 197591.5, "impurity" : 0.097340107, "n_samples" : 6452, "w_samples" : 6452, "value" : [0.9486981, 0.051301923]},
+				"node_06" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 139317, "impurity" : 0.30292523, "n_samples" : 30302, "w_samples" : 30302, "value" : [0.81390667, 0.18609333]},
+				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.11936516, "n_samples" : 3561, "w_samples" : 3561, "value" : [0.93625385, 0.063746139]},
+				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.069359183, "n_samples" : 2891, "w_samples" : 2891, "value" : [0.96402627, 0.035973713]},
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.48859215, "n_samples" : 3767, "w_samples" : 3767, "value" : [0.57552427, 0.4244757]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.48145568, "n_samples" : 4315, "w_samples" : 4315, "value" : [0.59629202, 0.40370798]},
+				"node_11" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 106746.5, "impurity" : 0.28763342, "n_samples" : 10055, "w_samples" : 10055, "value" : [0.82585776, 0.17414221]},
+				"node_12" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 196999, "impurity" : 0.31030703, "n_samples" : 20247, "w_samples" : 20247, "value" : [0.80797154, 0.19202845]},
+				"node_13" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 170151, "impurity" : 0.32366812, "n_samples" : 8332, "w_samples" : 8332, "value" : [0.79692751, 0.20307249]},
+				"node_14" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 308519, "impurity" : 0.30067402, "n_samples" : 11915, "w_samples" : 11915, "value" : [0.81569451, 0.1843055]},
 				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3115918, "n_samples" : 3869, "w_samples" : 3869, "value" : [0.80692685, 0.19307314]},
 				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33381343, "n_samples" : 4463, "w_samples" : 4463, "value" : [0.78825903, 0.21174099]},
 				"node_17" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 226745.5, "impurity" : 0.29440397, "n_samples" : 8273, "w_samples" : 8273, "value" : [0.82062131, 0.1793787]},
@@ -847,66 +874,87 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_16" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 3269833746, "splitter" : "best" },
-			"classes" : [ "<=50K", ">50K" ],
-			"tree" : {
-			"features" : 14,
-			"outputs" : 2,
-			"max_depth" : 2,
-			"node_count" : 11,
-			"nodes" : {
-				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36430812, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76047254, 0.23952745]},
-				"node_01" : {"left" : 3, "right" : 4, "feature" : 12, "threshold" : 1.5, "impurity" : 0.30581617, "n_samples" : 38014, "w_samples" : 38014, "value" : [0.81159574, 0.18840428]},
-				"node_02" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48688006, "n_samples" : 10828, "w_samples" : 10828, "value" : [0.58099371, 0.41900629]},
-				"node_03" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 0.5, "impurity" : 0.15461546, "n_samples" : 10114, "w_samples" : 10114, "value" : [0.91556257, 0.084437415]},
-				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.34995013, "n_samples" : 27900, "w_samples" : 27900, "value" : [0.77390683, 0.22609319]},
-				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39509594, "n_samples" : 3945, "w_samples" : 3945, "value" : [0.72902405, 0.27097592]},
-				"node_06" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 2.5, "impurity" : 0.49997038, "n_samples" : 6883, "w_samples" : 6883, "value" : [0.49614993, 0.50385004]},
-				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.12705702, "n_samples" : 4327, "w_samples" : 4327, "value" : [0.93182343, 0.068176568]},
-				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.17453015, "n_samples" : 5787, "w_samples" : 5787, "value" : [0.90340418, 0.096595816]},
-				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49974453, "n_samples" : 3495, "w_samples" : 3495, "value" : [0.51130188, 0.48869815]},
-				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49924099, "n_samples" : 3388, "w_samples" : 3388, "value" : [0.48051947, 0.51948053]}
-				}
-			}
-		},
-		"RF_Tree_17" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
-			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1118676846, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
 			"max_depth" : 5,
-			"node_count" : 21,
+			"node_count" : 27,
+			"nodes" : {
+				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36430812, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76047254, 0.23952745]},
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 1.5, "impurity" : 0.30581617, "n_samples" : 38014, "w_samples" : 38014, "value" : [0.81159574, 0.18840428]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48688006, "n_samples" : 10828, "w_samples" : 10828, "value" : [0.58099371, 0.41900629]},
+				"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39509594, "n_samples" : 3945, "w_samples" : 3945, "value" : [0.72902405, 0.27097592]},
+				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49997038, "n_samples" : 6883, "w_samples" : 6883, "value" : [0.49614993, 0.50385004]},
+				"node_05" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.15461546, "n_samples" : 10114, "w_samples" : 10114, "value" : [0.91556257, 0.084437415]},
+				"node_06" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.34995013, "n_samples" : 27900, "w_samples" : 27900, "value" : [0.77390683, 0.22609319]},
+				"node_07" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 0.5, "impurity" : 0.19263905, "n_samples" : 12558, "w_samples" : 12558, "value" : [0.892021, 0.10797898]},
+				"node_08" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 2.5, "impurity" : 0.43718195, "n_samples" : 15342, "w_samples" : 15342, "value" : [0.67722589, 0.32277408]},
+				"node_09" : {"left" : 21, "right" : 22, "feature" : 12, "threshold" : 0.5, "impurity" : 0.047408104, "n_samples" : 5845, "w_samples" : 5845, "value" : [0.97570574, 0.024294268]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2779339, "n_samples" : 4269, "w_samples" : 4269, "value" : [0.83321619, 0.16678379]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.03803879, "n_samples" : 4434, "w_samples" : 4434, "value" : [0.98060441, 0.019395581]},
+				"node_12" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 213231, "impurity" : 0.26377767, "n_samples" : 8124, "w_samples" : 8124, "value" : [0.84367305, 0.15632693]},
+				"node_13" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 169353.5, "impurity" : 0.42405903, "n_samples" : 7082, "w_samples" : 7082, "value" : [0.69486022, 0.30513978]},
+				"node_14" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 136376.5, "impurity" : 0.44744295, "n_samples" : 8260, "w_samples" : 8260, "value" : [0.66210651, 0.33789346]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.40307599, "n_samples" : 3123, "w_samples" : 3123, "value" : [0.72014087, 0.2798591]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43880743, "n_samples" : 3959, "w_samples" : 3959, "value" : [0.67491794, 0.32508209]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43583143, "n_samples" : 2730, "w_samples" : 2730, "value" : [0.6791209, 0.32087913]},
+				"node_18" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 195009, "impurity" : 0.4527483, "n_samples" : 5530, "w_samples" : 5530, "value" : [0.65370703, 0.34629294]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46221751, "n_samples" : 2521, "w_samples" : 2521, "value" : [0.63744545, 0.36255455]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44400042, "n_samples" : 3009, "w_samples" : 3009, "value" : [0.66733134, 0.33266866]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.029935479, "n_samples" : 2566, "w_samples" : 2566, "value" : [0.98480123, 0.015198753]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.06085062, "n_samples" : 3279, "w_samples" : 3279, "value" : [0.96858799, 0.031412017]},
+				"node_23" : {"left" : 25, "right" : 26, "feature" : 2, "threshold" : 149129.5, "impurity" : 0.27143955, "n_samples" : 5261, "w_samples" : 5261, "value" : [0.83805358, 0.1619464]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24936897, "n_samples" : 2863, "w_samples" : 2863, "value" : [0.85399932, 0.1460007]},
+				"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25846833, "n_samples" : 2715, "w_samples" : 2715, "value" : [0.84751379, 0.15248619]},
+				"node_26" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.28487736, "n_samples" : 2546, "w_samples" : 2546, "value" : [0.82796544, 0.17203456]}
+				}
+			}
+		},
+		"RF_Tree_17" : 		{
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
+			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1118676846, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
+			"classes" : [ "<=50K", ">50K" ],
+			"tree" : {
+			"features" : 14,
+			"outputs" : 2,
+			"max_depth" : 5,
+			"node_count" : 23,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36415875, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76061589, 0.23938413]},
 				"node_01" : {"left" : 3, "right" : 4, "feature" : 2, "threshold" : 209897, "impurity" : 0.3061797, "n_samples" : 38093, "w_samples" : 38093, "value" : [0.81130391, 0.18869609]},
 				"node_02" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4868831, "n_samples" : 10749, "w_samples" : 10749, "value" : [0.58098429, 0.41901574]},
-				"node_03" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 97461.5, "impurity" : 0.31953883, "n_samples" : 24993, "w_samples" : 24993, "value" : [0.8003841, 0.1996159]},
+				"node_03" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 97461.5, "impurity" : 0.31953883, "n_samples" : 24993, "w_samples" : 24993, "value" : [0.8003841, 0.1996159]},
 				"node_04" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 1.5, "impurity" : 0.27936947, "n_samples" : 13100, "w_samples" : 13100, "value" : [0.83213741, 0.16786259]},
 				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.11647069, "n_samples" : 3511, "w_samples" : 3511, "value" : [0.93790942, 0.062090572]},
-				"node_06" : {"left" : 9, "right" : 10, "feature" : 2, "threshold" : 311420.5, "impurity" : 0.32782221, "n_samples" : 9589, "w_samples" : 9589, "value" : [0.79340911, 0.20659089]},
-				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2897259, "n_samples" : 6054, "w_samples" : 6054, "value" : [0.82424843, 0.17575157]},
-				"node_08" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 138941, "impurity" : 0.32858819, "n_samples" : 18939, "w_samples" : 18939, "value" : [0.79275566, 0.20724431]},
-				"node_09" : {"left" : 11, "right" : 12, "feature" : 2, "threshold" : 248425.5, "impurity" : 0.31418091, "n_samples" : 6153, "w_samples" : 6153, "value" : [0.80481064, 0.19518934]},
-				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3509509, "n_samples" : 3436, "w_samples" : 3436, "value" : [0.77299184, 0.22700815]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.32798111, "n_samples" : 3241, "w_samples" : 3241, "value" : [0.79327369, 0.20672631]},
-				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.29819554, "n_samples" : 2912, "w_samples" : 2912, "value" : [0.81765109, 0.18234891]},
-				"node_13" : {"left" : 15, "right" : 16, "feature" : 4, "threshold" : 9.5, "impurity" : 0.31691492, "n_samples" : 6250, "w_samples" : 6250, "value" : [0.80255997, 0.19744]},
-				"node_14" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 156229, "impurity" : 0.33419663, "n_samples" : 12689, "w_samples" : 12689, "value" : [0.78792655, 0.21207345]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.19590831, "n_samples" : 2880, "w_samples" : 2880, "value" : [0.88993055, 0.11006945]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39612943, "n_samples" : 3370, "w_samples" : 3370, "value" : [0.72789317, 0.27210683]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36437482, "n_samples" : 2546, "w_samples" : 2546, "value" : [0.76040846, 0.23959151]},
-				"node_18" : {"left" : 19, "right" : 20, "feature" : 4, "threshold" : 11.5, "impurity" : 0.32614595, "n_samples" : 10143, "w_samples" : 10143, "value" : [0.7948339, 0.20516613]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24810916, "n_samples" : 7539, "w_samples" : 7539, "value" : [0.8548879, 0.14511208]},
-				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47073358, "n_samples" : 2604, "w_samples" : 2604, "value" : [0.62096775, 0.37903225]}
+				"node_06" : {"left" : 7, "right" : 8, "feature" : 2, "threshold" : 311420.5, "impurity" : 0.32782221, "n_samples" : 9589, "w_samples" : 9589, "value" : [0.79340911, 0.20659089]},
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 248425.5, "impurity" : 0.31418091, "n_samples" : 6153, "w_samples" : 6153, "value" : [0.80481064, 0.19518934]},
+				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3509509, "n_samples" : 3436, "w_samples" : 3436, "value" : [0.77299184, 0.22700815]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.2897259, "n_samples" : 6054, "w_samples" : 6054, "value" : [0.82424843, 0.17575157]},
+				"node_10" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 138941, "impurity" : 0.32858819, "n_samples" : 18939, "w_samples" : 18939, "value" : [0.79275566, 0.20724431]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.19448644, "n_samples" : 2675, "w_samples" : 2675, "value" : [0.89084113, 0.10915888]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35254288, "n_samples" : 3379, "w_samples" : 3379, "value" : [0.77153003, 0.22846997]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.32798111, "n_samples" : 3241, "w_samples" : 3241, "value" : [0.79327369, 0.20672631]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.29819554, "n_samples" : 2912, "w_samples" : 2912, "value" : [0.81765109, 0.18234891]},
+				"node_15" : {"left" : 17, "right" : 18, "feature" : 4, "threshold" : 9.5, "impurity" : 0.31691492, "n_samples" : 6250, "w_samples" : 6250, "value" : [0.80255997, 0.19744]},
+				"node_16" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 156229, "impurity" : 0.33419663, "n_samples" : 12689, "w_samples" : 12689, "value" : [0.78792655, 0.21207345]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.19590831, "n_samples" : 2880, "w_samples" : 2880, "value" : [0.88993055, 0.11006945]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39612943, "n_samples" : 3370, "w_samples" : 3370, "value" : [0.72789317, 0.27210683]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.36437482, "n_samples" : 2546, "w_samples" : 2546, "value" : [0.76040846, 0.23959151]},
+				"node_20" : {"left" : 21, "right" : 22, "feature" : 4, "threshold" : 11.5, "impurity" : 0.32614595, "n_samples" : 10143, "w_samples" : 10143, "value" : [0.7948339, 0.20516613]},
+				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24810916, "n_samples" : 7539, "w_samples" : 7539, "value" : [0.8548879, 0.14511208]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47073358, "n_samples" : 2604, "w_samples" : 2604, "value" : [0.62096775, 0.37903225]}
 				}
 			}
 		},
 		"RF_Tree_18" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1054605305, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -939,8 +987,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_19" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 481037980, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -954,31 +1003,32 @@ MODEL_JSON_DUMP_START
 				"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.20557129, "n_samples" : 2605, "w_samples" : 2605, "value" : [0.88368523, 0.11631478]},
 				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39352077, "n_samples" : 3595, "w_samples" : 3595, "value" : [0.73073715, 0.26926285]},
 				"node_05" : {"left" : 7, "right" : 8, "feature" : 4, "threshold" : 12.5, "impurity" : 0.37955827, "n_samples" : 22769, "w_samples" : 22769, "value" : [0.74539948, 0.25460055]},
-				"node_06" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 369543.5, "impurity" : 0.35224849, "n_samples" : 19873, "w_samples" : 19873, "value" : [0.77180094, 0.22819906]},
+				"node_06" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 369543.5, "impurity" : 0.35224849, "n_samples" : 19873, "w_samples" : 19873, "value" : [0.77180094, 0.22819906]},
 				"node_07" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : 8.5, "impurity" : 0.28232002, "n_samples" : 16938, "w_samples" : 16938, "value" : [0.82990909, 0.17009091]},
-				"node_08" : {"left" : 21, "right" : 22, "feature" : 2, "threshold" : 154483.5, "impurity" : 0.5, "n_samples" : 5831, "w_samples" : 5831, "value" : [0.49991426, 0.50008577]},
+				"node_08" : {"left" : 13, "right" : 14, "feature" : 2, "threshold" : 154483.5, "impurity" : 0.5, "n_samples" : 5831, "w_samples" : 5831, "value" : [0.49991426, 0.50008577]},
 				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.13394648, "n_samples" : 2743, "w_samples" : 2743, "value" : [0.92781627, 0.072183743]},
 				"node_10" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.30657071, "n_samples" : 14195, "w_samples" : 14195, "value" : [0.8109898, 0.18901022]},
-				"node_11" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 152954.5, "impurity" : 0.27993119, "n_samples" : 7618, "w_samples" : 7618, "value" : [0.83171433, 0.16828564]},
+				"node_11" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 152954.5, "impurity" : 0.27993119, "n_samples" : 7618, "w_samples" : 7618, "value" : [0.83171433, 0.16828564]},
 				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33527929, "n_samples" : 6577, "w_samples" : 6577, "value" : [0.78698492, 0.21301505]},
-				"node_13" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 313832.5, "impurity" : 0.35551381, "n_samples" : 17092, "w_samples" : 17092, "value" : [0.76878071, 0.23121928]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33137846, "n_samples" : 2781, "w_samples" : 2781, "value" : [0.79036319, 0.20963682]},
-				"node_15" : {"left" : 17, "right" : 18, "feature" : 4, "threshold" : 12.5, "impurity" : 0.34813142, "n_samples" : 14240, "w_samples" : 14240, "value" : [0.77556181, 0.22443821]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38962251, "n_samples" : 2852, "w_samples" : 2852, "value" : [0.73492289, 0.26507714]},
-				"node_17" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 253750, "impurity" : 0.25031984, "n_samples" : 10820, "w_samples" : 10820, "value" : [0.85332716, 0.14667283]},
-				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49825573, "n_samples" : 3420, "w_samples" : 3420, "value" : [0.52953213, 0.47046784]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.26048738, "n_samples" : 7243, "w_samples" : 7243, "value" : [0.84605825, 0.15394174]},
-				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22908449, "n_samples" : 3577, "w_samples" : 3577, "value" : [0.86804587, 0.13195415]},
-				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49976599, "n_samples" : 3328, "w_samples" : 3328, "value" : [0.48918268, 0.51081729]},
-				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49959767, "n_samples" : 2503, "w_samples" : 2503, "value" : [0.51418298, 0.48581702]},
-				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27035207, "n_samples" : 4164, "w_samples" : 4164, "value" : [0.83885688, 0.16114314]},
-				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.29120809, "n_samples" : 3454, "w_samples" : 3454, "value" : [0.82310367, 0.17689635]}
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49976599, "n_samples" : 3328, "w_samples" : 3328, "value" : [0.48918268, 0.51081729]},
+				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49959767, "n_samples" : 2503, "w_samples" : 2503, "value" : [0.51418298, 0.48581702]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27035207, "n_samples" : 4164, "w_samples" : 4164, "value" : [0.83885688, 0.16114314]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.29120809, "n_samples" : 3454, "w_samples" : 3454, "value" : [0.82310367, 0.17689635]},
+				"node_17" : {"left" : 19, "right" : 20, "feature" : 2, "threshold" : 313832.5, "impurity" : 0.35551381, "n_samples" : 17092, "w_samples" : 17092, "value" : [0.76878071, 0.23121928]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33137846, "n_samples" : 2781, "w_samples" : 2781, "value" : [0.79036319, 0.20963682]},
+				"node_19" : {"left" : 21, "right" : 22, "feature" : 4, "threshold" : 12.5, "impurity" : 0.34813142, "n_samples" : 14240, "w_samples" : 14240, "value" : [0.77556181, 0.22443821]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38962251, "n_samples" : 2852, "w_samples" : 2852, "value" : [0.73492289, 0.26507714]},
+				"node_21" : {"left" : 23, "right" : 24, "feature" : 2, "threshold" : 253750, "impurity" : 0.25031984, "n_samples" : 10820, "w_samples" : 10820, "value" : [0.85332716, 0.14667283]},
+				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49825573, "n_samples" : 3420, "w_samples" : 3420, "value" : [0.52953213, 0.47046784]},
+				"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.26048738, "n_samples" : 7243, "w_samples" : 7243, "value" : [0.84605825, 0.15394174]},
+				"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.22908449, "n_samples" : 3577, "w_samples" : 3577, "value" : [0.86804587, 0.13195415]}
 				}
 			}
 		},
 		"RF_Tree_20" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 3077853413, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -993,8 +1043,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_21" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 27436215, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1031,32 +1082,40 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_22" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1805084553, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
-			"max_depth" : 2,
-			"node_count" : 11,
+			"max_depth" : 4,
+			"node_count" : 17,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36338931, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76135296, 0.23864706]},
-				"node_01" : {"left" : 3, "right" : 4, "feature" : 12, "threshold" : 1.5, "impurity" : 0.30640239, "n_samples" : 38184, "w_samples" : 38184, "value" : [0.8111251, 0.18887492]},
-				"node_02" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48620993, "n_samples" : 10658, "w_samples" : 10658, "value" : [0.58303624, 0.41696379]},
-				"node_03" : {"left" : 9, "right" : 10, "feature" : 12, "threshold" : 0.5, "impurity" : 0.15284479, "n_samples" : 10363, "w_samples" : 10363, "value" : [0.91662645, 0.083373539]},
-				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35222018, "n_samples" : 27821, "w_samples" : 27821, "value" : [0.77182704, 0.22817296]},
-				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39209431, "n_samples" : 3978, "w_samples" : 3978, "value" : [0.73227751, 0.26772249]},
-				"node_06" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 2.5, "impurity" : 0.49993181, "n_samples" : 6680, "w_samples" : 6680, "value" : [0.49416167, 0.50583833]},
-				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49985725, "n_samples" : 3314, "w_samples" : 3314, "value" : [0.50844902, 0.49155098]},
-				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49920762, "n_samples" : 3366, "w_samples" : 3366, "value" : [0.48009506, 0.51990491]},
-				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.13345295, "n_samples" : 4437, "w_samples" : 4437, "value" : [0.92810458, 0.071895428]},
-				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.16701919, "n_samples" : 5926, "w_samples" : 5926, "value" : [0.90803242, 0.091967598]}
+				"node_01" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 1.5, "impurity" : 0.30640239, "n_samples" : 38184, "w_samples" : 38184, "value" : [0.8111251, 0.18887492]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48620993, "n_samples" : 10658, "w_samples" : 10658, "value" : [0.58303624, 0.41696379]},
+				"node_03" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.39209431, "n_samples" : 3978, "w_samples" : 3978, "value" : [0.73227751, 0.26772249]},
+				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49993181, "n_samples" : 6680, "w_samples" : 6680, "value" : [0.49416167, 0.50583833]},
+				"node_05" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 1.5, "impurity" : 0.15284479, "n_samples" : 10363, "w_samples" : 10363, "value" : [0.91662645, 0.083373539]},
+				"node_06" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.35222018, "n_samples" : 27821, "w_samples" : 27821, "value" : [0.77182704, 0.22817296]},
+				"node_07" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 0.5, "impurity" : 0.20038444, "n_samples" : 12448, "w_samples" : 12448, "value" : [0.88705015, 0.11294987]},
+				"node_08" : {"left" : 13, "right" : 14, "feature" : 0, "threshold" : 2.5, "impurity" : 0.43625605, "n_samples" : 15373, "w_samples" : 15373, "value" : [0.6785273, 0.3214727]},
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.045989275, "n_samples" : 5945, "w_samples" : 5945, "value" : [0.9764508, 0.023549201]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27404004, "n_samples" : 4418, "w_samples" : 4418, "value" : [0.83612496, 0.16387506]},
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.04277432, "n_samples" : 4482, "w_samples" : 4482, "value" : [0.97813475, 0.021865239]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.27447385, "n_samples" : 7966, "w_samples" : 7966, "value" : [0.83580214, 0.16419785]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.42205709, "n_samples" : 7264, "w_samples" : 7264, "value" : [0.69741189, 0.30258811]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 3.5, "impurity" : 0.44776404, "n_samples" : 8109, "w_samples" : 8109, "value" : [0.66161054, 0.33838946]},
+				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45863825, "n_samples" : 5031, "w_samples" : 5031, "value" : [0.64380836, 0.35619161]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4272607, "n_samples" : 3078, "w_samples" : 3078, "value" : [0.69070828, 0.30929175]}
 				}
 			}
 		},
 		"RF_Tree_23" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2247625797, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1069,8 +1128,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_24" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1720864835, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1089,72 +1149,71 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_25" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 196522367, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
 			"max_depth" : 4,
-			"node_count" : 15,
+			"node_count" : 13,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 10, "threshold" : 1.5, "impurity" : 0.36460656, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.7601859, 0.23981409]},
 				"node_01" : {"left" : 3, "right" : 4, "feature" : 4, "threshold" : 12.5, "impurity" : 0.32345617, "n_samples" : 45817, "w_samples" : 45817, "value" : [0.79710585, 0.20289412]},
 				"node_02" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.32118809, "n_samples" : 3025, "w_samples" : 3025, "value" : [0.20099173, 0.79900825]},
-				"node_03" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 2.5, "impurity" : 0.2367869, "n_samples" : 35351, "w_samples" : 35351, "value" : [0.86277616, 0.13722384]},
-				"node_04" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 2.5, "impurity" : 0.48866242, "n_samples" : 10466, "w_samples" : 10466, "value" : [0.5752914, 0.42470858]},
-				"node_05" : {"left" : 9, "right" : 10, "feature" : 12, "threshold" : 1.5, "impurity" : 0.19815457, "n_samples" : 29082, "w_samples" : 29082, "value" : [0.8884877, 0.11151227]},
-				"node_06" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.38141572, "n_samples" : 6269, "w_samples" : 6269, "value" : [0.74349976, 0.25650024]},
-				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46226555, "n_samples" : 7222, "w_samples" : 7222, "value" : [0.63735807, 0.36264193]},
-				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49209088, "n_samples" : 3244, "w_samples" : 3244, "value" : [0.43711469, 0.56288534]},
-				"node_09" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 9.5, "impurity" : 0.073417187, "n_samples" : 8306, "w_samples" : 8306, "value" : [0.96183485, 0.038165182]},
+				"node_03" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 2.5, "impurity" : 0.2367869, "n_samples" : 35351, "w_samples" : 35351, "value" : [0.86277616, 0.13722384]},
+				"node_04" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 2.5, "impurity" : 0.48866242, "n_samples" : 10466, "w_samples" : 10466, "value" : [0.5752914, 0.42470858]},
+				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.46226555, "n_samples" : 7222, "w_samples" : 7222, "value" : [0.63735807, 0.36264193]},
+				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49209088, "n_samples" : 3244, "w_samples" : 3244, "value" : [0.43711469, 0.56288534]},
+				"node_07" : {"left" : 9, "right" : 10, "feature" : 12, "threshold" : 1.5, "impurity" : 0.19815457, "n_samples" : 29082, "w_samples" : 29082, "value" : [0.8884877, 0.11151227]},
+				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.38141572, "n_samples" : 6269, "w_samples" : 6269, "value" : [0.74349976, 0.25650024]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.073417187, "n_samples" : 8306, "w_samples" : 8306, "value" : [0.96183485, 0.038165182]},
 				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.24200183, "n_samples" : 20776, "w_samples" : 20776, "value" : [0.85916442, 0.14083558]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33519083, "n_samples" : 3710, "w_samples" : 3710, "value" : [0.78706199, 0.21293801]},
-				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.43495214, "n_samples" : 2559, "w_samples" : 2559, "value" : [0.68034387, 0.3196561]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.054459572, "n_samples" : 4926, "w_samples" : 4926, "value" : [0.9719854, 0.028014617]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.10030794, "n_samples" : 3380, "w_samples" : 3380, "value" : [0.94704139, 0.052958582]}
+				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.054459572, "n_samples" : 4926, "w_samples" : 4926, "value" : [0.9719854, 0.028014617]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.10030794, "n_samples" : 3380, "w_samples" : 3380, "value" : [0.94704139, 0.052958582]}
 				}
 			}
 		},
 		"RF_Tree_26" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1047915562, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
-			"max_depth" : 5,
-			"node_count" : 23,
+			"max_depth" : 4,
+			"node_count" : 21,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 4, "threshold" : 12.5, "impurity" : 0.36283225, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.76188529, 0.23811474]},
-				"node_01" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.26717937, "n_samples" : 36786, "w_samples" : 36786, "value" : [0.84118956, 0.15881042]},
-				"node_02" : {"left" : 5, "right" : 6, "feature" : 4, "threshold" : 13.5, "impurity" : 0.49920744, "n_samples" : 12056, "w_samples" : 12056, "value" : [0.51990712, 0.48009291]},
-				"node_03" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 0.5, "impurity" : 0.12932223, "n_samples" : 18017, "w_samples" : 18017, "value" : [0.93051004, 0.069489926]},
-				"node_04" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : 9.5, "impurity" : 0.36949283, "n_samples" : 18769, "w_samples" : 18769, "value" : [0.7554478, 0.24455218]},
-				"node_05" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48489881, "n_samples" : 8027, "w_samples" : 8027, "value" : [0.58689421, 0.41310576]},
-				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47421199, "n_samples" : 4029, "w_samples" : 4029, "value" : [0.38644826, 0.61355174]},
-				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.37974185, "n_samples" : 3603, "w_samples" : 3603, "value" : [0.74521232, 0.25478768]},
-				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49646473, "n_samples" : 4424, "w_samples" : 4424, "value" : [0.45795661, 0.54204339]},
-				"node_09" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 7.5, "impurity" : 0.31207412, "n_samples" : 11785, "w_samples" : 11785, "value" : [0.80653375, 0.19346628]},
-				"node_10" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : 2.5, "impurity" : 0.44271296, "n_samples" : 6984, "w_samples" : 6984, "value" : [0.66924399, 0.33075601]},
-				"node_11" : {"left" : 21, "right" : 22, "feature" : 4, "threshold" : 9.5, "impurity" : 0.023970664, "n_samples" : 8572, "w_samples" : 8572, "value" : [0.98786747, 0.012132525]},
-				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.21354485, "n_samples" : 9445, "w_samples" : 9445, "value" : [0.87845421, 0.12154579]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.17376506, "n_samples" : 3017, "w_samples" : 3017, "value" : [0.90387803, 0.096121974]},
-				"node_14" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 145252, "impurity" : 0.35090017, "n_samples" : 8768, "w_samples" : 8768, "value" : [0.77303833, 0.22696167]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.33105719, "n_samples" : 3205, "w_samples" : 3205, "value" : [0.79063964, 0.20936038]},
-				"node_16" : {"left" : 19, "right" : 20, "feature" : 0, "threshold" : 2.5, "impurity" : 0.36176962, "n_samples" : 5563, "w_samples" : 5563, "value" : [0.76289773, 0.23710229]},
-				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4327153, "n_samples" : 3522, "w_samples" : 3522, "value" : [0.68341851, 0.31658149]},
-				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45205921, "n_samples" : 3462, "w_samples" : 3462, "value" : [0.65482378, 0.34517619]},
-				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35112149, "n_samples" : 2518, "w_samples" : 2518, "value" : [0.77283561, 0.22716442]},
-				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.37027639, "n_samples" : 3045, "w_samples" : 3045, "value" : [0.7546798, 0.2453202]},
-				"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.015516043, "n_samples" : 4732, "w_samples" : 4732, "value" : [0.99218088, 0.007819104]},
-				"node_22" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.034286976, "n_samples" : 3840, "w_samples" : 3840, "value" : [0.98255211, 0.017447917]}
+				"node_01" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 1.5, "impurity" : 0.26717937, "n_samples" : 36786, "w_samples" : 36786, "value" : [0.84118956, 0.15881042]},
+				"node_02" : {"left" : 3, "right" : 4, "feature" : 4, "threshold" : 13.5, "impurity" : 0.49920744, "n_samples" : 12056, "w_samples" : 12056, "value" : [0.51990712, 0.48009291]},
+				"node_03" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 1.5, "impurity" : 0.48489881, "n_samples" : 8027, "w_samples" : 8027, "value" : [0.58689421, 0.41310576]},
+				"node_04" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.47421199, "n_samples" : 4029, "w_samples" : 4029, "value" : [0.38644826, 0.61355174]},
+				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.37974185, "n_samples" : 3603, "w_samples" : 3603, "value" : [0.74521232, 0.25478768]},
+				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.49646473, "n_samples" : 4424, "w_samples" : 4424, "value" : [0.45795661, 0.54204339]},
+				"node_07" : {"left" : 13, "right" : 14, "feature" : 4, "threshold" : 8.5, "impurity" : 0.12932223, "n_samples" : 18017, "w_samples" : 18017, "value" : [0.93051004, 0.069489926]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 3.5, "impurity" : 0.36949283, "n_samples" : 18769, "w_samples" : 18769, "value" : [0.7554478, 0.24455218]},
+				"node_09" : {"left" : 11, "right" : 12, "feature" : 4, "threshold" : 9.5, "impurity" : 0.38623554, "n_samples" : 14000, "w_samples" : 14000, "value" : [0.7385, 0.2615]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.31370556, "n_samples" : 4769, "w_samples" : 4769, "value" : [0.80520028, 0.19479975]},
+				"node_11" : {"left" : 17, "right" : 18, "feature" : 0, "threshold" : 2.5, "impurity" : 0.33025575, "n_samples" : 8372, "w_samples" : 8372, "value" : [0.79132825, 0.20867176]},
+				"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44885457, "n_samples" : 5628, "w_samples" : 5628, "value" : [0.65991473, 0.3400853]},
+				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.036260307, "n_samples" : 3140, "w_samples" : 3140, "value" : [0.98152864, 0.018471338]},
+				"node_14" : {"left" : 15, "right" : 16, "feature" : 0, "threshold" : 0.5, "impurity" : 0.14763349, "n_samples" : 14877, "w_samples" : 14877, "value" : [0.91974187, 0.080258116]},
+				"node_15" : {"left" : 19, "right" : 20, "feature" : 4, "threshold" : 9.5, "impurity" : 0.027489185, "n_samples" : 6672, "w_samples" : 6672, "value" : [0.98606116, 0.013938849]},
+				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.2323609, "n_samples" : 8205, "w_samples" : 8205, "value" : [0.86581355, 0.13418648]},
+				"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.3086884, "n_samples" : 4740, "w_samples" : 4740, "value" : [0.80928272, 0.19071729]},
+				"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.35646296, "n_samples" : 3632, "w_samples" : 3632, "value" : [0.76789647, 0.23210353]},
+				"node_19" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.018193007, "n_samples" : 2832, "w_samples" : 2832, "value" : [0.99081922, 0.0091807907]},
+				"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.034286976, "n_samples" : 3840, "w_samples" : 3840, "value" : [0.98255211, 0.017447917]}
 				}
 			}
 		},
 		"RF_Tree_27" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 3904152939, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1179,8 +1238,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_28" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1989645768, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1217,8 +1277,9 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_29" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2165195869, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1237,38 +1298,34 @@ MODEL_JSON_DUMP_START
 			}
 		},
 		"RF_Tree_30" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 224589088, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
 			"outputs" : 2,
-			"max_depth" : 5,
-			"node_count" : 17,
+			"max_depth" : 3,
+			"node_count" : 11,
 			"nodes" : {
 				"node_00" : {"left" : 1, "right" : 2, "feature" : 12, "threshold" : 2.5, "impurity" : 0.36533004, "n_samples" : 48842, "w_samples" : 48842, "value" : [0.75948977, 0.24051021]},
 				"node_01" : {"left" : 3, "right" : 4, "feature" : 0, "threshold" : 1.5, "impurity" : 0.30945677, "n_samples" : 38194, "w_samples" : 38194, "value" : [0.80866104, 0.19133896]},
 				"node_02" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.48618406, "n_samples" : 10648, "w_samples" : 10648, "value" : [0.58311421, 0.41688579]},
-				"node_03" : {"left" : 7, "right" : 8, "feature" : 0, "threshold" : 0.5, "impurity" : 0.15625733, "n_samples" : 18355, "w_samples" : 18355, "value" : [0.91457367, 0.085426316]},
-				"node_04" : {"left" : 5, "right" : 6, "feature" : 12, "threshold" : 1.5, "impurity" : 0.41123551, "n_samples" : 19839, "w_samples" : 19839, "value" : [0.71067089, 0.28932911]},
-				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.276196, "n_samples" : 4363, "w_samples" : 4363, "value" : [0.83451754, 0.16548246]},
-				"node_06" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 3.5, "impurity" : 0.43821967, "n_samples" : 15476, "w_samples" : 15476, "value" : [0.67575604, 0.32424399]},
-				"node_07" : {"left" : 13, "right" : 14, "feature" : 12, "threshold" : 1.5, "impurity" : 0.026661754, "n_samples" : 8658, "w_samples" : 8658, "value" : [0.98648649, 0.013513514]},
-				"node_08" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25448728, "n_samples" : 9697, "w_samples" : 9697, "value" : [0.85036612, 0.14963391]},
-				"node_09" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 2.5, "impurity" : 0.44475019, "n_samples" : 12340, "w_samples" : 12340, "value" : [0.66620743, 0.33379254]},
-				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.40898138, "n_samples" : 3136, "w_samples" : 3136, "value" : [0.71332908, 0.28667092]},
-				"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.42910028, "n_samples" : 7279, "w_samples" : 7279, "value" : [0.68828136, 0.31171864]},
-				"node_12" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 169122.5, "impurity" : 0.4638412, "n_samples" : 5061, "w_samples" : 5061, "value" : [0.63445961, 0.36554042]},
-				"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.012120783, "n_samples" : 4264, "w_samples" : 4264, "value" : [0.99390244, 0.0060975607]},
-				"node_14" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.040562391, "n_samples" : 4394, "w_samples" : 4394, "value" : [0.97928995, 0.020710059]},
-				"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.4681989, "n_samples" : 2506, "w_samples" : 2506, "value" : [0.62609738, 0.37390262]},
-				"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.45929545, "n_samples" : 2555, "w_samples" : 2555, "value" : [0.64266145, 0.35733855]}
+				"node_03" : {"left" : 5, "right" : 6, "feature" : 0, "threshold" : 0.5, "impurity" : 0.15625733, "n_samples" : 18355, "w_samples" : 18355, "value" : [0.91457367, 0.085426316]},
+				"node_04" : {"left" : 7, "right" : 8, "feature" : 12, "threshold" : 1.5, "impurity" : 0.41123551, "n_samples" : 19839, "w_samples" : 19839, "value" : [0.71067089, 0.28932911]},
+				"node_05" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.026661754, "n_samples" : 8658, "w_samples" : 8658, "value" : [0.98648649, 0.013513514]},
+				"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.25448728, "n_samples" : 9697, "w_samples" : 9697, "value" : [0.85036612, 0.14963391]},
+				"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.276196, "n_samples" : 4363, "w_samples" : 4363, "value" : [0.83451754, 0.16548246]},
+				"node_08" : {"left" : 9, "right" : 10, "feature" : 0, "threshold" : 3.5, "impurity" : 0.43821967, "n_samples" : 15476, "w_samples" : 15476, "value" : [0.67575604, 0.32424399]},
+				"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.44475019, "n_samples" : 12340, "w_samples" : 12340, "value" : [0.66620743, 0.33379254]},
+				"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.40898138, "n_samples" : 3136, "w_samples" : 3136, "value" : [0.71332908, 0.28667092]}
 				}
 			}
 		},
 		"RF_Tree_31" : 		{
-			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W03"},
+			"metadata" : { "model" : "Breiman_CART", "version" : "2024-W04"},
 			"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : 3, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 2269938635, "splitter" : "best" },
+			"dataset" : { "dataset_rows" : 48842, "dataset_features" : 14 },
 			"classes" : [ "<=50K", ">50K" ],
 			"tree" : {
 			"features" : 14,
@@ -1287,23 +1344,23 @@ MODEL_JSON_DUMP_END
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_STEP
 MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_CLASS  [ "<=50K", "<=50K", "<=50K", "<=50K", "<=50K",  ... , "<=50K", "<=50K", "<=50K", "<=50K", "<=50K" ]
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_PREDICT_PROBA_STEP
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 0 [ 0.64801604, 0.35198393 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 1 [ 0.69088554, 0.30911443 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 2 [ 0.7459085, 0.25409156 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 3 [ 0.76169181, 0.23830821 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 4 [ 0.78770334, 0.21229678 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 0 [ 0.63661623, 0.36338377 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 1 [ 0.68659085, 0.31340909 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 2 [ 0.74368, 0.25632012 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 3 [ 0.74245089, 0.2575492 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 4 [ 0.78885984, 0.21114019 ]
 ...
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48837 [ 0.65418553, 0.34581453 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48838 [ 0.75786638, 0.24213378 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48839 [ 0.58504689, 0.41495311 ]
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48840 [ 0.54825765, 0.45174238 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48837 [ 0.64178336, 0.35821667 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48838 [ 0.75122869, 0.24877144 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48839 [ 0.58515543, 0.41484457 ]
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48840 [ 0.53685784, 0.46314222 ]
 MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_APPLY_OUTPUT_PROBA 48841 [ 0.7256434, 0.27435666 ]
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_COMPUTE_PERF_STEP
-MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_CLASS_PERFS { "count" : 48842, "precision" : 0.77122152,  "AUC" : [ 0.038636658, 0.038636658 ] }
+MLLITE_AUTO_DEPLOY_CENSUS_ORIGINAL_CLASS_PERFS { "count" : 48842, "precision" : 0.77140576,  "AUC" : [ 0.038636658, 0.038636658 ] }
 This will be printed
 MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
 MCU_DEPLOY_CLASSIFICATION_CODE done
-MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Ho_RandomForest.CENSUS_ORIGINAL' 78
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Ho_RandomForest.CENSUS_ORIGINAL' [ 'Thu Jan 25 12:04:31 2024' ]
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Ho_RandomForest.CENSUS_ORIGINAL' 69
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Ho_RandomForest.CENSUS_ORIGINAL' [ 'Sat Feb  3 23:19:20 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_rf_census_original.exe', 'ElapsedTimeSecs':(77.95, 0.06, 77.86), 'MAX_MEM_KB':21132, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':288, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_rf_census_original.exe', 'ElapsedTimeSecs':(69.60, 0.00, 69.60), 'MAX_MEM_KB':21332, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':296, 'EXIT_STATUS':0}

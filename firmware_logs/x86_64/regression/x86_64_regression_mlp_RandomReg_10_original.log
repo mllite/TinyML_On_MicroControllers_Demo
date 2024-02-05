@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.RANDOMREG_10_ORIGINAL' [ 'Thu Jan 25 12:03:16 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.RANDOMREG_10_ORIGINAL' [ 'Sat Feb  3 23:18:14 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
@@ -23,8 +23,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 3 3
 MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W03"},
+	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
 	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"dataset" : { "dataset_rows" : 1024, "dataset_features" : 10 },
 	"layers" : {
 		"sizes" : [ 10, 4, 6, 1 ],
 		"Layer_0" : {
@@ -36,51 +37,51 @@ MODEL_JSON_DUMP_START
 			"name" : "Hidden_Layer_1",
 			"NbInputs" : 10,
 			"NbOutputs" : 4 ,
-			"coeffs_0" : [ 0.15358348, 0.14472669, -0.46309492, 0.14821015 ],
-			"coeffs_1" : [ 0.3215566, -0.6515947, -0.010502755, 0.20093045 ],
-			"coeffs_2" : [ 0.75596005, -0.054535717, 0.33564797, 0.087013133 ],
-			"coeffs_3" : [ 0.82938808, -0.57595843, -0.28727031, 0.3093572 ],
-			"coeffs_4" : [ 0.47027284, -0.42622682, -0.30435321, -0.31803367 ],
-			"coeffs_5" : [ 0.45550817, -0.81613857, -0.24931245, 0.17723078 ],
-			"coeffs_6" : [ 0.07706105, -0.79072893, -0.51480436, 0.71566588 ],
-			"coeffs_7" : [ 0.14264984, -0.16690449, -0.72661215, 0.21315455 ],
-			"coeffs_8" : [ -0.050843265, 0.053266898, -0.27150285, 0.43012077 ],
-			"coeffs_9" : [ -0.34994334, 0.41650379, -0.52731913, 0.39965546 ],
-			"intercepts" : [ -0.25815487, 0.47406754, 0.28208682, 0.79056221 ]
+			"coeffs_0" : [ 0.19452123, 0.10184853, -0.49448979, 0.19135942 ],
+			"coeffs_1" : [ 0.37007973, -0.69376522, -0.061109927, 0.23846978 ],
+			"coeffs_2" : [ 0.79721767, -0.090670988, 0.30660537, 0.13328885 ],
+			"coeffs_3" : [ 0.8440125, -0.56096447, -0.31600115, 0.31709987 ],
+			"coeffs_4" : [ 0.51361698, -0.36724904, -0.258362, -0.33561936 ],
+			"coeffs_5" : [ 0.48806295, -0.7637406, -0.26083556, 0.20702331 ],
+			"coeffs_6" : [ 0.13316967, -0.83305299, -0.56528991, 0.75566947 ],
+			"coeffs_7" : [ 0.18192059, -0.20366934, -0.74317652, 0.24496996 ],
+			"coeffs_8" : [ -0.01624725, 0.015876343, -0.30851772, 0.45723999 ],
+			"coeffs_9" : [ -0.3712776, 0.41970944, -0.51314449, 0.29804596 ],
+			"intercepts" : [ -0.20803772, 0.52313048, 0.28864381, 0.83896083 ]
 		},
 		"Layer_2" : {
 			"name" : "Hidden_Layer_2",
 			"NbInputs" : 4,
 			"NbOutputs" : 6 ,
-			"coeffs_0" : [ -0.66196084, -0.38049039, 0.3458384, 0.47193298, 0.72069317, 0.4747389 ],
-			"coeffs_1" : [ 0.78186041, -0.58958083, 0.29737797, 0.44512317, -0.32599276, 0.54196894 ],
-			"coeffs_2" : [ 0.42146832, -0.087141939, -0.066286273, 0.25346941, -0.57072008, 0.2892119 ],
-			"coeffs_3" : [ 0.13236123, 0.64232337, -0.71451557, 0.72408205, -0.19967075, -0.90121084 ],
-			"intercepts" : [ 0.78183812, 0.90729767, -0.25952989, -0.51766014, 0.169613, 0.91828477 ]
+			"coeffs_0" : [ -0.68158996, -0.33681586, 0.27568904, 0.52325124, 0.7727161, 0.43282056 ],
+			"coeffs_1" : [ 0.81585199, -0.56674439, 0.27028254, 0.40794837, -0.28718197, 0.58056885 ],
+			"coeffs_2" : [ 0.46160543, -0.10049104, -0.094516128, 0.2091585, -0.55882204, 0.33217159 ],
+			"coeffs_3" : [ 0.095298022, 0.6898312, -0.73594862, 0.77242512, -0.14992034, -0.9347195 ],
+			"intercepts" : [ 0.7744298, 0.94750601, -0.28819463, -0.47492978, 0.22366311, 0.93933016 ]
 		},
 		"Layer_3" : {
 			"name" : "Output_Layer",
 			"NbInputs" : 6,
 			"NbOutputs" : 1 ,
-			"coeffs_0" : [ -0.88374227 ],
-			"coeffs_1" : [ 0.55101526 ],
-			"coeffs_2" : [ 0.26808828 ],
-			"coeffs_3" : [ 0.64389193 ],
-			"coeffs_4" : [ 1.0216984 ],
-			"coeffs_5" : [ -0.67223716 ],
-			"intercepts" : [ 0.46418601 ]
+			"coeffs_0" : [ -0.89655012 ],
+			"coeffs_1" : [ 0.5974806 ],
+			"coeffs_2" : [ 0.24900167 ],
+			"coeffs_3" : [ 0.72322452 ],
+			"coeffs_4" : [ 1.0800924 ],
+			"coeffs_5" : [ -0.720388 ],
+			"intercepts" : [ 0.49972275 ]
 		}
 	}
 }
 MODEL_JSON_DUMP_END
 MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
-MLLITE_AUTO_DEPLOY_RANDOMREG_10_ORIGINAL_APPLY_OUTPUT_REG  [ 2.9313757, 2.6818254, 2.7955122, -1.4949824, -2.3777359,  ... , 0.11587447, -1.4476733, 4.960124, -1.2973932, -0.78446996 ]
+MLLITE_AUTO_DEPLOY_RANDOMREG_10_ORIGINAL_APPLY_OUTPUT_REG  [ 4.3344541, 3.9600778, 4.2325044, -1.3680135, -2.8491526,  ... , 0.40509838, -1.369473, 6.8447275, -1.3429381, -0.70224732 ]
 MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
-MLLITE_AUTO_DEPLOY_RANDOMREG_10_ORIGINAL_REG_PERFS { "count" : 1024, "rmse" : 156.01419, "mape" : 1.0033993, "R2" : 0.017787635 }
+MLLITE_AUTO_DEPLOY_RANDOMREG_10_ORIGINAL_REG_PERFS { "count" : 1024, "rmse" : 155.46448, "mape" : 1.005896, "R2" : 0.024697006 }
 This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.RANDOMREG_10_ORIGINAL' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.RANDOMREG_10_ORIGINAL' [ 'Thu Jan 25 12:03:16 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.RANDOMREG_10_ORIGINAL' [ 'Sat Feb  3 23:18:14 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_mlp_RandomReg_10_original.exe', 'ElapsedTimeSecs':(0.31, 0.00, 0.31), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'100%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_mlp_RandomReg_10_original.exe', 'ElapsedTimeSecs':(0.32, 0.00, 0.32), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'100%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}

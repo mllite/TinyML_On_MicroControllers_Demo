@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_MEDIUM' [ 'Thu Jan 25 12:03:15 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_MEDIUM' [ 'Sat Feb  3 23:18:12 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
@@ -23,8 +23,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 3 3
 MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W03"},
+	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
 	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"dataset" : { "dataset_rows" : 512, "dataset_features" : 9 },
 	"layers" : {
 		"sizes" : [ 9, 4, 6, 1 ],
 		"Layer_0" : {
@@ -36,50 +37,50 @@ MODEL_JSON_DUMP_START
 			"name" : "Hidden_Layer_1",
 			"NbInputs" : 9,
 			"NbOutputs" : 4 ,
-			"coeffs_0" : [ -0.12594892, 0.30717766, -0.23935911, 0.0084371464 ],
-			"coeffs_1" : [ 0.19232751, -0.42773199, 0.15899046, -0.036805026 ],
-			"coeffs_2" : [ 0.64642143, 0.11213679, 0.52693635, -0.16475616 ],
-			"coeffs_3" : [ 0.74180019, -0.54935491, -0.32253075, 0.19528383 ],
-			"coeffs_4" : [ 0.42090029, -0.28126881, -0.38366348, -0.58423311 ],
-			"coeffs_5" : [ 0.36172864, -0.61824995, -0.14624584, -0.026775811 ],
-			"coeffs_6" : [ -0.069044456, -0.56555039, -0.3857798, 0.49862811 ],
-			"coeffs_7" : [ 0.016799532, 0.0031997091, -0.64624256, -0.019025899 ],
-			"coeffs_8" : [ -0.16982339, 0.21015418, -0.10552853, 0.24514288 ],
-			"intercepts" : [ -0.38475147, 0.59498906, -0.53534251, 0.30665255 ]
+			"coeffs_0" : [ -0.16250034, 0.28151625, -0.23889667, 0.03316389 ],
+			"coeffs_1" : [ 0.22886655, -0.40111813, 0.15852793, -0.061522752 ],
+			"coeffs_2" : [ 0.68165284, 0.091498554, 0.52647352, -0.18849853 ],
+			"coeffs_3" : [ 0.77787817, -0.52220702, -0.3229931, 0.17077364 ],
+			"coeffs_4" : [ 0.45755857, -0.25591481, -0.38412583, -0.60922539 ],
+			"coeffs_5" : [ 0.39810076, -0.59089667, -0.14670835, -0.051432081 ],
+			"coeffs_6" : [ -0.032459129, -0.53834945, -0.38624215, 0.47369471 ],
+			"coeffs_7" : [ 0.051353354, 0.0014581013, -0.64670539, -0.042319555 ],
+			"coeffs_8" : [ -0.14671603, 0.18599473, -0.085293494, 0.22031759 ],
+			"intercepts" : [ -0.34819704, 0.59498906, -0.53580534, 0.28192356 ]
 		},
 		"Layer_2" : {
 			"name" : "Hidden_Layer_2",
 			"NbInputs" : 4,
 			"NbOutputs" : 6 ,
-			"coeffs_0" : [ -0.50581837, 0.36323664, 0.18424842, 0.76789701, -0.43713635, -0.5456664 ],
-			"coeffs_1" : [ 0.21811184, 0.23724407, 0.47107342, 0.6121009, 0.53830236, -0.45365939 ],
-			"coeffs_2" : [ 0.4145284, 0.58736956, -0.41902578, 0.39088729, 0.19016531, 0.039633211 ],
-			"coeffs_3" : [ 0.07230448, 0.38556734, -0.66330165, 0.15599436, 0.27342796, 0.39746252 ],
-			"intercepts" : [ -0.66116506, 0.47444299, -0.42899522, -0.6524747, 0.76424408, 0.73927295 ]
+			"coeffs_0" : [ -0.47883087, 0.33236691, 0.2383163, 0.8009153, -0.41047013, -0.5185312 ],
+			"coeffs_1" : [ 0.19378448, 0.21255381, 0.44423661, 0.58476394, 0.51119262, -0.42690665 ],
+			"coeffs_2" : [ 0.38799191, 0.57856464, -0.39246225, 0.40087107, 0.16648053, 0.026634112 ],
+			"coeffs_3" : [ 0.054759525, 0.36479428, -0.61261499, 0.17873067, 0.24817777, 0.3710337 ],
+			"intercepts" : [ -0.66116506, 0.44521508, -0.37451282, -0.62104982, 0.76424408, 0.73927295 ]
 		},
 		"Layer_3" : {
 			"name" : "Output_Layer",
 			"NbInputs" : 6,
 			"NbOutputs" : 1 ,
-			"coeffs_0" : [ -0.092657603 ],
-			"coeffs_1" : [ -0.69175887 ],
-			"coeffs_2" : [ 0.051295038 ],
-			"coeffs_3" : [ 0.94957775 ],
-			"coeffs_4" : [ -0.61562741 ],
-			"coeffs_5" : [ 0.31927845 ],
-			"intercepts" : [ 0.48010287 ]
+			"coeffs_0" : [ -0.073316187 ],
+			"coeffs_1" : [ -0.66366142 ],
+			"coeffs_2" : [ 0.10689932 ],
+			"coeffs_3" : [ 0.98262519 ],
+			"coeffs_4" : [ -0.5882811 ],
+			"coeffs_5" : [ 0.29348969 ],
+			"intercepts" : [ 0.51053643 ]
 		}
 	}
 }
 MODEL_JSON_DUMP_END
 MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
-MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_MEDIUM_APPLY_OUTPUT_REG  [ 398.86804, 3006.4795, 641.05469, 596.83301, 724.02533,  ... , 1507.4512, 3498.0249, 1263.0432, 1053.1379, 1262.7454 ]
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_MEDIUM_APPLY_OUTPUT_REG  [ 533.32483, 4012.4102, 854.47272, 797.30615, 966.04883,  ... , 2016.8508, 4673.4932, 1682.0698, 1404.4028, 1682.3073 ]
 MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
-MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_MEDIUM_REG_PERFS { "count" : 512, "rmse" : 215131.59, "mape" : 0.99456531, "R2" : -3.5862851 }
+MLLITE_AUTO_DEPLOY_CALIFORNIA_HOUSING_MEDIUM_REG_PERFS { "count" : 512, "rmse" : 214844.33, "mape" : 0.99273074, "R2" : -3.5740442 }
 This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
-MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_MEDIUM' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_MEDIUM' [ 'Thu Jan 25 12:03:15 2024' ]
+MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_MEDIUM' 1
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.CALIFORNIA_HOUSING_MEDIUM' [ 'Sat Feb  3 23:18:13 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_mlp_california_housing_medium.exe', 'ElapsedTimeSecs':(0.12, 0.00, 0.11), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'98%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_mlp_california_housing_medium.exe', 'ElapsedTimeSecs':(0.16, 0.00, 0.15), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'100%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}

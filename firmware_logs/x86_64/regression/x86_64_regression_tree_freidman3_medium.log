@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_MEDIUM' [ 'Thu Jan 25 12:03:20 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_MEDIUM' [ 'Sat Feb  3 23:18:17 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
@@ -19,8 +19,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'DECISION_TREE_REGRESSOR_FIT' 3 3
 MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Breiman_DFS_BestSplit_MSE", "version" : "2024-W03"},
+	"metadata" : { "model" : "Breiman_DFS_BestSplit_MSE", "version" : "2024-W04"},
 	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" },
+	"dataset" : { "dataset_rows" : 100, "dataset_features" : 4 },
 	"tree" : {
 	"features" : 4,
 	"outputs" : 1,
@@ -39,8 +40,8 @@ MODEL_JSON_DUMP_START
 		"node_09" : {"left" : 10, "right" : 13, "feature" : 1, "threshold" : 903.06665, "impurity" : 0.00055336952, "n_samples" : 3, "w_samples" : 3, "value" : [1.4736075]},
 		"node_10" : {"left" : 11, "right" : 12, "feature" : 0, "threshold" : 11.475674, "impurity" : 0.00012850761, "n_samples" : 2, "w_samples" : 2, "value" : [1.4583044]},
 		"node_11" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -2.3841858e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.4469811]},
-		"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -2.3841858e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.4696276]},
-		"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -1.1920929e-06, "n_samples" : 1, "w_samples" : 1, "value" : [1.5042138]},
+		"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -7.1525574e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.4696276]},
+		"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -7.1525574e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.5042138]},
 		"node_14" : {"left" : 15, "right" : 16, "feature" : 2, "threshold" : 0.063820466, "impurity" : 0.0056837797, "n_samples" : 8, "w_samples" : 8, "value" : [1.2468733]},
 		"node_15" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1.1920929e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.0721802]},
 		"node_16" : {"left" : 17, "right" : 18, "feature" : 2, "threshold" : 0.22782624, "impurity" : 0.0015127659, "n_samples" : 7, "w_samples" : 7, "value" : [1.2718295]},
@@ -49,27 +50,27 @@ MODEL_JSON_DUMP_START
 		"node_19" : {"left" : 20, "right" : 25, "feature" : 0, "threshold" : 79.849136, "impurity" : 0.020499825, "n_samples" : 8, "w_samples" : 8, "value" : [0.97271448]},
 		"node_20" : {"left" : 21, "right" : 22, "feature" : 1, "threshold" : 425.44943, "impurity" : 0.011029482, "n_samples" : 7, "w_samples" : 7, "value" : [0.93334472]},
 		"node_21" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.9604645e-08, "n_samples" : 1, "w_samples" : 1, "value" : [0.73122466]},
-		"node_22" : {"left" : 23, "right" : 24, "feature" : 1, "threshold" : 874.18024, "impurity" : 0.0049242377, "n_samples" : 6, "w_samples" : 6, "value" : [0.96703148]},
+		"node_22" : {"left" : 23, "right" : 24, "feature" : 1, "threshold" : 874.18024, "impurity" : 0.0049243569, "n_samples" : 6, "w_samples" : 6, "value" : [0.96703148]},
 		"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.4001808e-05, "n_samples" : 4, "w_samples" : 4, "value" : [1.0161343]},
-		"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00019824505, "n_samples" : 2, "w_samples" : 2, "value" : [0.86882591]},
+		"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00019800663, "n_samples" : 2, "w_samples" : 2, "value" : [0.86882591]},
 		"node_25" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -9.5367432e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.2483021]},
-		"node_26" : {"left" : 27, "right" : 28, "feature" : 1, "threshold" : 148.50998, "impurity" : 0.026704311, "n_samples" : 78, "w_samples" : 78, "value" : [1.4254429]},
+		"node_26" : {"left" : 27, "right" : 28, "feature" : 1, "threshold" : 148.50998, "impurity" : 0.02670455, "n_samples" : 78, "w_samples" : 78, "value" : [1.4254429]},
 		"node_27" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -1.4901161e-08, "n_samples" : 1, "w_samples" : 1, "value" : [0.45398647]},
 		"node_28" : {"left" : 29, "right" : 36, "feature" : 1, "threshold" : 340.41394, "impurity" : 0.014634848, "n_samples" : 77, "w_samples" : 77, "value" : [1.4380593]},
 		"node_29" : {"left" : 30, "right" : 33, "feature" : 0, "threshold" : 39.892754, "impurity" : 0.029202819, "n_samples" : 13, "w_samples" : 13, "value" : [1.2690419]},
-		"node_30" : {"left" : 31, "right" : 32, "feature" : 0, "threshold" : 5.73947, "impurity" : 0.0052051544, "n_samples" : 5, "w_samples" : 5, "value" : [1.4477433]},
-		"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.3841858e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.56598]},
-		"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.002137661, "n_samples" : 4, "w_samples" : 4, "value" : [1.4181842]},
-		"node_33" : {"left" : 34, "right" : 35, "feature" : 2, "threshold" : 0.43552217, "impurity" : 0.011768937, "n_samples" : 8, "w_samples" : 8, "value" : [1.1573536]},
+		"node_30" : {"left" : 31, "right" : 32, "feature" : 3, "threshold" : 10.014351, "impurity" : 0.0052051544, "n_samples" : 5, "w_samples" : 5, "value" : [1.4477433]},
+		"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0021374226, "n_samples" : 4, "w_samples" : 4, "value" : [1.4181842]},
+		"node_32" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.3841858e-07, "n_samples" : 1, "w_samples" : 1, "value" : [1.56598]},
+		"node_33" : {"left" : 34, "right" : 35, "feature" : 1, "threshold" : 188.48785, "impurity" : 0.011768937, "n_samples" : 8, "w_samples" : 8, "value" : [1.1573536]},
 		"node_34" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 5.9604645e-08, "n_samples" : 1, "w_samples" : 1, "value" : [0.90666288]},
-		"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0031895638, "n_samples" : 7, "w_samples" : 7, "value" : [1.1931667]},
-		"node_36" : {"left" : 37, "right" : 40, "feature" : 0, "threshold" : 36.854443, "impurity" : 0.0046944618, "n_samples" : 64, "w_samples" : 64, "value" : [1.4723909]},
+		"node_35" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0031894445, "n_samples" : 7, "w_samples" : 7, "value" : [1.1931667]},
+		"node_36" : {"left" : 37, "right" : 40, "feature" : 0, "threshold" : 36.854443, "impurity" : 0.0046942234, "n_samples" : 64, "w_samples" : 64, "value" : [1.4723909]},
 		"node_37" : {"left" : 38, "right" : 39, "feature" : 3, "threshold" : 9.9010448, "impurity" : 0.00055170059, "n_samples" : 22, "w_samples" : 22, "value" : [1.5357296]},
 		"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00026392937, "n_samples" : 18, "w_samples" : 18, "value" : [1.5436137]},
-		"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00030612946, "n_samples" : 4, "w_samples" : 4, "value" : [1.5002521]},
-		"node_40" : {"left" : 41, "right" : 42, "feature" : 1, "threshold" : 844.35901, "impurity" : 0.0036628246, "n_samples" : 42, "w_samples" : 42, "value" : [1.4392132]},
+		"node_39" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00030899048, "n_samples" : 4, "w_samples" : 4, "value" : [1.5002521]},
+		"node_40" : {"left" : 41, "right" : 42, "feature" : 1, "threshold" : 844.35901, "impurity" : 0.0036623478, "n_samples" : 42, "w_samples" : 42, "value" : [1.4392132]},
 		"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0021784306, "n_samples" : 16, "w_samples" : 16, "value" : [1.3879021]},
-		"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0019598007, "n_samples" : 26, "w_samples" : 26, "value" : [1.4707892]}
+		"node_42" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0019595623, "n_samples" : 26, "w_samples" : 26, "value" : [1.4707892]}
 		}
 	}
 }
@@ -83,6 +84,6 @@ This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_MEDIUM' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_MEDIUM' [ 'Thu Jan 25 12:03:20 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.FREIDMAN3_MEDIUM' [ 'Sat Feb  3 23:18:17 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_tree_freidman3_medium.exe', 'ElapsedTimeSecs':(0.00, 0.00, 0.00), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'80%', 'FILES_IN':0, 'FILES_OUT':24, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_tree_freidman3_medium.exe', 'ElapsedTimeSecs':(0.00, 0.00, 0.00), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'100%', 'FILES_IN':0, 'FILES_OUT':24, 'EXIT_STATUS':0}

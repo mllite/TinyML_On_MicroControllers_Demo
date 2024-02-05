@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Rosenblatt_MLP.BREASTCANCER_SMALL' [ 'Thu Jan 25 12:03:13 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Rosenblatt_MLP.BREASTCANCER_SMALL' [ 'Sat Feb  3 23:18:11 2024' ]
 MLLite starting
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
@@ -23,8 +23,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 3 3
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W03"},
+	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
 	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"dataset" : { "dataset_rows" : 64, "dataset_features" : 30 },
 	"classes" : [ 0, 1 ],
 	"layers" : {
 		"sizes" : [ 30, 4, 6, 1 ],
@@ -114,6 +115,6 @@ This will be printed
 MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
 MCU_DEPLOY_CLASSIFICATION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Rosenblatt_MLP.BREASTCANCER_SMALL' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Rosenblatt_MLP.BREASTCANCER_SMALL' [ 'Thu Jan 25 12:03:13 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Rosenblatt_MLP.BREASTCANCER_SMALL' [ 'Sat Feb  3 23:18:11 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_mlp_BreastCancer_small.exe', 'ElapsedTimeSecs':(0.03, 0.00, 0.03), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'97%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_mlp_BreastCancer_small.exe', 'ElapsedTimeSecs':(0.05, 0.00, 0.04), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'98%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}

@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_SVC_RBF.FOURCLASS_10_MEDIUM' [ 'Thu Jan 25 12:03:13 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_SVC_RBF.FOURCLASS_10_MEDIUM' [ 'Sat Feb  3 23:18:11 2024' ]
 MLLite starting
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
@@ -410,8 +410,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'SVM_CLASSIFIER_FIT' 5 5
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Vapnik_SVC_RBF", "version" : "2024-W03"},
+	"metadata" : { "model" : "Vapnik_SVC_RBF", "version" : "2024-W04"},
 	"options" : {"svm_type" : "c_svc", "kernel" : "rbf", "degree" : 3, "gamma" : 0.051648539, "coef0" : 0, "cache_size" : 10240, "tol" : 0.001, "nu" : 0.5, "epsilon" : 0, "shrinking" : 0, "probability" : 1, "C" : 1, "max_iter" : 30, "random_state" : 1789 },
+	"dataset" : { "dataset_rows" : 512, "dataset_features" : 10 },
 	"classes" : [ 0, 1, 2, 3 ],
 	"svm_model" : {
 	"classes" : 4,
@@ -696,6 +697,6 @@ This will be printed
 MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
 MCU_DEPLOY_CLASSIFICATION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_SVC_RBF.FOURCLASS_10_MEDIUM' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_SVC_RBF.FOURCLASS_10_MEDIUM' [ 'Thu Jan 25 12:03:13 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_SVC_RBF.FOURCLASS_10_MEDIUM' [ 'Sat Feb  3 23:18:11 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_svm_FourClass_10_medium.exe', 'ElapsedTimeSecs':(0.42, 0.00, 0.42), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'100%', 'FILES_IN':0, 'FILES_OUT':152, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_svm_FourClass_10_medium.exe', 'ElapsedTimeSecs':(0.57, 0.00, 0.56), 'MAX_MEM_KB':1920, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':152, 'EXIT_STATUS':0}

@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_MEDIUM' [ 'Thu Jan 25 12:03:20 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_MEDIUM' [ 'Sat Feb  3 23:18:17 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
@@ -23,8 +23,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'MLP_MODEL_FIT' 3 3
 MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W03"},
+	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
 	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"dataset" : { "dataset_rows" : 442, "dataset_features" : 10 },
 	"layers" : {
 		"sizes" : [ 10, 4, 6, 1 ],
 		"Layer_0" : {
@@ -36,51 +37,51 @@ MODEL_JSON_DUMP_START
 			"name" : "Hidden_Layer_1",
 			"NbInputs" : 10,
 			"NbOutputs" : 4 ,
-			"coeffs_0" : [ -0.038366888, 0.3089695, -0.28275478, -0.021196838 ],
-			"coeffs_1" : [ 0.091250911, -0.5120402, 0.15629725, 0.023848383 ],
-			"coeffs_2" : [ 0.50753146, 0.085005835, 0.60623634, -0.035703942 ],
-			"coeffs_3" : [ 0.59869766, -0.63002652, -0.28937051, 0.30348089 ],
-			"coeffs_4" : [ 0.29728162, -0.36346421, -0.38300246, -0.53052592 ],
-			"coeffs_5" : [ 0.24131542, -0.69724452, -0.15563256, -0.0041674948 ],
-			"coeffs_6" : [ -0.099674396, -0.54102308, -0.40319708, 0.46860144 ],
-			"coeffs_7" : [ -0.032031488, -0.045631483, -0.60845178, 0.10040162 ],
-			"coeffs_8" : [ -0.16284198, 0.18957455, -0.12119199, 0.34338379 ],
-			"coeffs_9" : [ -0.38779268, 0.52069312, -0.42374581, 0.41727054 ],
-			"intercepts" : [ -0.47025952, 0.30589661, 0.18977696, 0.66433543 ]
+			"coeffs_0" : [ -0.020797605, 0.30222782, -0.2298989, 0.011771407 ],
+			"coeffs_1" : [ 0.069646679, -0.49974415, 0.13517961, -0.012244514 ],
+			"coeffs_2" : [ 0.48902485, 0.066512719, 0.64669681, -0.0038493536 ],
+			"coeffs_3" : [ 0.58075511, -0.6444971, -0.22820611, 0.34226894 ],
+			"coeffs_4" : [ 0.27695835, -0.37413374, -0.37013555, -0.4946121 ],
+			"coeffs_5" : [ 0.22037624, -0.7076022, -0.14115787, 0.044307183 ],
+			"coeffs_6" : [ -0.077919252, -0.52360171, -0.44270074, 0.43232045 ],
+			"coeffs_7" : [ -0.015765816, -0.058647219, -0.57361317, 0.14029261 ],
+			"coeffs_8" : [ -0.14108931, 0.17637914, -0.084727272, 0.37933671 ],
+			"coeffs_9" : [ -0.3683528, 0.50385237, -0.37502259, 0.45019877 ],
+			"intercepts" : [ -0.47025952, 0.29084244, 0.23948753, 0.70306855 ]
 		},
 		"Layer_2" : {
 			"name" : "Hidden_Layer_2",
 			"NbInputs" : 4,
 			"NbOutputs" : 6 ,
-			"coeffs_0" : [ -0.43713635, -0.5456664, 0.21811184, 0.23724407, 0.47107342, 0.6121009 ],
-			"coeffs_1" : [ 0.52801746, -0.43932965, 0.4145284, 0.70167112, -0.41902578, 0.28485844 ],
-			"coeffs_2" : [ 0.16501401, 0.12486923, 0.07230448, 0.51486313, -0.61195427, 0.033739787 ],
-			"coeffs_3" : [ 0.25316074, 0.51204026, -0.60886139, 0.61017889, -0.38345966, -0.78008962 ],
-			"intercepts" : [ 0.70115083, 0.80470335, -0.10209864, -0.55735046, -0.027916193, 0.67790532 ]
+			"coeffs_0" : [ -0.41811126, -0.52740914, 0.19691256, 0.21625915, 0.45230839, 0.5942331 ],
+			"coeffs_1" : [ 0.50001234, -0.40733519, 0.39531884, 0.73837215, -0.39985356, 0.25729465 ],
+			"coeffs_2" : [ 0.12768742, 0.16603787, 0.051339522, 0.55911493, -0.59408575, -0.0031573656 ],
+			"coeffs_3" : [ 0.22093545, 0.54818147, -0.59097642, 0.65123391, -0.36398107, -0.81188321 ],
+			"intercepts" : [ 0.67073679, 0.8390705, -0.10209864, -0.5176329, -0.027916193, 0.64792818 ]
 		},
 		"Layer_3" : {
 			"name" : "Output_Layer",
 			"NbInputs" : 6,
 			"NbOutputs" : 1 ,
-			"coeffs_0" : [ -0.60517251 ],
-			"coeffs_1" : [ 0.43089807 ],
-			"coeffs_2" : [ 0.36952689 ],
-			"coeffs_3" : [ 0.62710357 ],
-			"coeffs_4" : [ 0.76159555 ],
-			"coeffs_5" : [ -0.40863886 ],
-			"intercepts" : [ 0.45357233 ]
+			"coeffs_0" : [ -0.57501692 ],
+			"coeffs_1" : [ 0.46608913 ],
+			"coeffs_2" : [ 0.34992176 ],
+			"coeffs_3" : [ 0.67930192 ],
+			"coeffs_4" : [ 0.74443787 ],
+			"coeffs_5" : [ -0.38692734 ],
+			"intercepts" : [ 0.48549882 ]
 		}
 	}
 }
 MODEL_JSON_DUMP_END
 MCU_DEPLOY_REGRESSION_CODE MODEL_PREDICT_STEP
-MLLITE_AUTO_DEPLOY_DIABETES_MEDIUM_APPLY_OUTPUT_REG  [ 0.27214336, 0.24122895, 0.25589111, 0.23322326, 0.23867254,  ... , 0.2730819, 0.21544683, 0.25781605, 0.24601102, 0.25201151 ]
+MLLITE_AUTO_DEPLOY_DIABETES_MEDIUM_APPLY_OUTPUT_REG  [ 0.61617953, 0.54497778, 0.59684002, 0.56061196, 0.55537039,  ... , 0.60799366, 0.53372037, 0.58616054, 0.58105201, 0.54474539 ]
 MCU_DEPLOY_REGRESSION_CODE MODEL_COMPUTE_PERF_STEP
-MLLITE_AUTO_DEPLOY_DIABETES_MEDIUM_REG_PERFS { "count" : 442, "rmse" : 170.28445, "mape" : 0.9977417, "R2" : -3.8899393 }
+MLLITE_AUTO_DEPLOY_DIABETES_MEDIUM_REG_PERFS { "count" : 442, "rmse" : 169.98911, "mape" : 0.99485779, "R2" : -3.8729911 }
 This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_MEDIUM' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_MEDIUM' [ 'Thu Jan 25 12:03:20 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.DIABETES_MEDIUM' [ 'Sat Feb  3 23:18:17 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_mlp_diabetes_medium.exe', 'ElapsedTimeSecs':(0.12, 0.00, 0.12), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_mlp_diabetes_medium.exe', 'ElapsedTimeSecs':(0.20, 0.00, 0.20), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':16, 'EXIT_STATUS':0}

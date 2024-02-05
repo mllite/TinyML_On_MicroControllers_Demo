@@ -1,10 +1,10 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Vapnik_SVR_RBF.RANDOMREG_10_SMALL' [ 'Thu Jan 25 12:03:15 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Vapnik_SVR_RBF.RANDOMREG_10_SMALL' [ 'Sat Feb  3 23:18:12 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
 MCU_DEPLOY_REGRESSION_MODEL_OPTIONS
-{"svm_type" : "c_svc", "kernel" : "rbf", "degree" : 3, "gamma" : 0, "coef0" : 0, "cache_size" : 10240, "tol" : 0.001, "nu" : 0.5, "epsilon" : 0, "shrinking" : 0, "probability" : 1, "C" : 1, "max_iter" : 30, "random_state" : 1789 }
+{"svm_type" : "c_svc", "kernel" : "rbf", "degree" : 3, "gamma" : 0, "coef0" : 0, "cache_size" : 2, "tol" : 0.001, "nu" : 0.5, "epsilon" : 0, "shrinking" : 0, "probability" : 1, "C" : 1, "max_iter" : 30, "random_state" : 1789 }
 MCU_DEPLOY_REGRESSION_CODE FIT_MODEL_STEP
 PROGRESS_REPORT_ELAPSED_TOTAL 'SVM_REGRESSOR_FIT' 1 4
 PROGRESS_REPORT_ELAPSED_TOTAL 'SVM_REGRESSOR_FIT' 2 4
@@ -23,8 +23,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'SVM_REGRESSOR_FIT' 4 4
 MCU_DEPLOY_REGRESSION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Vapnik_SVR_RBF", "version" : "2024-W03"},
-	"options" : {"svm_type" : "epsilon_svr", "kernel" : "rbf", "degree" : 3, "gamma" : 0.089081824, "coef0" : 0, "cache_size" : 10240, "tol" : 0.001, "nu" : 0.5, "epsilon" : 0.1, "shrinking" : 0, "probability" : 0, "C" : 1, "max_iter" : 30, "random_state" : 1789 },
+	"metadata" : { "model" : "Vapnik_SVR_RBF", "version" : "2024-W04"},
+	"options" : {"svm_type" : "epsilon_svr", "kernel" : "rbf", "degree" : 3, "gamma" : 0.089081824, "coef0" : 0, "cache_size" : 2, "tol" : 0.001, "nu" : 0.5, "epsilon" : 0.1, "shrinking" : 0, "probability" : 0, "C" : 1, "max_iter" : 30, "random_state" : 1789 },
+	"dataset" : { "dataset_rows" : 64, "dataset_features" : 10 },
 	"svm_model" : {
 	"classes" : 2,
 	"L" : 60,
@@ -110,6 +111,6 @@ This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Vapnik_SVR_RBF.RANDOMREG_10_SMALL' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Vapnik_SVR_RBF.RANDOMREG_10_SMALL' [ 'Thu Jan 25 12:03:15 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Vapnik_SVR_RBF.RANDOMREG_10_SMALL' [ 'Sat Feb  3 23:18:12 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_svm_RandomReg_10_small.exe', 'ElapsedTimeSecs':(0.00, 0.00, 0.00), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'83%', 'FILES_IN':0, 'FILES_OUT':24, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/regression/x86_64_regression_svm_RandomReg_10_small.exe', 'ElapsedTimeSecs':(0.00, 0.00, 0.00), 'MAX_MEM_KB':1728, 'CPU_PRCNT':'100%', 'FILES_IN':0, 'FILES_OUT':24, 'EXIT_STATUS':0}

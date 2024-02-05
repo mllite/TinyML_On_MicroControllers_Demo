@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_X86_64_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_NuSVC_RBF.FOURCLASS_10_ORIGINAL' [ 'Thu Jan 25 12:03:14 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_NuSVC_RBF.FOURCLASS_10_ORIGINAL' [ 'Sat Feb  3 23:18:12 2024' ]
 MLLite starting
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
@@ -121,8 +121,9 @@ PROGRESS_REPORT_ELAPSED_TOTAL 'SVM_NU_CLASSIFIER_FIT' 5 5
 MCU_DEPLOY_CLASSIFICATION_CODE MODEL_JSON_EXPORT_STEP
 MODEL_JSON_DUMP_START
 {
-	"metadata" : { "model" : "Vapnik_NuSVC_RBF", "version" : "2024-W03"},
+	"metadata" : { "model" : "Vapnik_NuSVC_RBF", "version" : "2024-W04"},
 	"options" : {"svm_type" : "nu_svc", "kernel" : "rbf", "degree" : 3, "gamma" : 0.05062655, "coef0" : 0, "cache_size" : 10240, "tol" : 0.001, "nu" : 1, "epsilon" : 0, "shrinking" : 0, "probability" : 1, "C" : 1, "max_iter" : 30, "random_state" : 1789 },
+	"dataset" : { "dataset_rows" : 1024, "dataset_features" : 10 },
 	"classes" : [ 0, 1, 2, 3 ],
 	"svm_model" : {
 	"classes" : 4,
@@ -163,6 +164,6 @@ This will be printed
 MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
 MCU_DEPLOY_CLASSIFICATION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_NuSVC_RBF.FOURCLASS_10_ORIGINAL' 5
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_NuSVC_RBF.FOURCLASS_10_ORIGINAL' [ 'Thu Jan 25 12:03:19 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Vapnik_NuSVC_RBF.FOURCLASS_10_ORIGINAL' [ 'Sat Feb  3 23:18:17 2024' ]
 MCU_DEPLOY_ON_TARGET_X86_64_END
-EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_svm_nu_FourClass_10_original.exe', 'ElapsedTimeSecs':(4.26, 0.00, 4.25), 'MAX_MEM_KB':2688, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':32, 'EXIT_STATUS':0}
+EXECUTION_TIME_DETAIL = {'CMD':'timeout 180 ./x86_64/classification/x86_64_classification_svm_nu_FourClass_10_original.exe', 'ElapsedTimeSecs':(4.66, 0.00, 4.66), 'MAX_MEM_KB':2688, 'CPU_PRCNT':'99%', 'FILES_IN':0, 'FILES_OUT':32, 'EXIT_STATUS':0}
