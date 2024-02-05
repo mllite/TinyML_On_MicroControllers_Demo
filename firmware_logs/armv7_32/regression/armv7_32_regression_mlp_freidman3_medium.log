@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_ARMV7_32_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.FREIDMAN3_MEDIUM' [ 'Tue Jan 30 11:35:53 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.FREIDMAN3_MEDIUM' [ 'Sat Feb  3 21:09:34 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
@@ -25,6 +25,7 @@ MODEL_JSON_DUMP_START
 {
 	"metadata" : { "model" : "Rosenblatt_MLP", "version" : "2024-W04"},
 	"options" : {  "hidden_layer_sizes" : [ 4, 6 ], "activation" : "relu", "solver" : "adam", "alpha" : 9.9999997e-05, "batch_size" : null, "learning_rate" : "constant", "learning_rate_init" : 0.001, "power_t" : 0.5, "max_iter" : 32, "shuffle" : 1, "random_state" : 1789, "tol" : 9.9999997e-05, "verbose" : 0, "warm_start" : 0, "momentum" : 0.89999998, "nesterovs_momentum" : 1, "early_stopping" : 0, "validation_fraction" : 0.1, "beta_1" : 0.89999998, "beta_2" : 0.99900001, "epsilon" : 9.9999999e-09, "n_iter_no_change" : 10, "max_fun" : 15000 },
+	"dataset" : { "dataset_rows" : 100, "dataset_features" : 4 },
 	"layers" : {
 		"sizes" : [ 4, 4, 6, 1 ],
 		"Layer_0" : {
@@ -75,5 +76,5 @@ This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.FREIDMAN3_MEDIUM' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.FREIDMAN3_MEDIUM' [ 'Tue Jan 30 11:35:53 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Rosenblatt_MLP.FREIDMAN3_MEDIUM' [ 'Sat Feb  3 21:09:34 2024' ]
 MCU_DEPLOY_ON_TARGET_ARMV7_32_END

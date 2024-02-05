@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_ARMV7_32_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' [ 'Tue Jan 30 11:36:37 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' [ 'Sat Feb  3 21:09:52 2024' ]
 MLLite starting
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
@@ -22,6 +22,7 @@ MODEL_JSON_DUMP_START
 {
 	"metadata" : { "model" : "Breiman_DFS_BestSplit_GINI", "version" : "2024-W04"},
 	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 64, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0.050000001, "random_state" : 1789, "splitter" : "best" },
+	"dataset" : { "dataset_rows" : 1797, "dataset_features" : 64 },
 	"classes" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
 	"tree" : {
 	"features" : 64,
@@ -81,5 +82,5 @@ This will be printed
 MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
 MCU_DEPLOY_CLASSIFICATION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' [ 'Tue Jan 30 11:36:37 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Breiman_DFS_BestSplit_GINI.DIGITS_ORIGINAL' [ 'Sat Feb  3 21:09:52 2024' ]
 MCU_DEPLOY_ON_TARGET_ARMV7_32_END

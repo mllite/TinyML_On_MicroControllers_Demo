@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_ARMV7_32_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.FOURCLASS_10_SMALL' [ 'Tue Jan 30 11:36:37 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.FOURCLASS_10_SMALL' [ 'Sat Feb  3 21:09:51 2024' ]
 MLLite starting
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_CLASSIFICATION_CODE CREATE_MODEL_STEP
@@ -22,6 +22,7 @@ MODEL_JSON_DUMP_START
 {
 	"metadata" : { "model" : "Friedman_XGB", "version" : "2024-W04"},
 	"options" : { "base_score" : [ ], "early_stopping_rounds" : 0, "eval_metric" : "", "gamma" : 0, "grow_policy" : 0, "learning_rate" : 0.30000001, "max_bin" : 5, "max_depth" : 6, "max_leaves" : 32, "min_child_weight" : 10, "n_estimators" : 6, "objective" : "reg:squarederror", "reg_alpha" : 0, "reg_lambda" : 1, "tree_method" : "auto" },
+	"dataset" : { "dataset_rows" : 64, "dataset_features" : 10 },
 	"classes" : [ 0, 1, 2, 3 ],
 	"booster" : {
 		"BaseScore" : [ 0.265625, 0.296875, 0.21875, 0.21875 ],
@@ -67,5 +68,5 @@ This will be printed
 MCU_DEPLOY_CLASSIFICATION_CODE ALL_STEPS_OK
 MCU_DEPLOY_CLASSIFICATION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.FOURCLASS_10_SMALL' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.FOURCLASS_10_SMALL' [ 'Tue Jan 30 11:36:37 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.CLASSIFICATION.Friedman_XGB.FOURCLASS_10_SMALL' [ 'Sat Feb  3 21:09:51 2024' ]
 MCU_DEPLOY_ON_TARGET_ARMV7_32_END

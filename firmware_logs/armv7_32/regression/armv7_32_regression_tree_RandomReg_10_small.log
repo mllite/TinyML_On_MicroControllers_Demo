@@ -1,5 +1,5 @@
 MCU_DEPLOY_ON_TARGET_ARMV7_32_START
-MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.RANDOMREG_10_SMALL' [ 'Tue Jan 30 11:35:54 2024' ]
+MLLITE_MCU_TIMER_OPERATION_START 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.RANDOMREG_10_SMALL' [ 'Sat Feb  3 21:09:35 2024' ]
 MLLite starting
 MCU_DEPLOY_REGRESSION_CODE CREATE_DATASET_STEP
 MCU_DEPLOY_REGRESSION_CODE CREATE_MODEL_STEP
@@ -21,6 +21,7 @@ MODEL_JSON_DUMP_START
 {
 	"metadata" : { "model" : "Breiman_DFS_BestSplit_MSE", "version" : "2024-W04"},
 	"options" : { "ccp_alpha" : 0, "criterion" : "", "max_depth" : 6, "max_features" : null, "max_leaf_nodes" : 32, "min_impurity_decrease" : 0, "min_samples_leaf" : 1, "min_samples_split" : 2, "min_weight_fraction_leaf" : 0, "random_state" : 1789, "splitter" : "best" },
+	"dataset" : { "dataset_rows" : 64, "dataset_features" : 10 },
 	"tree" : {
 	"features" : 10,
 	"outputs" : 1,
@@ -35,47 +36,47 @@ MODEL_JSON_DUMP_START
 		"node_05" : {"left" : 6, "right" : 7, "feature" : 8, "threshold" : 0.48960549, "impurity" : 330.88281, "n_samples" : 3, "w_samples" : 3, "value" : [-226.15544]},
 		"node_06" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2.3476562, "n_samples" : 2, "w_samples" : 2, "value" : [-213.32359]},
 		"node_07" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.02734375, "n_samples" : 1, "w_samples" : 1, "value" : [-251.81908]},
-		"node_08" : {"left" : 9, "right" : 10, "feature" : 4, "threshold" : 0.90176743, "impurity" : 7.34375, "n_samples" : 2, "w_samples" : 2, "value" : [-172.78769]},
-		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.001953125, "n_samples" : 1, "w_samples" : 1, "value" : [-175.49715]},
-		"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.0078125, "n_samples" : 1, "w_samples" : 1, "value" : [-170.07822]},
-		"node_11" : {"left" : 12, "right" : 13, "feature" : 0, "threshold" : -0.87679327, "impurity" : 0.40625, "n_samples" : 2, "w_samples" : 2, "value" : [-260.44391]},
-		"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.0078125, "n_samples" : 1, "w_samples" : 1, "value" : [-261.11417]},
-		"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [-259.77365]},
-		"node_14" : {"left" : 15, "right" : 18, "feature" : 5, "threshold" : -0.18303345, "impurity" : 1570.8418, "n_samples" : 3, "w_samples" : 3, "value" : [-84.944519]},
+		"node_08" : {"left" : 9, "right" : 10, "feature" : 8, "threshold" : 0.085476607, "impurity" : 7.3359375, "n_samples" : 2, "w_samples" : 2, "value" : [-172.78769]},
+		"node_09" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [-170.07822]},
+		"node_10" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.005859375, "n_samples" : 1, "w_samples" : 1, "value" : [-175.49715]},
+		"node_11" : {"left" : 12, "right" : 13, "feature" : 6, "threshold" : -1.0172093, "impurity" : 0.40625, "n_samples" : 2, "w_samples" : 2, "value" : [-260.44391]},
+		"node_12" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.0078125, "n_samples" : 1, "w_samples" : 1, "value" : [-259.77365]},
+		"node_13" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.015625, "n_samples" : 1, "w_samples" : 1, "value" : [-261.11417]},
+		"node_14" : {"left" : 15, "right" : 18, "feature" : 5, "threshold" : -0.18303345, "impurity" : 1570.8311, "n_samples" : 3, "w_samples" : 3, "value" : [-84.944519]},
 		"node_15" : {"left" : 16, "right" : 17, "feature" : 4, "threshold" : -0.70303571, "impurity" : 2.9189453, "n_samples" : 2, "w_samples" : 2, "value" : [-112.95253]},
 		"node_16" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [-111.24386]},
 		"node_17" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0009765625, "n_samples" : 1, "w_samples" : 1, "value" : [-114.66121]},
-		"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.0023193359, "n_samples" : 1, "w_samples" : 1, "value" : [-28.928501]},
-		"node_19" : {"left" : 20, "right" : 21, "feature" : 0, "threshold" : -2.1424229, "impurity" : 15331.032, "n_samples" : 17, "w_samples" : 17, "value" : [-17.17148]},
+		"node_18" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00036621094, "n_samples" : 1, "w_samples" : 1, "value" : [-28.928501]},
+		"node_19" : {"left" : 20, "right" : 21, "feature" : 0, "threshold" : -2.1424229, "impurity" : 15331.028, "n_samples" : 17, "w_samples" : 17, "value" : [-17.17148]},
 		"node_20" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.0078125, "n_samples" : 1, "w_samples" : 1, "value" : [-346.41348]},
 		"node_21" : {"left" : 22, "right" : 25, "feature" : 7, "threshold" : -1.3027314, "impurity" : 9090.7607, "n_samples" : 16, "w_samples" : 16, "value" : [3.4061427]},
 		"node_22" : {"left" : 23, "right" : 24, "feature" : 3, "threshold" : -0.31542805, "impurity" : 357.07031, "n_samples" : 2, "w_samples" : 2, "value" : [-167.01398]},
 		"node_23" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [-148.11771]},
 		"node_24" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.0078125, "n_samples" : 1, "w_samples" : 1, "value" : [-185.91023]},
-		"node_25" : {"left" : 26, "right" : 29, "feature" : 8, "threshold" : -1.7157068, "impurity" : 5596.7139, "n_samples" : 14, "w_samples" : 14, "value" : [27.751871]},
+		"node_25" : {"left" : 26, "right" : 29, "feature" : 8, "threshold" : -1.7157068, "impurity" : 5596.7153, "n_samples" : 14, "w_samples" : 14, "value" : [27.751871]},
 		"node_26" : {"left" : 27, "right" : 28, "feature" : 2, "threshold" : 0.15096718, "impurity" : 1203.2129, "n_samples" : 2, "w_samples" : 2, "value" : [-97.038986]},
 		"node_27" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0.00024414062, "n_samples" : 1, "w_samples" : 1, "value" : [-62.351631]},
-		"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.001953125, "n_samples" : 1, "w_samples" : 1, "value" : [-131.72633]},
-		"node_29" : {"left" : 30, "right" : 31, "feature" : 0, "threshold" : -0.44434103, "impurity" : 3300.9302, "n_samples" : 12, "w_samples" : 12, "value" : [48.55035]},
+		"node_28" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.00390625, "n_samples" : 1, "w_samples" : 1, "value" : [-131.72633]},
+		"node_29" : {"left" : 30, "right" : 31, "feature" : 0, "threshold" : -0.44434103, "impurity" : 3300.9292, "n_samples" : 12, "w_samples" : 12, "value" : [48.55035]},
 		"node_30" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1532.6909, "n_samples" : 8, "w_samples" : 8, "value" : [80.193649]},
 		"node_31" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 829.61292, "n_samples" : 4, "w_samples" : 4, "value" : [-14.736258]},
-		"node_32" : {"left" : 33, "right" : 50, "feature" : 7, "threshold" : 1.7828737, "impurity" : 13338.191, "n_samples" : 37, "w_samples" : 37, "value" : [84.984009]},
+		"node_32" : {"left" : 33, "right" : 50, "feature" : 7, "threshold" : 1.7828737, "impurity" : 13338.182, "n_samples" : 37, "w_samples" : 37, "value" : [84.984009]},
 		"node_33" : {"left" : 34, "right" : 49, "feature" : 2, "threshold" : 1.9636083, "impurity" : 10996.402, "n_samples" : 35, "w_samples" : 35, "value" : [72.367325]},
 		"node_34" : {"left" : 35, "right" : 42, "feature" : 4, "threshold" : -0.23099075, "impurity" : 8264.041, "n_samples" : 34, "w_samples" : 34, "value" : [63.023445]},
 		"node_35" : {"left" : 36, "right" : 39, "feature" : 9, "threshold" : 0.4826799, "impurity" : 1674.1836, "n_samples" : 15, "w_samples" : 15, "value" : [129.98705]},
 		"node_36" : {"left" : 37, "right" : 38, "feature" : 3, "threshold" : -0.73117036, "impurity" : 532.85938, "n_samples" : 8, "w_samples" : 8, "value" : [98.623528]},
 		"node_37" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 280.69824, "n_samples" : 4, "w_samples" : 4, "value" : [117.70942]},
 		"node_38" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 56.480957, "n_samples" : 4, "w_samples" : 4, "value" : [79.537651]},
-		"node_39" : {"left" : 40, "right" : 41, "feature" : 3, "threshold" : -0.43176165, "impurity" : 569.56055, "n_samples" : 7, "w_samples" : 7, "value" : [165.83105]},
+		"node_39" : {"left" : 40, "right" : 41, "feature" : 3, "threshold" : -0.43176165, "impurity" : 569.56641, "n_samples" : 7, "w_samples" : 7, "value" : [165.83105]},
 		"node_40" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 170.1875, "n_samples" : 3, "w_samples" : 3, "value" : [188.66072]},
-		"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 185.03516, "n_samples" : 4, "w_samples" : 4, "value" : [148.70883]},
-		"node_42" : {"left" : 43, "right" : 46, "feature" : 6, "threshold" : 0.12831178, "impurity" : 7131.647, "n_samples" : 19, "w_samples" : 19, "value" : [10.157445]},
+		"node_41" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 185.03906, "n_samples" : 4, "w_samples" : 4, "value" : [148.70883]},
+		"node_42" : {"left" : 43, "right" : 46, "feature" : 6, "threshold" : 0.12831178, "impurity" : 7131.6484, "n_samples" : 19, "w_samples" : 19, "value" : [10.157445]},
 		"node_43" : {"left" : 44, "right" : 45, "feature" : 7, "threshold" : 0.30613527, "impurity" : 4856.8354, "n_samples" : 9, "w_samples" : 9, "value" : [-46.53553]},
 		"node_44" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2674.8423, "n_samples" : 6, "w_samples" : 6, "value" : [-80.324516]},
 		"node_45" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 2370.6479, "n_samples" : 3, "w_samples" : 3, "value" : [21.042448]},
-		"node_46" : {"left" : 47, "right" : 48, "feature" : 7, "threshold" : -0.29531997, "impurity" : 3682.8811, "n_samples" : 10, "w_samples" : 10, "value" : [61.181122]},
+		"node_46" : {"left" : 47, "right" : 48, "feature" : 7, "threshold" : -0.29531997, "impurity" : 3682.8831, "n_samples" : 10, "w_samples" : 10, "value" : [61.181122]},
 		"node_47" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 1874.3737, "n_samples" : 5, "w_samples" : 5, "value" : [11.04218]},
-		"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 463.56348, "n_samples" : 5, "w_samples" : 5, "value" : [111.32005]},
+		"node_48" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 463.56152, "n_samples" : 5, "w_samples" : 5, "value" : [111.32005]},
 		"node_49" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : -0.0625, "n_samples" : 1, "w_samples" : 1, "value" : [390.05923]},
 		"node_50" : {"left" : 51, "right" : 52, "feature" : 1, "threshold" : 0.26245591, "impurity" : 2784.6328, "n_samples" : 2, "w_samples" : 2, "value" : [305.77606]},
 		"node_51" : {"left" : null, "right" : null, "feature" : null, "threshold" : null, "impurity" : 0, "n_samples" : 1, "w_samples" : 1, "value" : [253.00674]},
@@ -93,5 +94,5 @@ This will be printed
 MCU_DEPLOY_REGRESSION_CODE ALL_STEPS_OK
 MCU_DEPLOY_REGRESSION_CODE done
 MLLITE_MCU_TIMER_OPERATION_ELAPSED_SECONDS 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.RANDOMREG_10_SMALL' 0
-MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.RANDOMREG_10_SMALL' [ 'Tue Jan 30 11:35:54 2024' ]
+MLLITE_MCU_TIMER_OPERATION_END 'MLLITE.MCU_DEPLOY.REGRESSION.Breiman_DFS_BestSplit_MSE.RANDOMREG_10_SMALL' [ 'Sat Feb  3 21:09:35 2024' ]
 MCU_DEPLOY_ON_TARGET_ARMV7_32_END
