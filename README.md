@@ -1,6 +1,8 @@
 # TinyML_On_MicroControllers_Demo
 
-This is a demo of a prototype using MLLite for on-device training and deployment of Machine Learning Models on various devices and microcontrollers.
+MLLite is a TinyML software library for on-device training and deployment of Machine Learning Models. 
+
+This is a demo of a prototype using MLLite on various devices and microcontrollers.
 
 You will find here some firmware binaries that demonstrate their usage on some SOTA datasets.
 
